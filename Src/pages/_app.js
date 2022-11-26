@@ -5,9 +5,9 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return 
-  <Provider store = {store}>
+  <Provider store={store}>
       <Component {...pageProps} />
-  </Provider>
+   </Provider>
 }
 
 export default MyApp
