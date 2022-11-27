@@ -5,7 +5,7 @@ function Header() {
   return (
     <header>
     {/* first section */}
-    <div className='flex items-center bg-amazon_blue'>
+    <div className='flex items-center bg-amazon_blue p-1.5'>
        <div>
       <Image src = "https://pngimg.com/uploads/amazon/amazon_PNG25.png" 
       width={100} 
