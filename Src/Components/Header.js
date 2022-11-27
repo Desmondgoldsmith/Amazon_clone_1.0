@@ -32,9 +32,9 @@ function Header() {
       <p>Return</p>
       <p className='font-extrabold md:text-sm'>& Orders</p>
     </div>
-    <div className='flex items-center link'>
+    <div className=' flex items-center link'>
       <ShoppingCartIcon className='h-10' />
-      <p className='font-extrabold md:text-sm'>Cart</p>
+      <p className='font-extrabold md:text-sm hidden md:inline'>Cart</p>
     </div>
       </div>
    
