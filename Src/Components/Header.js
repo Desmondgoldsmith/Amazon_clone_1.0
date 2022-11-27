@@ -23,17 +23,21 @@ function Header() {
       <MagnifyingGlassIcon  className = 'text-red-600 h-12 p-4'/>
     </div>
       {/* name section */}
-    <div className='text-white'>
+      <div className='text-white items-center space-x-6 text-xs flex'>
+         <div className='text-white items-center space-x-6 text-xs'>
     <p>Hello,Desmond Goldsmith</p>
           <p>Account & Lists</p>
     </div>
-    <div className='text-white'>
+    <div >
       <p>Return</p>
       <p>& Orders</p>
     </div>
-    <div>
-      <ShoppingCartIcon className='text-white h-10' />
+    <div className='flex items-center'>
+      <ShoppingCartIcon className='h-10' />
+      <p>Cart</p>
     </div>
+      </div>
+   
 
     </div>
      
