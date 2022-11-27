@@ -22,12 +22,18 @@ function Header() {
       <input className='p-2 h-full w-6 flex-grow flex-shrink rounded-l-md focus:outline-none px-4' type="text"/>
       <MagnifyingGlassIcon  className = 'text-red-600 h-12 p-4'/>
     </div>
-
-    <div>
-      
+      {/* name section */}
+    <div className='text-white'>
+    <p>Hello,Desmond Goldsmith</p>
+          <p>Account & Lists</p>
     </div>
-    <div></div>
-    <div></div>
+    <div className='text-white'>
+      <p>Return</p>
+      <p>& Orders</p>
+    </div>
+    <div>
+      <ShoppingCartIcon className='text-white h-10' />
+    </div>
 
     </div>
      
