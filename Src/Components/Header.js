@@ -3,13 +3,13 @@ import Image from 'next/image'
 
 function Header() {
   return (
-    <Header>
+    <header>
     {/* first section */}
     <div>
       <div>
-      <Image src = "https://logos-world.net/wp-content/uploads/2020/04/Amazon-Symbol.jpg" 
+      {/* <Image src = "https://logos-world.net/wp-content/uploads/2020/04/Amazon-Symbol.jpg" 
       width={150} 
-      height={40} />
+      height={40} /> */}
     </div>
     </div>
     
@@ -18,7 +18,7 @@ function Header() {
     <div>
 
     </div>
-    </Header>
+    </header>
   )
 }
 
