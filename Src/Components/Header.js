@@ -14,6 +14,11 @@ function Header() {
       className='cursor-pointer'
       />
     </div>
+
+    {/* search bar */}
+    <div>
+      <input type="text"/>
+    </div>
     </div>
      
 
