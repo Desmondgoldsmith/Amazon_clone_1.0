@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
+// const nextConfig = {
+//   reactStrictMode: true,
+// }
 
 module.exports = {
   images: {
     domains:[
-      "https://logos-world.net"
+      "logos-world.net"
     ]
   }
 }
