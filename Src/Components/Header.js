@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { MenuIcon, SearchIcon , ShoppingCartIcon } from '@heroicons/react/outline'
+import { MenuIcon, MagnifyingGlassIcon , ShoppingCartIcon } from "@heroicons/react/24/outline"
 
 
 function Header() {
@@ -20,6 +20,7 @@ function Header() {
     {/* search bar */}
     <div>
       <input type="text"/>
+      <MagnifyingGlassIcon  className = 'text-red-600'/>
     </div>
     </div>
      
