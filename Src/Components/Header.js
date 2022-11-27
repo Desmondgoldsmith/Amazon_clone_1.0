@@ -18,9 +18,9 @@ function Header() {
     </div>
 
     {/* search bar */}
-    <div>
+    <div className='bg-yellow-400 hover:bg-yellow-500'>
       <input type="text"/>
-      <MagnifyingGlassIcon  className = 'text-red-600'/>
+      <MagnifyingGlassIcon  className = 'text-red-600 h-12 p-4'/>
     </div>
     </div>
      
