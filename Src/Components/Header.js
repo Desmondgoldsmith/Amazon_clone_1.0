@@ -1,52 +1,55 @@
 import React from 'react'
-import Image from 'next/image'
 import { MenuIcon, MagnifyingGlassIcon , ShoppingCartIcon } from "@heroicons/react/24/outline"
-
+import Image from 'next/image'
 
 function Header() {
   return (
     <header>
-    {/* first section */}
-    <div className='flex items-center bg-amazon_blue p-1.5 flex-grow py-2 '>
-       <div className='mt-2 flex item-center flex-grow sm:flex-grow-0'>
-      <Image src = "https://pngimg.com/uploads/amazon/amazon_PNG25.png" 
-      width={100} 
-      height={10} 
-      objectFit = "contain"
-      className='cursor-pointer'
-      />
-    </div>
-
-    {/* search bar */}
-    <div className='hidden sm:flex items-center rounded-md  flex-grow  cursor-pointer h-10 bg-yellow-400 hover:bg-yellow-500'>
-      <input className='p-2 h-full w-6 flex-grow flex-shrink rounded-l-md focus:outline-none px-4' type="text"/>
-      <MagnifyingGlassIcon  className = 'text-red-600 h-12 p-4'/>
-    </div>
-      {/* right section */}
-      <div className='text-white items-center space-x-6 text-xs flex mx-6 whitespace-nowrap'>
-        <div className='link'>
-    <p>Hello,Desmond Goldsmith</p>
-          <p  className='font-extrabold  md:text-sm'>Account & Lists</p>
-    </div>
-    <div className='link' >
-      <p>Return</p>
-      <p className='font-extrabold md:text-sm'>& Orders</p>
-    </div>
-    <div className='relative flex items-center link'>
+      <div className='bg-amazon_blue flex p-1.5 items-center flex-grow'>
+       {/* left section */}
+       <div className='mt-2 items-center flex-grow sm:flex-grow-0'>
+         <Image src = 'https://pngimg.com/uploads/amazon/amazon_PNG25.png'
+          width={100}
+          height={10}
+          objectFit = "contain"
+          className = "cursor-pointer"
+         />
+       </div>
+       {/* search bar */}
+       <div className='hidden sm:flex flex-grow items-center bg-yellow-400 h-10 cursor-pointer ml-2 hover:bg-yellow-500'>
+       <select className='w-13 h-full text-xs bg-gray-300 text-gray-600' name="cars" id="cars">
+        <option value="volvo">All</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+      </select>
+         <input className='p-2 items-center w-6 h-full flex-grow  focus:outline-none' type="text" />
+         <MagnifyingGlassIcon  className = 'h-12 p-4 font-extrabold'/>
+       </div>
+       {/* right section */}
+      <div className='text-white text-xs flex space-x-2 items-center mx-6 whitespace-nowrap'>
+      <div></div>
+      <div>
+        <p>Hello,Desmond Goldsmith</p>
+        <p className='font-extrabold link  text-sm'>Accounts & Lists</p>
+      </div>
+      <div>
+        <p>Returns</p>
+        <p className='font-extrabold  link text-sm'>& Orders</p>
+      </div>
+      <div className='relative flex items-center'>
       <ShoppingCartIcon className='h-10' />
       <span className='absolute ml-4 z-50 bg-amazon_blue text-center px-0.5 mb-5 hover:no-underline text-orange-500 font-extrabold text-sm'>1</span>
-      <p className='font-extrabold md:text-sm hidden md:inline'>Cart</p>
-    </div>
+
+      <p className='hidden sm:inline font-extrabold link text-sm'>Cart</p>
       </div>
-   
+      </div>
+      </div>
 
-    </div>
-     
+{/* second nav */}
+      <div>
 
-{/* second div */}
-    <div>
-
-    </div>
+      </div>
     </header>
   )
 }
