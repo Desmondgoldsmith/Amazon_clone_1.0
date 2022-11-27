@@ -9,7 +9,10 @@ function Header() {
        <div>
       <Image src = "https://logos-world.net/wp-content/uploads/2020/04/Amazon-Symbol.jpg" 
       width={100} 
-      height={10} />
+      height={10} 
+      objectFit = "contain"
+      className='cursor-pointer'
+      />
     </div>
     </div>
      
