@@ -5,7 +5,11 @@ function Header() {
     <Header>
     {/* first section */}
     <div>
+      <div>
+      <Image src = '' />
     </div>
+    </div>
+    
 
 {/* second div */}
     <div>
