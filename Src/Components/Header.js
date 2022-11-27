@@ -34,7 +34,7 @@ function Header() {
     </div>
     <div className='relative flex items-center link'>
       <ShoppingCartIcon className='h-10' />
-      <span className='absolute ml-3 z-50 bg-amazon_blue px-0.5 mb-6 hover:no-underline text-orange-500 font-extrabold'>10</span>
+      <span className='absolute ml-4 z-50 bg-amazon_blue text-center px-0.5 mb-5 hover:no-underline text-orange-500 font-extrabold text-sm'>1</span>
       <p className='font-extrabold md:text-sm hidden md:inline'>Cart</p>
     </div>
       </div>
