@@ -6,7 +6,7 @@ function Header() {
     <header>
     {/* first section */}
     <div className='flex items-center bg-amazon_blue p-1.5 flex-grow py-2 '>
-       <div>
+       <div className='mt-2 flex item-center flex-grow sm:flex-grow-0'>
       <Image src = "https://pngimg.com/uploads/amazon/amazon_PNG25.png" 
       width={100} 
       height={10} 
