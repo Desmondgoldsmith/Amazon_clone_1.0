@@ -5,11 +5,14 @@ function Header() {
   return (
     <header>
     {/* first section */}
-      <div>
+    <div>
+       <div>
       <Image src = "https://logos-world.net/wp-content/uploads/2020/04/Amazon-Symbol.jpg" 
-      width={150} 
-      height={40} />
+      width={100} 
+      height={10} />
     </div>
+    </div>
+     
     
 
 {/* second div */}
