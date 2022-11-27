@@ -24,15 +24,15 @@ function Header() {
     </div>
       {/* right section */}
       <div className='text-white items-center space-x-6 text-xs flex mx-6 whitespace-nowrap'>
-         <div className='text-white items-center space-x-6 text-xs'>
+        <div className='cursor-pointer link'>
     <p>Hello,Desmond Goldsmith</p>
           <p>Account & Lists</p>
     </div>
-    <div >
+    <div className='cursor-pointer link' >
       <p>Return</p>
       <p>& Orders</p>
     </div>
-    <div className='flex items-center'>
+    <div className='cursor-pointer flex items-center link'>
       <ShoppingCartIcon className='h-10' />
       <p>Cart</p>
     </div>
