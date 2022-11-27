@@ -26,15 +26,15 @@ function Header() {
       <div className='text-white items-center space-x-6 text-xs flex mx-6 whitespace-nowrap'>
         <div className='link'>
     <p>Hello,Desmond Goldsmith</p>
-          <p>Account & Lists</p>
+          <p  className='font-extrabold  md:text-sm'>Account & Lists</p>
     </div>
     <div className='link' >
       <p>Return</p>
-      <p>& Orders</p>
+      <p className='font-extrabold md:text-sm'>& Orders</p>
     </div>
     <div className='flex items-center link'>
       <ShoppingCartIcon className='h-10' />
-      <p>Cart</p>
+      <p className='font-extrabold md:text-sm'>Cart</p>
     </div>
       </div>
    
