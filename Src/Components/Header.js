@@ -22,8 +22,8 @@ function Header() {
       <input className='p-2 h-full w-6 flex-grow flex-shrink rounded-l-md focus:outline-none px-4' type="text"/>
       <MagnifyingGlassIcon  className = 'text-red-600 h-12 p-4'/>
     </div>
-      {/* name section */}
-      <div className='text-white items-center space-x-6 text-xs flex'>
+      {/* right section */}
+      <div className='text-white items-center space-x-6 text-xs flex mx-6 whitespace-nowrap'>
          <div className='text-white items-center space-x-6 text-xs'>
     <p>Hello,Desmond Goldsmith</p>
           <p>Account & Lists</p>
