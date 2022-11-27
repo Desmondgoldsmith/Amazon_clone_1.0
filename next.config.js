@@ -6,7 +6,7 @@ const nextConfig = {
 module.exports = {
   images: {
     domains:[
-      'https://logos-world.net/'
+      "https://logos-world.net/"
     ]
   }
 }
