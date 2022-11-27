@@ -7,7 +7,7 @@ function Header() {
     {/* first section */}
     <div className='flex items-center bg-amazon_blue'>
        <div>
-      <Image src = "https://logos-world.net/wp-content/uploads/2020/04/Amazon-Symbol.jpg" 
+      <Image src = "https://pngimg.com/uploads/amazon/amazon_PNG25.png" 
       width={100} 
       height={10} 
       objectFit = "contain"
@@ -16,7 +16,6 @@ function Header() {
     </div>
     </div>
      
-    
 
 {/* second div */}
     <div>
