@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import { MenuIcon, SearchIcon , ShoppingCartIcon } from '@heroicons/react/outline'
+
 
 function Header() {
   return (
