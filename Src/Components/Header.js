@@ -64,12 +64,12 @@ function Header() {
       </div>
       <div className='hover:border hoverable border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer group relative'>
         <p>Hello,Desmond Goldsmith</p>
-        <button className='font-extrabold link  text-sm flex '>Accounts & Lists
+        <button className='font-extrabold link mb-6 text-sm flex '>Accounts & Lists
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
     <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
     </svg>
         </button>
-        <nav tabindex="0" class="border-2 bg-red invisible border-gray-800 rounded w-60 absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1">
+        <nav tabindex="0" class="border-2 bg-gray-100 invisible border-gray-800 rounded w-60 absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1">
             <ul class="py-1">
                 <li>
                     <a href="#" class="block px-4 py-2 hover:bg-gray-100">
