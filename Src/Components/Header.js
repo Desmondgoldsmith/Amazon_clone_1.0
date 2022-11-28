@@ -7,7 +7,7 @@ function Header() {
     <header>
       <div className='bg-amazon_blue flex p-1.5 items-center flex-grow'>
        {/* left section */}
-       <div className='mt-2 items-center flex-grow sm:flex-grow-0'>
+       <div className='mt-2 items-center flex-grow sm:flex-grow-0 hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer'>
          <Image src = 'https://pngimg.com/uploads/amazon/amazon_PNG25.png'
           width={100}
           height={10}
@@ -37,15 +37,15 @@ function Header() {
        {/* right section */}
       <div className='text-white text-xs flex space-x-2 items-center mx-6 whitespace-nowrap'>
       <div></div>
-      <div className='hover:border hover:p-1 hover:border-solid hover:border-white cursor-pointer'>
+      <div className='hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer'>
         <p>Hello,Desmond Goldsmith</p>
         <p className='font-extrabold link  text-sm'>Accounts & Lists</p>
       </div>
-      <div className='hover:border hover:p-1 hover:border-solid hover:border-white cursor-pointer'>
+      <div className='hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer'>
         <p>Returns</p>
         <p className='font-extrabold  link text-sm'>& Orders</p>
       </div>
-      <div className='relative flex items-center hover:border hover:p-1 hover:border-solid hover:border-white cursor-pointer'>
+      <div className='relative flex items-center hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer'>
       <ShoppingCartIcon className='h-10' />
       <span className='absolute ml-4 z-50 bg-amazon_blue text-center px-0.5 mb-5 hover:no-underline text-orange-500 font-extrabold text-sm'>1</span>
 
