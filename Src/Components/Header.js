@@ -17,7 +17,7 @@ function Header() {
        </div>
        {/* search bar */}
        <div className='hidden sm:flex flex-grow items-center bg-yellow-400 h-10 cursor-pointer ml-2 hover:bg-yellow-500 border rounded-md'>
-       <select className='w-13 text-center h-full text-xs bg-gray-300 text-gray-600 rounded-l-md' name="cars" id="cars">
+       <select className='w-13 focus:outline-orange-400 text-center h-full text-xs bg-gray-300 text-gray-600 rounded-l-md' name="cars" id="cars">
         <option value="volvo">All</option>
         <option value="saab">Arts</option>
         <option value="mercedes">Automotive</option>
