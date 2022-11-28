@@ -73,7 +73,7 @@ function Header() {
             <ul class="py-1">
                 <li>
                     <a href="#" class="block px-10 py-3 text-center text-black hover:bg-gray-100">
-                       <button className='bg-yellow-400 p-3 w-20 '>Sign in</button>
+                       <button className='bg-yellow-400 p-3 w-20 font-bold  text-gray-700'>Sign in</button>
                     </a>
                 </li>
                 <li>
