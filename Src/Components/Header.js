@@ -78,7 +78,8 @@ function Header() {
                     </a>
                     <li className='pt-5 pd-5'><hr/></li>
                 </li>
-                <li>
+                <div>
+                    <li>
                     <a href="#" class="block px-4 py-2 text-black hover:bg-gray-100">
                         Delete
                     </a>
@@ -88,6 +89,8 @@ function Header() {
                         Reply
                     </a>
                 </li>
+                </div>
+              
             </ul>
         </nav>
       </div>
