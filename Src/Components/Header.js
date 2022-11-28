@@ -16,7 +16,7 @@ function Header() {
          />
        </div>
        {/* delivery location */}
-       <div className='hidden lg:inline text-white ml-2 mr-2'>
+       <div className='hidden lg:inline text-white ml-2 mr-2 hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer'>
         <p className='text-xs pl-3'>Deliver to</p>
         <p className='flex font-extrabold'>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -52,7 +52,7 @@ function Header() {
             {/* language section */}
       <div className='hidden lg:flex  mr-2 space-x-1'>
         <Image src='https://etc.usf.edu/clipart/72500/72519/72519_28_us_c_lg.gif'
-          width={40}
+          width={30}
           height={10}
           objectFit='contain'
         />
