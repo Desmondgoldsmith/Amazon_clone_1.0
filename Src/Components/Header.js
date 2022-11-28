@@ -73,15 +73,52 @@ function Header() {
                         learn more 
                     </a>
                 </li>
-                <li className='flex items-center'>
-                <input type="radio" id="" name="english" value="English" />
+
+
+                <li className='flex items-center space-x-2'>
+                <input className='accent-yellow-500' type="radio" id="" name="english" value="English" />
                 <label for="">English - EN</label>
                 </li>
+
                 <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">
-                        Reply
-                    </a>
+                  <hr className='mt-2 mb-2'/>
                 </li>
+
+                <li className='flex items-center space-x-2'>
+                <input className='accent-yellow-500' type="radio" id="" name="spanish" value="Spanish" />
+                <label for="">español - ES</label>
+                </li>
+               
+                <li className='flex items-center space-x-2'>
+                <input className='accent-yellow-500' type="radio" id="" name="arabic" value="Arabic" />
+                <label for="">العربية - AR</label>
+                </li>
+               
+                <li className='flex items-center space-x-2'>
+                <input className='accent-yellow-500' type="radio" id="" name="deutsche" value="Deutsche" />
+                <label for="">Deutsch - DE</label>
+                </li>
+                
+                <li className='flex items-center space-x-2'>
+                <input className='accent-yellow-500' type="radio" id="" name="hebrew" value="Hebrew" />
+                <label for="">עברית - HE</label>
+                </li>
+                
+                <li className='flex items-center space-x-2'>
+                <input className='accent-yellow-500' type="radio" id="" name="korea" value="Korea" />
+                <label for="">한국어 - KO</label>
+                </li>
+                
+                <li className='flex items-center space-x-2'>
+                <input className='accent-yellow-500' type="radio" id="" name="portuguse" value="Portuguse" />
+                <label for="">português - PT</label>
+                </li>
+               
+                <li className='flex items-center space-x-2'>
+                <input className='accent-yellow-500' type="radio" id="" name="china" value="China" />
+                <label for="">中文 (简体) - ZH</label>
+                </li>
+
             </ul>
         </nav>
       </div>
