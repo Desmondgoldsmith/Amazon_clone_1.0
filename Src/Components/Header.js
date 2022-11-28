@@ -78,7 +78,7 @@ function Header() {
                     </a>
                     <li className='pt-5 pd-5'><hr/></li>
                 </li>
-                <div>
+                <div className='flex justify-between '>
                     <li>
                     <a href="#" class="block px-4 py-2 text-black hover:bg-gray-100">
                         Delete
