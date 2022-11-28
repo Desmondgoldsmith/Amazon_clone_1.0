@@ -66,7 +66,7 @@ function Header() {
       
         {/* dropdown */}
         <nav tabindex="0" class="border border-gray-200 mt-2.5 bg-gray-100 invisible rounded w-60  absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1">
-            <ul class="py-1 text-black p-3">
+            <ul class="py-1 text-black p-3 space-y-3">
                 <li className='flex items-center'>
                    <p className='font-bold'>Change language</p>
                     <a href="#" class="block px-4 py-2 hover:bg-gray-100 hover:underline hover:text-blue-400">
@@ -85,37 +85,37 @@ function Header() {
                 </li>
 
                 <li className='flex items-center space-x-2'>
-                <input className='accent-yellow-500' type="radio" id="" name="spanish" value="Spanish" />
-                <label for="">español - ES</label>
+                <input className='accent-yellow-500  ' type="radio" id="" name="spanish" value="Spanish" />
+                <label className = 'hover:underline hover:text-yellow-500 text-base' for="">español - ES</label>
                 </li>
                
                 <li className='flex items-center space-x-2'>
-                <input className='accent-yellow-500' type="radio" id="" name="arabic" value="Arabic" />
-                <label for="">العربية - AR</label>
+                <input className='accent-yellow-500 ' type="radio" id="" name="arabic" value="Arabic" />
+                <label className = 'hover:underline hover:text-yellow-500 text-base' for="">العربية - AR</label>
                 </li>
                
                 <li className='flex items-center space-x-2'>
-                <input className='accent-yellow-500' type="radio" id="" name="deutsche" value="Deutsche" />
-                <label for="">Deutsch - DE</label>
+                <input className='accent-yellow-500 ' type="radio" id="" name="deutsche" value="Deutsche" />
+                <label className = 'hover:underline hover:text-yellow-500 text-base' for="">Deutsch - DE</label>
                 </li>
                 
                 <li className='flex items-center space-x-2'>
-                <input className='accent-yellow-500' type="radio" id="" name="hebrew" value="Hebrew" />
-                <label for="">עברית - HE</label>
+                <input className='accent-yellow-500 ' type="radio" id="" name="hebrew" value="Hebrew" />
+                <label  className = 'hover:underline hover:text-yellow-500 text-base'for="">עברית - HE</label>
                 </li>
                 
                 <li className='flex items-center space-x-2'>
-                <input className='accent-yellow-500' type="radio" id="" name="korea" value="Korea" />
-                <label for="">한국어 - KO</label>
+                <input className='accent-yellow-500 ' type="radio" id="" name="korea" value="Korea" />
+                <label className = 'hover:underline hover:text-yellow-500 text-base' for="">한국어 - KO</label>
                 </li>
                 
                 <li className='flex items-center space-x-2'>
-                <input className='accent-yellow-500' type="radio" id="" name="portuguse" value="Portuguse" />
-                <label for="">português - PT</label>
+                <input className='accent-yellow-500 ' type="radio" id="" name="portuguse" value="Portuguse" />
+                <label  className = 'hover:underline hover:text-yellow-500 text-base'for="">português - PT</label>
                 </li>
                
                 <li className='flex items-center space-x-2'>
-                <input className='accent-yellow-500' type="radio" id="" name="china" value="China" />
+                <input className='accent-yellow-500 ' type="radio" id="" name="china" value="China" />
                 <label for="">中文 (简体) - ZH</label>
                 </li>
 
