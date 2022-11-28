@@ -66,16 +66,16 @@ function Header() {
       
         {/* dropdown */}
         <nav tabindex="0" class="border border-gray-200 mt-2.5 bg-gray-100 invisible rounded w-60  absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1">
-            <ul class="py-1 text-black">
-                <li>
+            <ul class="py-1 text-black p-3">
+                <li className='flex items-center'>
+                   <p className='font-bold'>Change language</p>
                     <a href="#" class="block px-4 py-2 hover:bg-gray-100 hover:underline hover:text-blue-400">
                         learn more 
                     </a>
                 </li>
-                <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">
-                        Delete
-                    </a>
+                <li className='flex items-center'>
+                <input type="radio" id="" name="english" value="English" />
+                <label for="">English - EN</label>
                 </li>
                 <li>
                     <a href="#" class="block px-4 py-2 hover:bg-gray-100">
