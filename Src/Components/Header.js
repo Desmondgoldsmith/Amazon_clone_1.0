@@ -76,6 +76,7 @@ function Header() {
                        <button className='bg-yellow-400 p-3 w-60 font-bold  text-gray-700 rounded-md hover:bg-yellow-500 cursor-pointer'>Sign in</button>
                        <p className = "text-center font-xs">New customer here ? start here</p>
                     </a>
+                    <li className='pt-5 pd-5'><hr/></li>
                 </li>
                 <li>
                     <a href="#" class="block px-4 py-2 text-black hover:bg-gray-100">
