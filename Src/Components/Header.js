@@ -74,7 +74,7 @@ function Header() {
                 <li>
                     <a href="#" class="block text-center text-black hover:bg-gray-100">
                        <button className='bg-yellow-400 p-3 w-60 font-bold  text-gray-700 rounded-md hover:bg-yellow-500 cursor-pointer'>Sign in</button>
-                       <p className = "text-center font-xs">New customer here ? start here</p>
+                       <p className = "text-center font-xs">New customer here ? <span className='hover:underline hover:text-blue-500'>start here</span></p>
                     </a>
                     <li className='pt-5 pb-5'><hr/></li>
                 </li>
@@ -98,54 +98,54 @@ function Header() {
                 {/* right section of dropdown */}
                 
                 <li>
-                <a  href=''>
+                <a  href='#'>
                            <p className='font-extrabold text-lg text-black'>Your Account</p>
                 </a>
-                        <a  href=''>
+                        <a  href='#'>
                            <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate' >Account</p>
                         </a>
                       
-                        <a  href=''>
+                        <a  href='#'>
                           <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Orders</p>
                         </a>
                           
                     
-                        <a  href=''>
+                        <a  href='#'>
                           <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Recommendations</p>
                         </a>
                           
-                        <a href=''>
+                        <a href='#'>
                            <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Browsing History</p>
                         </a>
                     
-                        <a  href=''>
+                        <a  href='#'>
                           <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Watchlist</p>
                         </a>
                   
-                        <a  href=''>
+                        <a  href='#'>
                           <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Video Purchases & Rentals</p>
                         </a>
                         
-                        <a  href=''>
+                        <a  href='#'>
                           <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Kindle Unlimited</p>
                         </a>
                  
-                        <a  href=''>
+                        <a  href='#'>
                           <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Content & Devices</p>
                         </a>
-                        <a  href=''>
+                        <a  href='#'>
                           <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Subscribe & Save Items</p>
                         </a>
                        
-                        <a  href=''>
+                        <a  href='#'>
                           <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Memberships & Subscriptions</p>
                         </a>
                     
-                        <a  href=''>
+                        <a  href='#'>
                           <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Memberships & Subscriptions</p>
                         </a>
                         
-                        <a  href=''>
+                        <a  href='#'>
                           <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Music Library</p>
                         </a>
                     
