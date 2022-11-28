@@ -65,11 +65,11 @@ function Header() {
           </button>
       
         {/* dropdown */}
-        <nav tabindex="0" class="border border-gray-200 mt-2.5 bg-gray-100 invisible rounded w-80  absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1">
+        <nav tabindex="0" class="border border-gray-200 mt-2.5 bg-gray-100 invisible rounded w-60  absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1">
             <ul class="py-1 text-black">
                 <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">
-                        Edit
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 hover:underline hover:text-blue-400">
+                        learn more 
                     </a>
                 </li>
                 <li>
