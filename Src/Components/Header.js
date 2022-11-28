@@ -77,11 +77,11 @@ function Header() {
 
                 <li className='flex items-center space-x-2'>
                 <input className='accent-yellow-500' type="radio" id="" name="english" value="English" />
-                <label>English - EN</label>
+                <label className='text-base'>English - EN</label>
                 </li>
 
                 <li>
-                  <hr className='mt-2 mb-2'/>
+                  <hr className='mt-2 mb-2  border-1'/>
                 </li>
 
                 <li className='flex items-center space-x-2'>
