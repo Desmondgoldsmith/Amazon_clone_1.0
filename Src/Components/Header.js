@@ -70,16 +70,16 @@ function Header() {
     </svg>
         </button>
         <nav tabindex="0" class="border-1 border-gray-200 mt-2.5 bg-gray-100 invisible rounded w-80  absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1">
-            <ul class="py-1 ">
+            <ul class="py-1">
                 <li>
                     <a href="#" class="block text-center text-black hover:bg-gray-100">
                        <button className='bg-yellow-400 p-3 w-60 font-bold  text-gray-700 rounded-md hover:bg-yellow-500 cursor-pointer'>Sign in</button>
                        <p className = "text-center font-xs">New customer here ? start here</p>
                     </a>
-                    <li className='pt-5 pd-5'><hr/></li>
+                    <li className='pt-5 pb-5'><hr/></li>
                 </li>
-                <div className='grid grid-cols-2 divide-x'>
-                    <l class="block px-4 py-2 text-black hover:bg-gray-100">
+                <div className='grid grid-cols-2 divide-x '>
+                    <li class="block px-4 py-2 text-black hover:bg-gray-100  ">
                     <a href="#" >
                       <p className='font-extrabold text-lg'>Your Lists</p>
                      </a>
@@ -93,7 +93,7 @@ function Header() {
                       <a href="#" >
                       <p className='text-gray-500 text-sm hover:underline hover:text-orange-500 truncate'>Amazon smile charity list</p>
                       </a>
-                </l>
+                </li>
                 <li>
                     <a href="#" class="block px-4 py-2 text-black hover:bg-gray-100">
                         Reply
