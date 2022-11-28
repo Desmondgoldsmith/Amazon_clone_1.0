@@ -37,11 +37,11 @@ function Header() {
        {/* right section */}
       <div className='text-white text-xs flex space-x-2 items-center mx-6 whitespace-nowrap'>
       <div></div>
-      <div>
+      <div className='hover:border hover:p-0.5 hover:border-solid hover:border-white cursor-pointer'>
         <p>Hello,Desmond Goldsmith</p>
         <p className='font-extrabold link  text-sm'>Accounts & Lists</p>
       </div>
-      <div>
+      <div className=''>
         <p>Returns</p>
         <p className='font-extrabold  link text-sm'>& Orders</p>
       </div>
