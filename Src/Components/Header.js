@@ -88,10 +88,10 @@ function Header() {
                   </a>
 
                       <a href="#" >
-                      <p className='text-gray-500 text-sm hover:underline hover:text-orange-500'>find a list or registry</p>
+                      <p className='text-gray-800 text-xs hover:underline hover:text-orange-500'>find a list or registry</p>
                       </a>
                       <a href="#" >
-                      <p className='text-gray-500 text-sm hover:underline hover:text-orange-500 truncate'>Amazon smile charity list</p>
+                      <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Amazon smile charity list</p>
                       </a>
                 </li>
 
@@ -102,51 +102,51 @@ function Header() {
                            <p className='font-extrabold text-lg'>Your Account</p>
                 </a>
                         <a  href=''>
-                           <p>Account</p>
+                           <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate' >Account</p>
                         </a>
                       
                         <a  href=''>
-                          <p>Orders</p>
+                          <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Orders</p>
                         </a>
                           
                     
                         <a  href=''>
-                          <p>Recommendations</p>
+                          <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Recommendations</p>
                         </a>
                           
                         <a href=''>
-                           <p>Browsing History</p>
+                           <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Browsing History</p>
                         </a>
                     
                         <a  href=''>
-                          <p>Watchlist</p>
+                          <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Watchlist</p>
                         </a>
                   
                         <a  href=''>
-                          <p>Video Purchases & Rentals</p>
+                          <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Video Purchases & Rentals</p>
                         </a>
                         
                         <a  href=''>
-                          <p>Kindle Unlimited</p>
+                          <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Kindle Unlimited</p>
                         </a>
                  
                         <a  href=''>
-                          <p>Content & Devices</p>
+                          <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Content & Devices</p>
                         </a>
                         <a  href=''>
-                          <p>Subscribe & Save Items</p>
+                          <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Subscribe & Save Items</p>
                         </a>
                        
                         <a  href=''>
-                          <p>Memberships & Subscriptions</p>
+                          <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Memberships & Subscriptions</p>
                         </a>
                     
                         <a  href=''>
-                          <p>Memberships & Subscriptions</p>
+                          <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Memberships & Subscriptions</p>
                         </a>
                         
                         <a  href=''>
-                          <p>Music Library</p>
+                          <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Music Library</p>
                         </a>
                     
         
