@@ -99,7 +99,7 @@ function Header() {
                 
                 <li>
                 <a  href=''>
-                           <p className='font-extrabold text-lg'>Your Account</p>
+                           <p className='font-extrabold text-lg text-black'>Your Account</p>
                 </a>
                         <a  href=''>
                            <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate' >Account</p>
