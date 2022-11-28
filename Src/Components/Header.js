@@ -69,6 +69,26 @@ function Header() {
     <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
     </svg>
         </p>
+        <nav className='hidden :focus-within:block'>
+        <ul>
+            <li>
+                <a href="#">
+                    Edit
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Delete
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Reply
+                </a>
+            </li>
+        </ul>
+    </nav>
+
       </div>
       <div className='hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer'>
         <p>Returns</p>
