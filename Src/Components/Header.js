@@ -79,7 +79,7 @@ function Header() {
                     <li className='pt-5 pb-5'><hr/></li>
                 </li>
                 <div className='grid grid-cols-2 divide-x '>
-                    <li class="block px-4 py-2 text-black hover:bg-gray-100  ">
+                    <li class="block px-4 py-2 text-black hover:bg-gray-100 space-y-4  ">
                     <a href="#" >
                       <p className='font-extrabold text-lg'>Your Lists</p>
                      </a>
@@ -94,10 +94,43 @@ function Header() {
                       <p className='text-gray-500 text-sm hover:underline hover:text-orange-500 truncate'>Amazon smile charity list</p>
                       </a>
                 </li>
+                {/* right section of dropdown */}
                 <li>
-                    <a href="#" class="block px-4 py-2 text-black hover:bg-gray-100">
-                        Reply
-                    </a>
+                    
+                        <a class="block px-4 py-2 text-black hover:bg-gray-100" href=''>
+                           <p></p>
+                        </a>
+                      
+                        <a class="block px-4 py-2 text-black hover:bg-gray-100" href=''>
+                          <p></p>
+                        </a>
+                          
+                    
+                        <a class="block px-4 py-2 text-black hover:bg-gray-100" href=''>
+                          <p></p>
+                        </a>
+                          
+                        <a  class="block px-4 py-2 text-black hover:bg-gray-100"href=''>
+                           <p></p>
+                        </a>
+                    
+                        <a class="block px-4 py-2 text-black hover:bg-gray-100" href=''>
+                          <p></p>
+                        </a>
+                  
+                        <a class="block px-4 py-2 text-black hover:bg-gray-100" href=''>
+                          <p></p>
+                        </a>
+                        
+                        <a class="block px-4 py-2 text-black hover:bg-gray-100" href=''>
+                          <p></p>
+                        </a>
+                 
+                        <a class="block px-4 py-2 text-black hover:bg-gray-100" href=''>
+                          <p></p>
+                        </a>
+                    
+        
                 </li>
                 </div>
               
