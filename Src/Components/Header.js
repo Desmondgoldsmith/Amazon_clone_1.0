@@ -78,12 +78,15 @@ function Header() {
                     </a>
                     <li className='pt-5 pd-5'><hr/></li>
                 </li>
-                <div className='flex justify-between '>
-                    <li>
+                <div className='grid grid-cols-2 divide-x'>
+                    <l>
                     <a href="#" class="block px-4 py-2 text-black hover:bg-gray-100">
-                        Delete
+                      <p>Your Lists</p>
+                      <p>create a list</p>
+                      <p>find a list or registry</p>
+                      <p>Amazon smile charity list</p>
                     </a>
-                </li>
+                </l>
                 <li>
                     <a href="#" class="block px-4 py-2 text-black hover:bg-gray-100">
                         Reply
