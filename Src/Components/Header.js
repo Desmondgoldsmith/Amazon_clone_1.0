@@ -54,7 +54,6 @@ function Header() {
         <Image src='https://etc.usf.edu/clipart/72500/72519/72519_28_us_c_lg.gif'
           width={30}
           height={10}
-          // objectFit='contain'
         />
         <button>
         <p className='font-extrabold text-base flex '>EN
@@ -139,7 +138,6 @@ function Header() {
                 <Image src='https://etc.usf.edu/clipart/72500/72519/72519_28_us_c_lg.gif'
                   width={20}
                   height={8}
-                  // objectFit='contain'
                 />
                   <p>You are shopping on Amazon.com</p>
                 </li>
