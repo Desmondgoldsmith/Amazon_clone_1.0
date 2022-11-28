@@ -69,11 +69,12 @@ function Header() {
     <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
     </svg>
         </button>
-        <nav tabindex="0" class="border-1 border-gray-200 mt-2.5 bg-gray-100 invisible rounded w-60 absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1">
-            <ul class="py-1">
+        <nav tabindex="0" class="border-1 border-gray-200 mt-2.5 bg-gray-100 invisible rounded w-80  absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1">
+            <ul class="py-1 ">
                 <li>
-                    <a href="#" class="block px-10 py-3 text-center text-black hover:bg-gray-100">
-                       <button className='bg-yellow-400 p-3 w-20 font-bold  text-gray-700 rounded-md'>Sign in</button>
+                    <a href="#" class="block text-center text-black hover:bg-gray-100">
+                       <button className='bg-yellow-400 p-3 w-60 font-bold  text-gray-700 rounded-md'>Sign in</button>
+                       <p>New customer here ? sign up</p>
                     </a>
                 </li>
                 <li>
