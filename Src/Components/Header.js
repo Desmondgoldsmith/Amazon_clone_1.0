@@ -19,9 +19,17 @@ function Header() {
        <div className='hidden sm:flex flex-grow items-center bg-yellow-400 h-10 cursor-pointer ml-2 hover:bg-yellow-500 border rounded-md'>
        <select className='w-13 text-center h-full text-xs bg-gray-300 text-gray-600 rounded-l-md' name="cars" id="cars">
         <option value="volvo">All</option>
-        <option value="saab">Saab</option>
-        <option value="mercedes">Mercedes</option>
-        <option value="audi">Audi</option>
+        <option value="saab">Arts</option>
+        <option value="mercedes">Automotive</option>
+        <option value="audi">Baby</option>
+        <option value="audi">Books</option>
+        <option value="audi">Deals</option>
+        <option value="audi">Electronics</option>
+        <option value="audi">Luggage</option>
+        <option value="audi">Movie</option>
+        <option value="audi">Deals</option>
+        <option value="audi">Deals</option>
+        <option value="audi">Deals</option>
       </select>
          <input className='p-2 items-center w-6 h-full flex-grow  focus:outline-none' type="text" />
          <MagnifyingGlassIcon  className = 'h-12 p-4 font-extrabold '/>
