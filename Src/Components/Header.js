@@ -37,15 +37,15 @@ function Header() {
        {/* right section */}
       <div className='text-white text-xs flex space-x-2 items-center mx-6 whitespace-nowrap'>
       <div></div>
-      <div className='hover:border hover:p-0.5 hover:border-solid hover:border-white cursor-pointer'>
+      <div className='hover:border hover:p-1 hover:border-solid hover:border-white cursor-pointer'>
         <p>Hello,Desmond Goldsmith</p>
         <p className='font-extrabold link  text-sm'>Accounts & Lists</p>
       </div>
-      <div className=''>
+      <div className='hover:border hover:p-1 hover:border-solid hover:border-white cursor-pointer'>
         <p>Returns</p>
         <p className='font-extrabold  link text-sm'>& Orders</p>
       </div>
-      <div className='relative flex items-center'>
+      <div className='relative flex items-center hover:border hover:p-1 hover:border-solid hover:border-white cursor-pointer'>
       <ShoppingCartIcon className='h-10' />
       <span className='absolute ml-4 z-50 bg-amazon_blue text-center px-0.5 mb-5 hover:no-underline text-orange-500 font-extrabold text-sm'>1</span>
 
