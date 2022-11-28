@@ -166,10 +166,12 @@ function Header() {
                        <button className='bg-yellow-400 p-3 w-60 font-bold  text-gray-700 rounded-md hover:bg-yellow-500 cursor-pointer'>Sign in</button>
                        <p className = "text-center font-xs">New customer here ? <span className='hover:underline hover:text-blue-500'>start here</span></p>
                     </Link>
-                    <li className='pt-5'><hr/></li>
                 </li>
+
+                <li className='pt-5'><hr/></li>
+
                 <div className='grid grid-cols-2 divide-x'>
-                    <li className="block px-4 py-2 text-black hover:bg-gray-100   ">
+                    <li className="block px-4 py-2 text-black hover:bg-gray-100">
                     <Link href="#" >
                       <p className='font-extrabold text-lg'>Your Lists</p>
                      </Link>
