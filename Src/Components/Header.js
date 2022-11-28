@@ -119,6 +119,38 @@ function Header() {
                 <label for="">中文 (简体) - ZH</label>
                 </li>
 
+                 <li>
+                  <hr className='mt-2 mb-2'/>
+                </li>
+
+                <li className='flex items-center'>
+                   <p className='font-bold'>Change currency</p>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 hover:underline hover:text-blue-400">
+                        learn more 
+                    </a>
+                </li>
+
+                <li className='flex items-center justify-between'>
+                  <p>$ - USD - US Dollar</p>
+                  <p className='hover:underline  hover:text-blue-400'><a href='#'>Change</a></p>
+                </li>
+
+                <li className='flex items-center space-x-2'>
+                <Image src='https://etc.usf.edu/clipart/72500/72519/72519_28_us_c_lg.gif'
+                  width={20}
+                  height={8}
+                  objectFit='contain'
+                />
+                  <p>You are shopping on Amazon.com</p>
+                </li>
+
+                <li className='text-center text-blue-500'>
+                  <p className='hover:underline  hover:text-blue-400'><a href = "#">Change country/region.</a></p>
+
+                </li>
+
+
+
             </ul>
         </nav>
       </div>
