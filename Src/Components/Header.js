@@ -62,14 +62,14 @@ function Header() {
     </svg>
         </p>
       </div>
-      <div className='hover:border hoverable border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer group relative'>
+      <div className='hover:border hoverable border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer group relative '>
         <p>Hello,Desmond Goldsmith</p>
         <button className='font-extrabold link  text-sm flex '>Accounts & Lists
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
     <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
     </svg>
         </button>
-        <nav tabindex="0" class="border-1 border-gray-200 mt-2.5 bg-gray-100 invisible rounded w-80  absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1">
+        <nav tabindex="0" class="mr-10 border-1 border-gray-200 mt-2.5 bg-gray-100 invisible rounded w-80  absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1 ">
             <ul class="py-1">
                 <li>
                     <a href="#" class="block text-center text-black hover:bg-gray-100">
@@ -78,13 +78,13 @@ function Header() {
                     </a>
                     <li className='pt-5 pb-5'><hr/></li>
                 </li>
-                <div className='grid grid-cols-2 divide-x '>
-                    <li class="block px-4 py-2 text-black hover:bg-gray-100 space-y-4  ">
+                <div className='grid grid-cols-2 divide-x'>
+                    <li class="block px-4 py-2 text-black hover:bg-gray-100   ">
                     <a href="#" >
                       <p className='font-extrabold text-lg'>Your Lists</p>
                      </a>
                   <a href="#" >
-                        <p  className='text-gray-500 text-sm hover:underline hover:text-orange-500'>create a list</p>
+                        <p  className='text-gray-800 text-xs hover:underline hover:text-orange-500'>create a list</p>
                   </a>
 
                       <a href="#" >
@@ -94,40 +94,59 @@ function Header() {
                       <p className='text-gray-500 text-sm hover:underline hover:text-orange-500 truncate'>Amazon smile charity list</p>
                       </a>
                 </li>
+
                 {/* right section of dropdown */}
+                
                 <li>
-                    
-                        <a class="block px-4 py-2 text-black hover:bg-gray-100" href=''>
-                           <p></p>
+                <a  href=''>
+                           <p className='font-extrabold text-lg'>Your Account</p>
+                </a>
+                        <a  href=''>
+                           <p>Account</p>
                         </a>
                       
-                        <a class="block px-4 py-2 text-black hover:bg-gray-100" href=''>
-                          <p></p>
+                        <a  href=''>
+                          <p>Orders</p>
                         </a>
                           
                     
-                        <a class="block px-4 py-2 text-black hover:bg-gray-100" href=''>
-                          <p></p>
+                        <a  href=''>
+                          <p>Recommendations</p>
                         </a>
                           
-                        <a  class="block px-4 py-2 text-black hover:bg-gray-100"href=''>
-                           <p></p>
+                        <a href=''>
+                           <p>Browsing History</p>
                         </a>
                     
-                        <a class="block px-4 py-2 text-black hover:bg-gray-100" href=''>
-                          <p></p>
+                        <a  href=''>
+                          <p>Watchlist</p>
                         </a>
                   
-                        <a class="block px-4 py-2 text-black hover:bg-gray-100" href=''>
-                          <p></p>
+                        <a  href=''>
+                          <p>Video Purchases & Rentals</p>
                         </a>
                         
-                        <a class="block px-4 py-2 text-black hover:bg-gray-100" href=''>
-                          <p></p>
+                        <a  href=''>
+                          <p>Kindle Unlimited</p>
                         </a>
                  
-                        <a class="block px-4 py-2 text-black hover:bg-gray-100" href=''>
-                          <p></p>
+                        <a  href=''>
+                          <p>Content & Devices</p>
+                        </a>
+                        <a  href=''>
+                          <p>Subscribe & Save Items</p>
+                        </a>
+                       
+                        <a  href=''>
+                          <p>Memberships & Subscriptions</p>
+                        </a>
+                    
+                        <a  href=''>
+                          <p>Memberships & Subscriptions</p>
+                        </a>
+                        
+                        <a  href=''>
+                          <p>Music Library</p>
                         </a>
                     
         
