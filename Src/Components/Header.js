@@ -79,18 +79,20 @@ function Header() {
                     <li className='pt-5 pd-5'><hr/></li>
                 </li>
                 <div className='grid grid-cols-2 divide-x'>
-                    <l className = 'break-all'>
-                    <a href="#" class="block px-4 py-2 text-black hover:bg-gray-100  border border-solid border-red-600">
+                    <l class="block px-4 py-2 text-black hover:bg-gray-100">
+                    <a href="#" >
                       <p className='font-extrabold text-lg'>Your Lists</p>
-                      <p  className='text-gray-500 text-sm hover:underline hover:text-orange-500'>create a list</p>
+                     </a>
+                  <a href="#" >
+                        <p  className='text-gray-500 text-sm hover:underline hover:text-orange-500'>create a list</p>
+                  </a>
+
+                      <a href="#" >
                       <p className='text-gray-500 text-sm hover:underline hover:text-orange-500'>find a list or registry</p>
-                      <p className='text-gray-500 text-sm hover:underline hover:text-orange-500'>Amazon smile charity list</p>
-                      <p className='text-gray-500 text-sm hover:underline hover:text-orange-500'>Amazon smile charity list</p>
-                      <p className='text-gray-500 text-sm hover:underline hover:text-orange-500'>Amazon smile charity list</p>
-                      <p className='text-gray-500 text-sm hover:underline hover:text-orange-500'>Amazon smile charity list</p>
-                      <p className='text-gray-500 text-sm hover:underline hover:text-orange-500'>Amazon smile charity list</p>
-                      <p className='text-gray-500 text-sm hover:underline hover:text-orange-500'>Amazon smile charity list</p>
-                    </a>
+                      </a>
+                      <a href="#" >
+                      <p className='text-gray-500 text-sm hover:underline hover:text-orange-500 truncate'>Amazon smile charity list</p>
+                      </a>
                 </l>
                 <li>
                     <a href="#" class="block px-4 py-2 text-black hover:bg-gray-100">
