@@ -6,7 +6,7 @@
 module.exports = {
   images: {
     domains:[
-      "pngimg.com","fakestoreapi.com"
+      "pngimg.com","fakestoreapi.com","etc.usf.edu"
     ]
   }
 }
