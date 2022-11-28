@@ -16,15 +16,15 @@ function Header() {
          />
        </div>
        {/* search bar */}
-       <div className='hidden sm:flex flex-grow items-center bg-yellow-400 h-10 cursor-pointer ml-2 hover:bg-yellow-500'>
-       <select className='w-13 h-full text-xs bg-gray-300 text-gray-600' name="cars" id="cars">
+       <div className='hidden sm:flex flex-grow items-center bg-yellow-400 h-10 cursor-pointer ml-2 hover:bg-yellow-500 border rounded-md'>
+       <select className='w-13 text-center h-full text-xs bg-gray-300 text-gray-600 rounded-l-md' name="cars" id="cars">
         <option value="volvo">All</option>
         <option value="saab">Saab</option>
         <option value="mercedes">Mercedes</option>
         <option value="audi">Audi</option>
       </select>
          <input className='p-2 items-center w-6 h-full flex-grow  focus:outline-none' type="text" />
-         <MagnifyingGlassIcon  className = 'h-12 p-4 font-extrabold'/>
+         <MagnifyingGlassIcon  className = 'h-12 p-4 font-extrabold '/>
        </div>
        {/* right section */}
       <div className='text-white text-xs flex space-x-2 items-center mx-6 whitespace-nowrap'>
