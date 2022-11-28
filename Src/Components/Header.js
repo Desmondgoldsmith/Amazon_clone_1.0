@@ -50,7 +50,7 @@ function Header() {
       <div className='text-white text-xs flex space-x-2 items-center mx-6 whitespace-nowrap'>
       
             {/* language section */}
-      <div className='flex mr-2s'>
+      <div className='hidden lg:flex flex mr-2s'>
         <Image src='https://etc.usf.edu/clipart/72500/72519/72519_28_us_c_lg.gif'
           width={40}
           height={10}
