@@ -50,19 +50,22 @@ function Header() {
       <div className='text-white text-xs flex space-x-2 items-center mx-6 whitespace-nowrap'>
       
             {/* language section */}
-      <div className='hidden lg:flex  mr-2 space-x-1 hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer'>
+      <div className='hidden lg:flex  mr-2 space-x-1 hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer   group relative'>
         <Image src='https://etc.usf.edu/clipart/72500/72519/72519_28_us_c_lg.gif'
           width={30}
           height={10}
           objectFit='contain'
         />
+        <button>
         <p className='font-extrabold text-base flex '>EN
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
     <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
     </svg>
         </p>
+          </button>
+      
         {/* dropdown */}
-        <nav tabindex="0" class="border border-2 bg-white invisible border-gray-800 rounded w-60 absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1">
+        <nav tabindex="0" class="border bg-white invisible border-gray-800 rounded w-60 absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1">
             <ul class="py-1">
                 <li>
                     <a href="#" class="block px-4 py-2 hover:bg-gray-100">
