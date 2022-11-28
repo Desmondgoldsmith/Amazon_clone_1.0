@@ -72,7 +72,7 @@ function Header() {
         <nav tabindex="0" class="border-1 border-gray-200 mt-2.5 bg-gray-100 invisible rounded w-60 absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1">
             <ul class="py-1">
                 <li>
-                    <a href="#" class="block px-4 py-2 text-black hover:bg-gray-100">
+                    <a href="#" class="block px-10 py-10 text-center text-black hover:bg-gray-100">
                         Edit
                     </a>
                 </li>
