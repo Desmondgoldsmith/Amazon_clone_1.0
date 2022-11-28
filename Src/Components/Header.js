@@ -1,6 +1,7 @@
 import React from 'react'
 import { MenuIcon, MagnifyingGlassIcon , ShoppingCartIcon } from "@heroicons/react/24/outline"
 import Image from 'next/image'
+import Link from 'next/link'
 
 function Header() {
   return (
@@ -11,7 +12,6 @@ function Header() {
          <Image src = 'https://pngimg.com/uploads/amazon/amazon_PNG25.png'
           width={100}
           height={10}
-          objectFit = "contain"
           className = "cursor-pointer"
          />
        </div>
@@ -54,30 +54,30 @@ function Header() {
         <Image src='https://etc.usf.edu/clipart/72500/72519/72519_28_us_c_lg.gif'
           width={30}
           height={10}
-          objectFit='contain'
+          // objectFit='contain'
         />
         <button>
         <p className='font-extrabold text-base flex '>EN
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
-    <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
+    <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clipRule="evenodd" />
     </svg>
         </p>
           </button>
       
         {/* dropdown */}
-        <nav tabindex="0" class="border border-gray-200 mt-2.5 bg-gray-100 invisible rounded w-60  absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1">
-            <ul class="py-1 text-black p-3 space-y-3">
+        <nav tabIndex={0} className="border border-gray-200 mt-2.5 bg-gray-100 invisible rounded w-60  absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1">
+            <ul className="py-1 text-black p-3 space-y-3">
                 <li className='flex items-center'>
                    <p className='font-bold'>Change language</p>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 hover:underline hover:text-blue-400">
+                    <Link href="#" className="block px-4 py-2 hover:bg-gray-100 hover:underline hover:text-blue-400">
                         learn more 
-                    </a>
+                    </Link>
                 </li>
 
 
                 <li className='flex items-center space-x-2'>
                 <input className='accent-yellow-500' type="radio" id="" name="english" value="English" />
-                <label for="">English - EN</label>
+                <label>English - EN</label>
                 </li>
 
                 <li>
@@ -86,37 +86,37 @@ function Header() {
 
                 <li className='flex items-center space-x-2'>
                 <input className='accent-yellow-500  ' type="radio" id="" name="spanish" value="Spanish" />
-                <label className = 'hover:underline hover:text-yellow-500 text-base' for="">español - ES</label>
+                <label className = 'hover:underline hover:text-yellow-500 text-base' >español - ES</label>
                 </li>
                
                 <li className='flex items-center space-x-2'>
                 <input className='accent-yellow-500 ' type="radio" id="" name="arabic" value="Arabic" />
-                <label className = 'hover:underline hover:text-yellow-500 text-base' for="">العربية - AR</label>
+                <label className = 'hover:underline hover:text-yellow-500 text-base' >العربية - AR</label>
                 </li>
                
                 <li className='flex items-center space-x-2'>
                 <input className='accent-yellow-500 ' type="radio" id="" name="deutsche" value="Deutsche" />
-                <label className = 'hover:underline hover:text-yellow-500 text-base' for="">Deutsch - DE</label>
+                <label className = 'hover:underline hover:text-yellow-500 text-base' >Deutsch - DE</label>
                 </li>
                 
                 <li className='flex items-center space-x-2'>
                 <input className='accent-yellow-500 ' type="radio" id="" name="hebrew" value="Hebrew" />
-                <label  className = 'hover:underline hover:text-yellow-500 text-base'for="">עברית - HE</label>
+                <label  className = 'hover:underline hover:text-yellow-500 text-base'>עברית - HE</label>
                 </li>
                 
                 <li className='flex items-center space-x-2'>
                 <input className='accent-yellow-500 ' type="radio" id="" name="korea" value="Korea" />
-                <label className = 'hover:underline hover:text-yellow-500 text-base' for="">한국어 - KO</label>
+                <label className = 'hover:underline hover:text-yellow-500 text-base' >한국어 - KO</label>
                 </li>
                 
                 <li className='flex items-center space-x-2'>
                 <input className='accent-yellow-500 ' type="radio" id="" name="portuguse" value="Portuguse" />
-                <label  className = 'hover:underline hover:text-yellow-500 text-base'for="">português - PT</label>
+                <label  className = 'hover:underline hover:text-yellow-500 text-base'>português - PT</label>
                 </li>
                
                 <li className='flex items-center space-x-2'>
                 <input className='accent-yellow-500 ' type="radio" id="" name="china" value="China" />
-                <label for="">中文 (简体) - ZH</label>
+                <label>中文 (简体) - ZH</label>
                 </li>
 
                  <li>
@@ -125,27 +125,27 @@ function Header() {
 
                 <li className='flex items-center'>
                    <p className='font-bold'>Change currency</p>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 hover:underline hover:text-blue-400">
+                    <Link href="#" className="block px-4 py-2 hover:bg-gray-100 hover:underline hover:text-blue-400">
                         learn more 
-                    </a>
+                    </Link>
                 </li>
 
                 <li className='flex items-center justify-between'>
                   <p>$ - USD - US Dollar</p>
-                  <p className='hover:underline  hover:text-blue-400'><a href='#'>Change</a></p>
+                  <p className='hover:underline  hover:text-blue-400'><Link href='#'>Change</Link></p>
                 </li>
 
                 <li className='flex items-center space-x-2'>
                 <Image src='https://etc.usf.edu/clipart/72500/72519/72519_28_us_c_lg.gif'
                   width={20}
                   height={8}
-                  objectFit='contain'
+                  // objectFit='contain'
                 />
                   <p>You are shopping on Amazon.com</p>
                 </li>
 
                 <li className='text-center text-blue-500'>
-                  <p className='hover:underline  hover:text-blue-400'><a href = "#">Change country/region.</a></p>
+                  <p className='hover:underline  hover:text-blue-400'><Link href = "#">Change country/region.</Link></p>
 
                 </li>
 
@@ -155,89 +155,89 @@ function Header() {
       <div className='hover:border hoverable border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer group relative '>
         <p>Hello,Desmond Goldsmith</p>
         <button className='font-extrabold link  text-sm flex '>Accounts & Lists
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
-    <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
+    <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clipRule="evenodd" />
     </svg>
         </button>
-        <nav tabindex="0" class="mr-10 border-1 border-gray-200 mt-2.5 bg-gray-100 invisible rounded w-80  absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1 ">
-            <ul class="py-1">
+        <nav tabIndex={0} className="mr-10 border-1 border-gray-200 mt-2.5 bg-gray-100 invisible rounded w-80  absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1 ">
+            <ul className="py-1">
                 <li>
-                    <a href="#" class="block text-center text-black hover:bg-gray-100">
+                    <Link href="#" className="block text-center text-black hover:bg-gray-100">
                        <button className='bg-yellow-400 p-3 w-60 font-bold  text-gray-700 rounded-md hover:bg-yellow-500 cursor-pointer'>Sign in</button>
                        <p className = "text-center font-xs">New customer here ? <span className='hover:underline hover:text-blue-500'>start here</span></p>
-                    </a>
+                    </Link>
                     <li className='pt-5'><hr/></li>
                 </li>
                 <div className='grid grid-cols-2 divide-x'>
-                    <li class="block px-4 py-2 text-black hover:bg-gray-100   ">
-                    <a href="#" >
+                    <li className="block px-4 py-2 text-black hover:bg-gray-100   ">
+                    <Link href="#" >
                       <p className='font-extrabold text-lg'>Your Lists</p>
-                     </a>
-                  <a href="#" >
+                     </Link>
+                  <Link href="#" >
                         <p  className='text-gray-800 text-xs hover:underline hover:text-orange-500'>create a list</p>
-                  </a>
+                  </Link>
 
-                      <a href="#" >
+                      <Link href="#" >
                       <p className='text-gray-800 text-xs hover:underline hover:text-orange-500'>find a list or registry</p>
-                      </a>
-                      <a href="#" >
+                      </Link>
+                      <Link href="#" >
                       <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Amazon smile charity list</p>
-                      </a>
+                      </Link>
                 </li>
 
                 {/* right section of dropdown */}
                 
                 <li>
-                <a  href='#'>
+                <Link  href='#'>
                            <p className='font-extrabold text-lg text-black'>Your Account</p>
-                </a>
-                        <a  href='#'>
+                </Link>
+                        <Link  href='#'>
                            <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate' >Account</p>
-                        </a>
+                        </Link>
                       
-                        <a  href='#'>
+                        <Link href='#'>
                           <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Orders</p>
-                        </a>
+                        </Link>
                           
                     
-                        <a  href='#'>
+                        <Link href='#'>
                           <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Recommendations</p>
-                        </a>
+                        </Link>
                           
-                        <a href='#'>
+                        <Link href='#'>
                            <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Browsing History</p>
-                        </a>
+                        </Link>
                     
-                        <a  href='#'>
+                        <Link  href='#'>
                           <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Watchlist</p>
-                        </a>
+                        </Link>
                   
-                        <a  href='#'>
+                        <Link  href='#'>
                           <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Video Purchases & Rentals</p>
-                        </a>
+                        </Link>
                         
-                        <a  href='#'>
+                        <Link  href='#'>
                           <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Kindle Unlimited</p>
-                        </a>
+                        </Link>
                  
-                        <a  href='#'>
+                        <Link  href='#'>
                           <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Content & Devices</p>
-                        </a>
-                        <a  href='#'>
+                        </Link>
+                        <Link  href='#'>
                           <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Subscribe & Save Items</p>
-                        </a>
+                        </Link>
                        
-                        <a  href='#'>
+                        <Link  href='#'>
                           <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Memberships & Subscriptions</p>
-                        </a>
+                        </Link>
                     
-                        <a  href='#'>
+                        <Link  href='#'>
                           <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Memberships & Subscriptions</p>
-                        </a>
+                        </Link>
                         
-                        <a  href='#'>
+                        <Link  href='#'>
                           <p className='text-gray-800 text-xs hover:underline hover:text-orange-500 truncate'>Music Library</p>
-                        </a>
+                        </Link>
                     
         
                 </li>
