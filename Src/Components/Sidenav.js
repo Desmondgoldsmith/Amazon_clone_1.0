@@ -89,6 +89,45 @@ function Sidenav() {
            </div>
            <div className='pt-2 pb-2'><hr className='ml-4 mr-4 '/></div>
 
+           {/* second nav details */}
+           <div className='text-black p-3'>
+            <p className='font-extrabold text-base '>Program and Features</p>
+           </div>
+           <div className='text-black pt-2 pl-5 pb-2 hover:bg-gray-200 cursor-pointer '>
+            <p className='text-sm flex items-center justify-between'>Gift cardsa
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+            <path fillRule="evenodd" d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z" clipRule="evenodd" />
+            </svg>
+            </p>
+           </div>
+           <div className='text-black pt-2 pl-5 pb-2 hover:bg-gray-200 cursor-pointer '>
+            <p className='text-sm '>#foundItonAmazon
+            </p>
+           </div>
+           <div className='text-black pt-2 pl-5 pb-2 hover:bg-gray-200 cursor-pointer '>
+            <p className='text-sm flex items-center justify-between'>Amazon live
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+            <path fillRule="evenodd" d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z" clipRule="evenodd" />
+            </svg>
+            </p>
+           </div>
+           <div className='text-black pt-2 pl-5 pb-2 hover:bg-gray-200 cursor-pointer '>
+            <p className='text-sm flex items-center justify-between'>International shopping
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+            <path fillRule="evenodd" d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z" clipRule="evenodd" />
+            </svg>
+            </p>
+           </div>
+           <div className='text-black pt-2 pl-5 pb-2 hover:bg-gray-200 cursor-pointer '>
+            <p className='text-sm flex items-center space-x-2'>See all 
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
+            <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clipRule="evenodd" />
+            </svg>
+
+            </p>
+           </div>
+           <div className='pt-2 pb-2'><hr className='ml-4 mr-4 '/></div>
+
 
          </div>
     {/* // translate-x-[-420px] */}
