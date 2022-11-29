@@ -13,3 +13,6 @@ export default function Home() {
     </div>
   )
 }
+
+// dependencies
+// npm i react-transition-group - react transition group
