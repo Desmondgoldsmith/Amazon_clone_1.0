@@ -3,6 +3,7 @@ import React from 'react'
 
 function Sidebar() {
   return (
+    <>
     <div>
      <div className='flex items-center space-x-2 px-2 py-1 p-0.5 hover:border border-white'>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
@@ -11,6 +12,7 @@ function Sidebar() {
       <p className='font-extrabold '>All</p>
         </div>
     </div>
+    </>
   )
 }
 

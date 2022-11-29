@@ -1,10 +1,12 @@
 import React,{useState} from 'react'
+import Sidebar from './Sidebar'
 
 function Sidenav() {
-    const [openNav, setOpenNav] = useState(false) //defined a hook to handle the open and close feature of the sidenav
-    const [closeBtn, setCloseBtn] = useState(false) 
+    const [openNav, setOpenNav] = useState(true) //defined a hook to handle the open and close feature of the sidenav
+    const [closeBtn, setCloseBtn] = useState(true) 
   return (
     <>
+    {openNav && closeBtn  && (
     <div className='flex space-x-80'>
         <div className='overflow-hidden max-w-xs w-4/5 h-full fixed z-50 top-0 left-0 bg-black origin-left '>Sidenav        </div>
     {/* // translate-x-[-420px] */}
@@ -15,7 +17,8 @@ function Sidenav() {
     </div>
 
     </div>
-
+    )}
+    <Sidebar openNav = {openNav} setOpenNav = {setOpenNav} closeBtn = {closeBtn} setCloseBtn = {setCloseBtn}/>
     </>
     )
 }
