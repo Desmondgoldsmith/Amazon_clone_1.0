@@ -269,11 +269,11 @@ function Header() {
       <p className='font-extrabold'>All</p>
         </div>
         <div className='flex space-x-2 text-sm cursor-pointer'>
-          <p><Link href = "#" >Todat's Deal</Link></p>
-          <p><Link href = "#" >Customer Service</Link></p>
-          <p><Link href = "#" >Registry</Link></p>
-          <p><Link href = "#" >Gift cards</Link></p>
-          <p><Link href = "#" >Sell</Link></p>
+          <p className='p-1 hover:border border-white'><Link href = "#" >Todat's Deal</Link></p>
+          <p className='p-1 hover:border border-white'><Link href = "#" >Customer Service</Link></p>
+          <p className='p-1 hover:border border-white'><Link href = "#" >Registry</Link></p>
+          <p className='p-1 hover:border border-white'><Link href = "#" >Gift cards</Link></p>
+          <p className='p-1 hover:border border-white'><Link href = "#" >Sell</Link></p>
         </div>
       </div>
       <div>
