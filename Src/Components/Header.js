@@ -260,7 +260,7 @@ function Header() {
       </div>
 
 {/* second nav */}
-      <div className='bg-amazon_blue-light h-8 text-white'>
+      <div className='bg-amazon_blue-light h-8 text-white justify-between'>
       <div>
         <div className='flex items-center space-x-2 px-3 py-1'>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -268,7 +268,13 @@ function Header() {
       </svg>
       <p>All</p>
         </div>
-        <div></div>
+        <div className='text-white flex'>
+          <p>Todat's Deal</p>
+          <p>Customer Service</p>
+          <p>Registry</p>
+          <p>Gift cards</p>
+          <p>Sell</p>
+        </div>
       </div>
       <div></div>
       </div>
