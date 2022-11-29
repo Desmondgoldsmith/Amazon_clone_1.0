@@ -45,6 +45,36 @@ function Sidenav() {
             </svg>
             </p>
            </div>
+           <div className='pt-2 pb-2'><hr className='ml-4 mr-4 '/></div>
+
+           {/* second nav details */}
+           <div className='text-black p-3'>
+            <p className='font-extrabold text-base '>shop By Department</p>
+           </div>
+           <div className='text-black pt-2 pl-5 pb-2 hover:bg-gray-200 cursor-pointer '>
+            <p className='text-sm flex items-center justify-between'>Electronics
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+            <path fillRule="evenodd" d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z" clipRule="evenodd" />
+            </svg>
+            </p>
+           </div>
+           <div className='text-black pt-2 pl-5 pb-2 hover:bg-gray-200 cursor-pointer '>
+            <p className='text-sm flex items-center justify-between'>Computers
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+            <path fillRule="evenodd" d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z" clipRule="evenodd" />
+            </svg>
+            </p>
+           </div>
+           <div className='text-black pt-2 pl-5 pb-2 hover:bg-gray-200 cursor-pointer '>
+            <p className='text-sm flex items-center justify-between'>Smart home
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+            <path fillRule="evenodd" d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z" clipRule="evenodd" />
+            </svg>
+            </p>
+           </div>
+           <div className='pt-2 pb-2'><hr className='ml-4 mr-4 '/></div>
+
+
          </div>
     {/* // translate-x-[-420px] */}
     <div className='z-50 top-0 fixed  mt-4 '>
