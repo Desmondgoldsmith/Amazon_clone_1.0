@@ -2,7 +2,7 @@ import React from 'react'
 import { MenuIcon, MagnifyingGlassIcon , ShoppingCartIcon } from "@heroicons/react/24/outline"
 import Image from 'next/image'
 import Link from 'next/link'
-import Sidebar from './Sidebar'
+import Sidenav from './Sidenav'
 
 function Header() {
   return (
@@ -263,7 +263,7 @@ function Header() {
 {/* second nav */}
       <div className='bg-amazon_blue-light h-9 text-white flex items-center justify-between'>
       <div className='flex items-center'>
-        <Sidebar/>
+        <Sidenav/>
         <div className='flex space-x-2 text-sm cursor-pointer'>
           <p className='p-1 hover:border border-white'><Link href = "#" >Todat's Deal</Link></p>
           <p className='p-1 hover:border border-white'><Link href = "#" >Customer Service</Link></p>

@@ -2,8 +2,8 @@ import React,{useState} from 'react'
 import Sidebar from './Sidebar'
 
 function Sidenav() {
-    const [openNav, setOpenNav] = useState(true) //defined a hook to handle the open and close feature of the sidenav
-    const [closeBtn, setCloseBtn] = useState(true) 
+    const [openNav, setOpenNav] = useState(false) //defined a hook to handle the open and close feature of the sidenav
+    const [closeBtn, setCloseBtn] = useState(false) 
   return (
     <>
     {openNav && closeBtn  && (
