@@ -16,7 +16,7 @@ function Sidenav() {
 
     {openNav && closeBtn  &&  (
     <div className='flex space-x-80'>
-        <div className='overflow-hidden max-w-xs w-4/5 h-full fixed z-50 top-0 left-0 bg-black origin-left '>Sidenav        </div>
+        <div className='overflow-hidden max-w-xs w-4/5 h-full fixed z-50 top-0 left-0 bg-white text-black origin-left '>Sidenav        </div>
     {/* // translate-x-[-420px] */}
     <div className='z-50 top-0 fixed  mt-4 '>
     <button onClick={(e)=>closeSideBar(e)}>
@@ -25,7 +25,8 @@ function Sidenav() {
         </svg>
     </button>
     </div>
-    <div className='top-0 left-0 w-[1200px] h-[178vh] z-20 bg-[rgba(0,0,0,0.7)]'>
+    {/* setting opacity */}
+    <div className='top-0 left-0 w-[1200px] h-[178vh] z-20 bg-[rgba(0,0,0,0.5)]'>
     </div>
 
     </div>
