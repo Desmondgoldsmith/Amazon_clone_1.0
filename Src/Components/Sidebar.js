@@ -1,6 +1,5 @@
 import React from 'react'
-import { Transition } from 'react-transition-group'
-import Sidenav from './Sidenav'
+
 
 
 function Sidebar({openNav , setOpenNav , closeBtn , setCloseBtn}) {
@@ -13,22 +12,6 @@ function Sidebar({openNav , setOpenNav , closeBtn , setCloseBtn}) {
   return (
     <>
     <div>
-    {/* animation using React transition group */}
-    <Transition
-     in = {openNav}
-     timeout={300}
-     mountonEnter
-     unmountOnExit
-    >
-        {
-            state => {
-                return (
-                    <Sidenav state = {state}></Sidenav>
-                )
-                                  
-            }
-        }
-    </Transition>
     <button onClick={(e)=>openSideBar(e)} >
      <div className='flex items-center space-x-2 px-2 py-1 p-0.5 hover:border border-white'>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
