@@ -13,6 +13,7 @@ function Sidenav() {
   return (
     <>
     {/* className = {`${openNav  ? 'translate-x-full' : 'translate-x-0'} ease-in-out duration-200`} */}
+
     {openNav && closeBtn  &&  (
     <div className='flex space-x-80'>
         <div className='overflow-hidden max-w-xs w-4/5 h-full fixed z-50 top-0 left-0 bg-black origin-left '>Sidenav        </div>
