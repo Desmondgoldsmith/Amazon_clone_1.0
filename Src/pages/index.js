@@ -3,7 +3,8 @@ import Header from '../Components/Header'
 import Sidenav from '../Components/Sidenav'
 
 export default function Home() {
-  return (
+  const [openNav, setOpenNav] = useState(false)
+   return (
     <div>
       <Head>
         <title>Amazon</title>
