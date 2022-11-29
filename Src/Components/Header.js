@@ -62,9 +62,9 @@ function Header() {
     </svg>
         </p>
           </button>
-      
+    
         {/* dropdown */}
-        <nav tabIndex={0} className="border border-gray-200 mt-2.5 bg-gray-100 invisible rounded w-60  absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1">
+        <nav tabIndex={0} onKeyDown = {0} role = 'button' className="border border-gray-200 mt-2.5 bg-gray-100 invisible rounded w-60  absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1">
             <ul className="py-1 text-black p-3 space-y-3">
                 <li className='flex items-center'>
                    <p className='font-bold'>Change language</p>
@@ -260,8 +260,17 @@ function Header() {
       </div>
 
 {/* second nav */}
+      <div className='bg-amazon_blue-light h-8 text-white'>
       <div>
-
+        <div className='flex items-center space-x-2'>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+        <path fill-rule="evenodd" d="M3 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 5.25zm0 4.5A.75.75 0 013.75 9h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 9.75zm0 4.5a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75zm0 4.5a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+      </svg>
+      <p>All</p>
+        </div>
+        <div></div>
+      </div>
+      <div></div>
       </div>
     </header>
   )
