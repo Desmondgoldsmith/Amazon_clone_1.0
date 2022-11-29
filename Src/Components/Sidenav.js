@@ -167,10 +167,9 @@ function Sidenav() {
         </svg>
     </button>
     </div>
-    {/* setting opacity */}
+    {/* blurring the screen when side nav shows */}
     <div className='top-0 left-0 w-[1200px] h-[178vh] z-20 bg-[rgba(0,0,0,0.7)]' onClick={(e)=>closeSideBar(e)}>
     </div>
-
     </div>
     )}
     <Sidebar openNav = {openNav} setOpenNav = {setOpenNav} closeBtn = {closeBtn} setCloseBtn = {setCloseBtn}/>
