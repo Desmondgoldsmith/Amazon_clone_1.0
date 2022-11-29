@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Header from '../Components/Header'
+import Sidenav from '../Components/Sidenav'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       </Head>
       {/* header section */}
       <Header />
+      <Sidenav/>
     </div>
   )
 }
