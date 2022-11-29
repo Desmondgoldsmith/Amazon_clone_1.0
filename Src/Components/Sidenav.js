@@ -21,6 +21,9 @@ function Sidenav() {
            <div className='bg-amazon_blue-light text-white p-4'>
             <p className='font-bold text-base text-center'>Hello, sign in</p>
            </div>
+           <div className='text-black p-3'>
+            <p className='font-extrabold text-base '>Digital Content & Devices</p>
+           </div>
          </div>
     {/* // translate-x-[-420px] */}
     <div className='z-50 top-0 fixed  mt-4 '>
