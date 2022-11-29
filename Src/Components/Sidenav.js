@@ -16,7 +16,12 @@ function Sidenav() {
 
     {openNav && closeBtn  &&  (
     <div className='flex space-x-80'>
-        <div className='overflow-hidden max-w-xs w-4/5 h-full fixed z-50 top-0 left-0 bg-white text-black origin-left '>Sidenav        </div>
+        <div className='overflow-hidden max-w-xs w-4/5 h-full fixed z-50 top-0 left-0 bg-white text-black origin-left '>
+           {/* header */}
+           <div>
+            <p>Hello, sign in</p>
+           </div>
+         </div>
     {/* // translate-x-[-420px] */}
     <div className='z-50 top-0 fixed  mt-4 '>
     <button onClick={(e)=>closeSideBar(e)}>
