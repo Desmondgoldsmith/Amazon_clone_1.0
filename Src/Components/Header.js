@@ -268,12 +268,12 @@ function Header() {
       </svg>
       <p className='font-extrabold'>All</p>
         </div>
-        <div className='flex  '>
-          <p>Todat's Deal</p>
-          <p>Customer Service</p>
-          <p>Registry</p>
-          <p>Gift cards</p>
-          <p>Sell</p>
+        <div className='flex space-x-2 text-sm cursor-pointer'>
+          <p><Link href = "#" >Todat's Deal</Link></p>
+          <p><Link href = "#" >Customer Service</Link></p>
+          <p><Link href = "#" >Registry</Link></p>
+          <p><Link href = "#" >Gift cards</Link></p>
+          <p><Link href = "#" >Sell</Link></p>
         </div>
       </div>
       <div>
