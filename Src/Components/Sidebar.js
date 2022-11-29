@@ -1,4 +1,6 @@
 import React from 'react'
+import { Transition } from 'react-transition-group'
+import Sidenav from './Sidenav'
 
 
 function Sidebar({openNav , setOpenNav , closeBtn , setCloseBtn}) {
@@ -11,6 +13,7 @@ function Sidebar({openNav , setOpenNav , closeBtn , setCloseBtn}) {
   return (
     <>
     <div>
+    {/* animation using React transition group */}
     <Transition
      in = {openNav}
      timeout={300}
@@ -20,7 +23,7 @@ function Sidebar({openNav , setOpenNav , closeBtn , setCloseBtn}) {
         {
             state => {
                 return (
-                    <></>
+                    <Sidenav state = {state}></Sidenav>
                 )
                                   
             }
