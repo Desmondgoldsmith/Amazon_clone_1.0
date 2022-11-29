@@ -18,8 +18,8 @@ function Sidenav() {
     <div className='flex space-x-80'>
         <div className='overflow-hidden max-w-xs w-4/5 h-full fixed z-50 top-0 left-0 bg-white text-black origin-left '>
            {/* header */}
-           <div>
-            <p>Hello, sign in</p>
+           <div className='bg-amazon_blue-light text-white p-4'>
+            <p className='font-extrabold'>Hello, sign in</p>
            </div>
          </div>
     {/* // translate-x-[-420px] */}
