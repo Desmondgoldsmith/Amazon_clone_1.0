@@ -168,7 +168,7 @@ function Sidenav() {
     </button>
     </div>
     {/* setting opacity */}
-    <div className='top-0 left-0 w-[1200px] h-[178vh] z-20 bg-[rgba(0,0,0,0.7)]'>
+    <div className='top-0 left-0 w-[1200px] h-[178vh] z-20 bg-[rgba(0,0,0,0.7)]' onClick={(e)=>closeSideBar(e)}>
     </div>
 
     </div>
