@@ -4,6 +4,7 @@ import Sidebar from './Sidebar'
 function Sidenav() {
     const [openNav, setOpenNav] = useState(false) //defined a hook to handle the open and close feature of the sidenav
     const [closeBtn, setCloseBtn] = useState(false) 
+    // function to close the sidenav
     const closeSideBar = (e) => {
         e.preventDefault()
         setOpenNav(false)
@@ -26,6 +27,7 @@ function Sidenav() {
     </div>
     )}
     <Sidebar openNav = {openNav} setOpenNav = {setOpenNav} closeBtn = {closeBtn} setCloseBtn = {setCloseBtn}/>
+   {/* introduced the sidebar componnet here so we can display it on the page and also pass some props to it */}
     </>
     )
 }

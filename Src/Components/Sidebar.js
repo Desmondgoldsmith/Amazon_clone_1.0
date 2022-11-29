@@ -2,6 +2,7 @@ import React from 'react'
 
 
 function Sidebar({openNav , setOpenNav , closeBtn , setCloseBtn}) {
+    
     const openSideBar = (e) => {
         e.preventDefault()
         setOpenNav(true)
