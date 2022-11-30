@@ -65,6 +65,14 @@ function Sidenav({subSidebar}) {
             <p className='text-sm flex items-center justify-between'>Free streaming music
             </p>
            </div>
+           <div className='text-black pt-2 pl-5 pb-2 hover:bg-gray-200 cursor-pointer '>
+            <p className='text-sm flex items-center justify-between'>Podcast
+            </p>
+           </div>
+           <div className='text-black pt-2 pl-5 pb-2 hover:bg-gray-200 cursor-pointer '>
+            <p className='text-sm flex items-center justify-between'>Play 
+            </p>
+           </div>
         
      </div>
      
