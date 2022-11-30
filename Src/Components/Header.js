@@ -34,6 +34,20 @@ function Header() {
 
        {/* search bar */}
        <div className='hidden sm:flex flex-grow items-center bg-yellow-400 h-10 cursor-pointer ml-2 hover:bg-yellow-500 border rounded-md'>
+       <select className='hidden md:inline w-13 focus:outline-orange-400 text-center h-full text-xs bg-gray-300 text-gray-600 rounded-l-md' name="cars" id="cars">
+        <option value="volvo">All</option>
+        <option value="saab">Arts</option>
+        <option value="mercedes">Automotive</option>
+        <option value="audi">Baby</option>
+        <option value="audi">Books</option>
+        <option value="audi">Deals</option>
+        <option value="audi">Electronics</option>
+        <option value="audi">Luggage</option>
+        <option value="audi">Movie</option>
+        <option value="audi">Deals</option>
+        <option value="audi">Deals</option>
+        <option value="audi">Deals</option>
+      </select>
         <Searchbar />
        </div>
        {/* right section */}
@@ -261,8 +275,8 @@ function Header() {
 
       <div className='bg-amazon_blue-light lg:h-9 sm:h-20 text-white '>
         {/* search bar */}
-        <div className='pl-2 pr-3 '>
-           <div className='bg-yellow-400 h-10 cursor-pointer ml-2 hover:bg-yellow-500 border rounded-md'>
+        <div className='pl-1 pr-2 lg:hidden sm:block '>
+           <div className='flex items-center text-black bg-yellow-400 h-10 cursor-pointer ml-2 hover:bg-yellow-500 border rounded-md'>
         <Searchbar />
        </div>
         </div>
