@@ -258,23 +258,32 @@ function Header() {
       </div>
 
 {/* second nav */}
-      <div className='bg-amazon_blue-light h-9 text-white flex items-center justify-between'>
-      <div className='flex items-center' >
-       <div className='items-center hover:border border-white  hidden  lg:flex '>
+
+      <div className='bg-amazon_blue-light lg:h-9 sm:h-20 text-white '>
+        {/* search bar */}
+        <div className='pl-2 pr-3 '>
+           <div className='bg-yellow-400 h-10 cursor-pointer ml-2 hover:bg-yellow-500 border rounded-md'>
+        <Searchbar />
+       </div>
+        </div>
+       
+      <div className='flex  items-center justify-between' >
+       <div className='items-center hover:border border-white hidden  lg:flex '>
         <Sidenav /> <p className='font-extrabold'>All</p>
         </div>
-        <div className='flex space-x-2 text-sm cursor-pointer'>
+        <div className='flex space-x-2 text-sm cursor-pointer overflow-x-scroll'>
           <p className='p-1 hover:border border-white'><Link href = "#" >Todat's Deal</Link></p>
           <p className='p-1 hover:border border-white'><Link href = "#" >Customer Service</Link></p>
           <p className='p-1 hover:border border-white'><Link href = "#" >Registry</Link></p>
           <p className='p-1 hover:border border-white'><Link href = "#" >Gift cards</Link></p>
           <p className='p-1 hover:border border-white'><Link href = "#" >Sell</Link></p>
         </div>
-      </div>
       <div className='pr-2 p-1 hover:border border-white'>
         <p className='text-sm'>Turn up the cheer, shop gifts now</p>
       </div>
       </div>
+      </div>
+
     </header>
   )
 }
