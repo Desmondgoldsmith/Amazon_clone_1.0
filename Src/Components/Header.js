@@ -3,12 +3,16 @@ import { MenuIcon, MagnifyingGlassIcon , ShoppingCartIcon } from "@heroicons/rea
 import Image from 'next/image'
 import Link from 'next/link'
 import Sidenav from './Sidenav'
+import Sidebar from './Sidebar'
 
 function Header() {
   return (
     <header>
       <div className='bg-amazon_blue flex p-1.5 items-center flex-grow'>
        {/* left section */}
+       <div>
+        <Sidebar className = ''/>
+       </div>
        <div className='mt-2 items-center flex-grow sm:flex-grow-0 hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer'>
          <Image src = 'https://pngimg.com/uploads/amazon/amazon_PNG25.png'
           width={100}
