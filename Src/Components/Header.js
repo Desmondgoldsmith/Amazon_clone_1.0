@@ -140,7 +140,7 @@ function Header() {
             </ul>
         </nav>
       </div>
-      <div className='hidden lg:flex hover:border hoverable border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer group relative '>
+      <div className='hidden lg:block hover:border hoverable border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer group relative '>
         <p>Hello,Desmond Goldsmith</p>
         <button className='font-extrabold link  text-sm flex '>Accounts & Lists
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
@@ -236,7 +236,7 @@ function Header() {
             </ul>
         </nav>
       </div>
-      <div className='hidden lg:flex hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer'>
+      <div className='hidden lg:block hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer'>
         <p>Returns</p>
         <p className='font-extrabold  link text-sm'>& Orders</p>
       </div>
