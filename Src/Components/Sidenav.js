@@ -4,15 +4,33 @@ import Sidebar from './Sidebar'
 function Sidenav() {
     const [openNav, setOpenNav] = useState(false) //defined a hook to handle the open and close feature of the sidenav
     const [closeBtn, setCloseBtn] = useState(false) 
+    const [openNavContent,setOpenNavContent] = useState(false)
+
+    // const [openNavContent1, setOpenNavContent1] = useState(false) 
     // function to close the sidenav
     const closeSideBar = (e) => {
         e.preventDefault()
         setOpenNav(false)
         setCloseBtn(false)
     }
+
+    const openSubNav = (e) => {
+        e.preventDefault()
+        setOpenNav(false)
+        setOpenNavContent(true)
+    }
   return (
     <>
     {/* className = {`${openNav  ? 'translate-x-full' : 'translate-x-0'} ease-in-out duration-200`} */}
+    {openNavContent && (
+    <div>
+     <div className='overflow-hidden  overflow-y-auto scrollbar-hide  max-w-xs w-4/5 h-full fixed z-50 top-0 left-0 bg-[rgba(0,0,0,0.7)] text-white origin-left'>
+        Subnavcontt
+     </div>
+    
+    </div>
+    )}
+
 
     {openNav && closeBtn  &&  (
     <div className='flex space-x-80'>
@@ -26,11 +44,11 @@ function Sidenav() {
             <p className='font-extrabold text-base '>Digital Content & Devices</p>
            </div>
            <div className='text-black pt-2 pl-5 pb-2 hover:bg-gray-200 cursor-pointer '>
-            <p className='text-sm flex items-center justify-between'>Amazon Music
+            <p className='text-sm flex items-center justify-between' role='button' onKeyDown={(e)=>openSubNav(e)} onClick = {(e)=>openSubNav(e)}>Amazon Music
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
             <path fillRule="evenodd" d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z" clipRule="evenodd" />
             </svg>
-            </p>
+            </p> 
            </div>
            <div className='text-black pt-2 pl-5 pb-2 hover:bg-gray-200 cursor-pointer '>
             <p className='text-sm flex items-center justify-between'>kindle E-readers & books

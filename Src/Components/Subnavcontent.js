@@ -1,8 +1,9 @@
 import React,{useState} from 'react'
+import Sidenav from './Sidenav'
 
 
 function Subnavcontent() {
-    const [openNavContent,setOpenNavContent] = useState(false)
+    const [openNavContent,setOpenNavContent] = useState(true)
   return (
     <>
     {openNavContent && (
@@ -14,7 +15,7 @@ function Subnavcontent() {
     </div>
     )}
 
-    <Sidenav/>
+    {/* <Sidenav openNavContent1 ={openNavContent} setOpenNavContent1 = {setOpenNavContent} /> */}
 
     </>
   )
