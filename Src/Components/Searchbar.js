@@ -4,7 +4,7 @@ import { MagnifyingGlassIcon } from "@heroicons/react/24/outline"
 
 function Searchbar() {
   return (
-    <div>
+    <>
      <select className='hidden md:inline w-13 focus:outline-orange-400 text-center h-full text-xs bg-gray-300 text-gray-600 rounded-l-md' name="cars" id="cars">
         <option value="volvo">All</option>
         <option value="saab">Arts</option>
@@ -21,7 +21,7 @@ function Searchbar() {
       </select>
          <input className='p-2 items-center w-6 h-full flex-grow  focus:outline-none' type="text" />
          <MagnifyingGlassIcon  className = 'h-12 p-4 font-extrabold '/>
-    </div>
+    </>
   )
 }
 
