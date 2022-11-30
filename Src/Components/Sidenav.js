@@ -25,7 +25,7 @@ function Sidenav() {
     <>
     {/* className = {`${openNav  ? 'translate-x-full' : 'translate-x-0'} ease-in-out duration-200`} */}
     
-    {/* open and close sub nav */}
+    {/* open and close sub nav content */}
     {openNavContent && (
     <div className='flex space-x-80'>
      <div className='overflow-hidden  overflow-y-auto scrollbar-hide  max-w-xs w-4/5 h-full fixed z-50 top-0 left-0 bg-blue-300 text-white origin-left'>
@@ -38,7 +38,7 @@ function Sidenav() {
     </div>
     )}
 
-
+   {/* open and close side nav */}
     {openNav && closeBtn  &&  (
     <div className='flex space-x-80'>
      {/* nav content */}
