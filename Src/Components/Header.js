@@ -281,19 +281,19 @@ function Header() {
        </div>
         </div>
        
-      <div className='flex items-center' >
+      <div className='flex items-center whitespace-nowrap overflow-x-scroll' >
        <div className='items-center hover:border border-white hidden  lg:flex '>
         <Sidenav /> <p className='font-extrabold'>All</p>
         </div>
         
-        <div className='flex space-x-2 text-sm cursor-pointer whitespace-nowrap overflow-x-scroll'>
+        <div className='flex space-x-2 text-sm cursor-pointer '>
           <p className='p-1 hover:border border-white'><Link href = "#" >Todat's Deal</Link></p>
           <p className='p-1 hover:border border-white'><Link href = "#" >Customer Service</Link></p>
           <p className='p-1 hover:border border-white'><Link href = "#" >Registry</Link></p>
           <p className='p-1 hover:border border-white'><Link href = "#" >Gift cards</Link></p>
           <p className='p-1 hover:border border-white'><Link href = "#" >Sell</Link></p>
         </div>
-      <div className='pr-2 p-1 hover:border border-white whitespace-nowrap overflow-x-scroll'>
+      <div className='pr-2 p-1 hover:border border-white '>
         <p className='text-sm'>Turn up the cheer, shop gifts now</p>
       </div>
       </div>
