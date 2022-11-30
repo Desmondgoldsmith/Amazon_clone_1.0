@@ -273,7 +273,7 @@ function Header() {
 
 {/* second nav */}
 
-      <div className='bg-amazon_blue-light lg:h-9 sm:h-20 text-white '>
+      <div className='bg-amazon_blue-light lg:h-9 sm:h-20  text-white '>
         {/* search bar */}
         <div className='pl-1 pr-2 lg:hidden sm:block '>
            <div className='flex items-center text-black bg-yellow-400 h-10 cursor-pointer ml-2 hover:bg-yellow-500 border rounded-md'>
@@ -281,11 +281,11 @@ function Header() {
        </div>
         </div>
        
-      <div className='flex  items-center' >
+      <div className='flex items-center' >
        <div className='items-center hover:border border-white hidden  lg:flex '>
         <Sidenav /> <p className='font-extrabold'>All</p>
         </div>
-        <div className='justify-between'></div>
+        
         <div className='flex space-x-2 text-sm cursor-pointer whitespace-nowrap overflow-x-scroll'>
           <p className='p-1 hover:border border-white'><Link href = "#" >Todat's Deal</Link></p>
           <p className='p-1 hover:border border-white'><Link href = "#" >Customer Service</Link></p>
