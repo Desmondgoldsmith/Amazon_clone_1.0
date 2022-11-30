@@ -10,8 +10,8 @@ function Header() {
     <header>
       <div className='bg-amazon_blue flex p-1.5 items-center flex-grow'>
        {/* left section */}
-       <div>
-        <Sidebar className = ''/>
+       <div className = 'text-white'>
+        <Sidebar />
        </div>
        <div className='mt-2 items-center flex-grow sm:flex-grow-0 hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer'>
          <Image src = 'https://pngimg.com/uploads/amazon/amazon_PNG25.png'
