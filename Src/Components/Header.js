@@ -32,8 +32,9 @@ function Header() {
       </p>
     </div>
 
+
        {/* search bar */}
-       <div className='hidden sm:flex flex-grow items-center bg-yellow-400 h-10 cursor-pointer ml-2 hover:bg-yellow-500 border rounded-md'>
+       <div className='invisible lg:visible lg:flex md:visible md:flex flex-grow items-center bg-yellow-400 h-10 cursor-pointer ml-2 hover:bg-yellow-500 border rounded-md'>
        <select className='hidden md:inline w-13 focus:outline-orange-400 text-center h-full text-xs bg-gray-300 text-gray-600 rounded-l-md' name="cars" id="cars">
         <option value="volvo">All</option>
         <option value="saab">Arts</option>
@@ -157,6 +158,10 @@ function Header() {
       {/* sign-in [display only on small screens] */}
       <div className = 'lg:hidden sm:flex p-1 hover:border hover:border-white'>
         <p className='flex items-center font-extrabold'>Sign in 
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
+        <path fillRule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clipRule="evenodd" />
+      </svg>
+
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7 font-extrabold">
     <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
   </svg>
@@ -275,7 +280,7 @@ function Header() {
 
       <div className='bg-amazon_blue-light lg:h-9 sm:h-20  text-white '>
         {/* search bar */}
-        <div className='pl-1 pr-2 lg:hidden sm:block '>
+        <div className='pl-1 pr-2 lg:hidden md:hidden sm:block '>
            <div className='flex items-center text-black bg-yellow-400 h-10 cursor-pointer ml-2 hover:bg-yellow-500 border rounded-md'>
         <Searchbar />
        </div>
