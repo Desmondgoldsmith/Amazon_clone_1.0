@@ -197,8 +197,8 @@ function Sidenav({openNavContent,setOpenNavContent}) {
     </button>
     </div>
     {/* blurring the screen when side nav shows */}
-    <div className='top-0 left-0 w-[1200px] h-[178vh] z-20 bg-[rgba(0,0,0,0.7)]' onClick={(e)=>closeSideBar(e)}>
-    </div>
+    {/* <div className='top-0 left-0 w-[500px] border-2 border-red-500 h-[178vh] scrollbar-hide  overflow-hidden z-20 bg-[rgba(0,0,0,0.7)]' onClick={(e)=>closeSideBar(e)}>
+    </div> */}
     </div>
     )}
     <Sidebar openNav = {openNav} setOpenNav = {setOpenNav} closeBtn = {closeBtn} setCloseBtn = {setCloseBtn}/>
