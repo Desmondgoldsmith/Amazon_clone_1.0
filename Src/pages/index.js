@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Header from '../Components/Header'
+import Subnavcontent from '../Components/Subnavcontent'
 
 export default function Home() {
 
@@ -11,6 +12,7 @@ return (
       </Head>
       {/* header section */}
       <Header />
+      {/* <Subnavcontent/> */}
     </div>
   )
 }

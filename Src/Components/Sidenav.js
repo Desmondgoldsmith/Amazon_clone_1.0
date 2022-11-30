@@ -16,8 +16,9 @@ function Sidenav() {
 
     {openNav && closeBtn  &&  (
     <div className='flex space-x-80'>
+     {/* nav content */}
         <div className='overflow-hidden  overflow-y-auto scrollbar-hide  max-w-xs w-4/5 h-full fixed z-50 top-0 left-0 bg-white text-black origin-left '>
-           {/* header */}
+           {/* nav header */}
            <div className='bg-amazon_blue-light text-white p-4'>
             <p className='font-bold text-base text-center'>Hello, sign in</p>
            </div>
