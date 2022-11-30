@@ -18,10 +18,14 @@ function Sidenav() {
         e.preventDefault()
         setOpenNav(false)
         setOpenNavContent(true)
+        setCloseBtn(true)
+
     }
   return (
     <>
     {/* className = {`${openNav  ? 'translate-x-full' : 'translate-x-0'} ease-in-out duration-200`} */}
+    
+    {/* open and close sub nav */}
     {openNavContent && (
     <div className='flex space-x-80'>
      <div className='overflow-hidden  overflow-y-auto scrollbar-hide  max-w-xs w-4/5 h-full fixed z-50 top-0 left-0 bg-blue-300 text-white origin-left'>
