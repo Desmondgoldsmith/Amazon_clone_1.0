@@ -10,7 +10,7 @@ function Header() {
     <header>
       <div className='bg-amazon_blue flex p-1.5 items-center flex-grow'>
        {/* left section */}
-       <div className = 'text-white lg:hidden sm:flex'>
+       <div className = 'text-white lg:hidden sm:flex hover:border border-white'>
         <Sidebar />
        </div>
        <div className='mt-2 items-center flex-grow sm:flex-grow-0 hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer'>
@@ -267,7 +267,7 @@ function Header() {
 {/* second nav */}
       <div className='bg-amazon_blue-light h-9 text-white flex items-center justify-between'>
       <div className='flex items-center' >
-       <div className='flex items-center'>
+       <div className='flex items-center hover:border border-white'>
         <Sidenav /> <p className='font-extrabold'>All</p>
         </div>
         <div className='flex space-x-2 text-sm cursor-pointer'>
