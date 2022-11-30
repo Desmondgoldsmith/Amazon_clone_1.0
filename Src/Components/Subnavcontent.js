@@ -1,6 +1,8 @@
-import React from 'react'
+import React,{useState} from 'react'
+
 
 function Subnavcontent() {
+    const [openNavContent,setOpenNavContent] = useState(false)
   return (
     <>
     <div>
