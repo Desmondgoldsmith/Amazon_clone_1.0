@@ -1,8 +1,9 @@
 import React from 'react'
-import { MenuIcon, MagnifyingGlassIcon , ShoppingCartIcon } from "@heroicons/react/24/outline"
+import { MenuIcon , ShoppingCartIcon } from "@heroicons/react/24/outline"
 import Image from 'next/image'
 import Link from 'next/link'
 import Sidenav from './Sidenav'
+import Searchbar from './Searchbar'
 
 function Header() {
   return (
@@ -33,22 +34,7 @@ function Header() {
 
        {/* search bar */}
        <div className='hidden sm:flex flex-grow items-center bg-yellow-400 h-10 cursor-pointer ml-2 hover:bg-yellow-500 border rounded-md'>
-       <select className='hidden md:inline w-13 focus:outline-orange-400 text-center h-full text-xs bg-gray-300 text-gray-600 rounded-l-md' name="cars" id="cars">
-        <option value="volvo">All</option>
-        <option value="saab">Arts</option>
-        <option value="mercedes">Automotive</option>
-        <option value="audi">Baby</option>
-        <option value="audi">Books</option>
-        <option value="audi">Deals</option>
-        <option value="audi">Electronics</option>
-        <option value="audi">Luggage</option>
-        <option value="audi">Movie</option>
-        <option value="audi">Deals</option>
-        <option value="audi">Deals</option>
-        <option value="audi">Deals</option>
-      </select>
-         <input className='p-2 items-center w-6 h-full flex-grow  focus:outline-none' type="text" />
-         <MagnifyingGlassIcon  className = 'h-12 p-4 font-extrabold '/>
+        <Searchbar />
        </div>
        {/* right section */}
       <div className='text-white text-xs flex space-x-2 items-center mx-6 whitespace-nowrap'>
