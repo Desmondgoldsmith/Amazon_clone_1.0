@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import Sidebar from './Sidebar'
 
-function Sidenav() {
+function Sidenav({subSidebar}) {
     const [openNav, setOpenNav] = useState(false) //defined a hook to handle the open and close feature of the sidenav
     const [closeBtn, setCloseBtn] = useState(false) 
     const [openNavContent,setOpenNavContent] = useState(false)
