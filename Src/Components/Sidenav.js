@@ -23,10 +23,13 @@ function Sidenav() {
     <>
     {/* className = {`${openNav  ? 'translate-x-full' : 'translate-x-0'} ease-in-out duration-200`} */}
     {openNavContent && (
-    <div>
-     <div className='overflow-hidden  overflow-y-auto scrollbar-hide  max-w-xs w-4/5 h-full fixed z-50 top-0 left-0 bg-[rgba(0,0,0,0.7)] text-white origin-left'>
+    <div className='flex space-x-80'>
+     <div className='overflow-hidden  overflow-y-auto scrollbar-hide  max-w-xs w-4/5 h-full fixed z-50 top-0 left-0 bg-blue-300 text-white origin-left'>
         Subnavcontt
      </div>
+      {/* blurring the screen when side nav shows */}
+    <div className='top-0 left-0 w-[1200px] h-[178vh] z-20 bg-[rgba(0,0,0,0.7)]' onClick={(e)=>closeSideBar(e)}>
+    </div>
     
     </div>
     )}
