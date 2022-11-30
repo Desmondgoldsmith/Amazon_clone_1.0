@@ -267,7 +267,7 @@ function Header() {
 {/* second nav */}
       <div className='bg-amazon_blue-light h-9 text-white flex items-center justify-between'>
       <div className='flex items-center' >
-       <div className='flex items-center hover:border border-white'>
+       <div className='items-center hover:border border-white  hidden  lg:flex '>
         <Sidenav /> <p className='font-extrabold'>All</p>
         </div>
         <div className='flex space-x-2 text-sm cursor-pointer'>
