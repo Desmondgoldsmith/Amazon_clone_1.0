@@ -46,13 +46,26 @@ function Sidenav({subSidebar}) {
             <p className='font-bold text-base text-center'>Hello, sign in</p>
            </div>
           
-          <div className='bg-white text-black p-4'>
+          <div className='bg-white text-black p-3 hover:bg-gray-200'>
             <p className='font-bold text-base flex space-x-1 cursor-pointer' role= 'button' onClick={(e)=>openSideBar(e)}><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-gray-500">
          <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75" />
           </svg>
         Main Menu</p>
            </div>
-        Subnavcontt
+
+           <div className='text-black p-3 pl-4'>
+            <p className='font-extrabold text-base '>Stream Music</p>
+           </div>
+
+           <div className='text-black pt-2 pl-5 pb-2 hover:bg-gray-200 cursor-pointer '>
+            <p className='text-sm flex items-center justify-between'>Amazon music unlimited
+            </p>
+           </div>
+           <div className='text-black pt-2 pl-5 pb-2 hover:bg-gray-200 cursor-pointer '>
+            <p className='text-sm flex items-center justify-between'>Free streaming music
+            </p>
+           </div>
+        
      </div>
      
      {/* close sidebar button */}
