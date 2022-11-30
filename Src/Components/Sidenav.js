@@ -4,7 +4,7 @@ import Sidebar from './Sidebar'
 function Sidenav({openNavContent,setOpenNavContent}) {
     const [openNav, setOpenNav] = useState(false) //defined a hook to handle the open and close feature of the sidenav
     const [closeBtn, setCloseBtn] = useState(false) 
-    // const [openNavContent,setOpenNavContent] = useState(false)
+    const [openNavContent1,setOpenNavContent1] = useState(false)
     // const navItem = "Amazon Music"
 
     // const [openNavContent1, setOpenNavContent1] = useState(false) 
@@ -23,9 +23,9 @@ function Sidenav({openNavContent,setOpenNavContent}) {
 
 //    show sub sidenav
     const openSubNav = (e) => {
-        e.preventDefault()
+        e.preventDefault()  
         setOpenNav(false)
-        setOpenNavContent(true)
+        console.log(setOpenNavContent(true))
         setCloseBtn(true)
     }
 
@@ -53,8 +53,8 @@ function Sidenav({openNavContent,setOpenNavContent}) {
            <div className='text-black p-3'>
             <p className='font-extrabold text-base '>Digital Content & Devices</p>
            </div>
-           <div className='text-black pt-2 pl-5 pb-2 hover:bg-gray-200 cursor-pointer '>
-            <p className='text-sm flex items-center justify-between' role='button' onKeyDown={(e)=>openSubNav(e)} onClick = {(e)=>openSubNav(e)}>Amazon Music
+           <div className='text-black pt-2 pl-5 pb-2 hover:bg-gray-200 cursor-pointer ' onClick={(e)=>openSubNav(e)}>
+            <p className='text-sm flex items-center justify-between' role='button'>Amazon Music
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
             <path fillRule="evenodd" d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z" clipRule="evenodd" />
             </svg>

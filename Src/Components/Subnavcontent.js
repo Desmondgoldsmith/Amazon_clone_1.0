@@ -3,7 +3,7 @@ import Sidenav from './Sidenav'
 
 
 function Subnavcontent() {
-    const [openNavContent,setOpenNavContent] = useState(true)
+    const [openNavContent,setOpenNavContent] = useState(false)
   return (
     <>
      {/* open and close sub nav content */}
@@ -70,7 +70,6 @@ function Subnavcontent() {
     </div>
     )}
     <Sidenav openNavContent1 ={openNavContent} setOpenNavContent1 = {setOpenNavContent} />
-
     </>
   )
 }

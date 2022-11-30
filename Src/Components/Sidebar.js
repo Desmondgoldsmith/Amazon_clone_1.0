@@ -11,6 +11,7 @@ function Sidebar({openNav , setOpenNav , closeBtn , setCloseBtn}) {
     }
   return (
     <>
+    {/* sidebar */}
     <div>
     <button onClick={(e)=>openSideBar(e)} >
      <div className='flex items-center space-x-2 px-2 py-1 p-0.5 hover:border border-white'>
