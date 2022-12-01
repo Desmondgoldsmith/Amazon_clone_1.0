@@ -298,8 +298,8 @@ function Header() {
           <p className='p-1 hover:border border-white'><Link href = "#" >Gift cards</Link></p>
           <p className='p-1 hover:border border-white'><Link href = "#" >Sell</Link></p>
         </div>
-      <div className='pr-2 p-1 hover:border text-base border-white md:pl-[200px] lg:pl-[600px]'>
-        <p>Turn up the cheer, shop gifts now</p>
+      <div className='pr-2 p-1  md:pl-[200px] lg:pl-[600px]'>
+        <p className='hover:border text-base border-white'>Turn up the cheer, shop gifts now</p>
       </div>
       </div>
       </div>
