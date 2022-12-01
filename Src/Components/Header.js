@@ -304,16 +304,19 @@ function Header() {
       </div>
       </div>
       {/* visible on small screens */}
-      <div className='hidden lg:inline bg-amazon_blue-light h-9 text-white ml-2 mr-2 hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer'>
-        <p className='text-xs pl-3'>Deliver to</p>
-        <p className='flex font-extrabold'>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-        <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-        </svg>
-        Ghana
-      </p>
-    </div>
+      <div className='bg-amazon_blue-light h-9 p-2'>
+        <div className='flex-row lg:inline  text-white ml-2 mr-2 hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer'>
+                <p className='text-xs pl-3'>Deliver to</p>
+                <p className='font-extrabold'>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                </svg>
+                Ghana
+              </p>
+            </div>
+      </div>
+     
 
     </header>
   )
