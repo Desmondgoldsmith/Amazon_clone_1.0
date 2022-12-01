@@ -34,7 +34,7 @@ function Header() {
 
 
        {/* search bar */}
-       <div className='invisible lg:visible lg:flex md:visible md:flex flex-grow items-center bg-yellow-400 h-10 cursor-pointer ml-2 hover:bg-yellow-500 border rounded-md'>
+       <div className='invisible lg:visible lg:flex md:visible md:flex flex-grow items-center bg-[rgb(232,166,84)] h-10 cursor-pointer ml-2 hover:bg-yellow-500 border rounded-md'>
        <select className='hidden md:inline w-13 focus:outline-orange-400 text-center h-full text-xs bg-gray-300 text-gray-600 rounded-l-md' name="cars" id="cars">
         <option value="volvo">All</option>
         <option value="saab">Arts</option>
