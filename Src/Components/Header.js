@@ -304,7 +304,7 @@ function Header() {
       </div>
       </div>
       {/* visible on small screens */}
-      <div className='bg-amazon_blue-light h-9 lg:hidden sm:flex md:hidden'>
+      <div className='bg-amazon_blue-light border-0 h-9 lg:hidden sm:flex md:hidden'>
         <div className='flex flex-row  text-white ml-2 mr-2 hover:border border border-transparent p-1  cursor-pointer'>
                 <p className=' pl-3'>Deliver to</p>
                 <p className='font-extrabold flex flex-row'>
