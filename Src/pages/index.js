@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Banner from '../Components/Banner'
 import Header from '../Components/Header'
 import Subnavcontent from '../Components/Subnavcontent'
 
@@ -15,7 +16,7 @@ return (
 
       <main>
         {/* product banner */}
-        
+        <Banner/>
       </main>
     </div>
   )
