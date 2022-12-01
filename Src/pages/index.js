@@ -12,7 +12,11 @@ return (
       </Head>
       {/* header section */}
       <Header />
-      {/* <Subnavcontent/> */}
+
+      <main>
+        {/* product banner */}
+        
+      </main>
     </div>
   )
 }
