@@ -7,6 +7,8 @@ function Banner() {
       <Carousel
        autoPlay
        infiniteLoop
+       showStatus = {false}
+       showIndicators = {false}
       >
 
       </Carousel>
