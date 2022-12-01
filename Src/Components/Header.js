@@ -278,7 +278,7 @@ function Header() {
 
 {/* second nav */}
 
-      <div className='lg:bg-amazon_blue-light pb-2 md:bg-amazon_blue-light bg-[rgb(26,33,45)] lg:h-9 md:h-9 sm:h-20  text-white '>
+      <div className='lg:bg-amazon_blue-light pb-2 border border-[rgb(26,33,45)] md:bg-amazon_blue-light bg-[rgb(26,33,45)] lg:h-9 md:h-9 sm:h-20  text-white '>
         {/* search bar */}
         <div className='pl-1 pr-2 lg:hidden md:hidden sm:block '>
            <div className='flex items-center text-black bg-yellow-400 h-10 cursor-pointer ml-2 hover:bg-yellow-500 border rounded-md'>
@@ -304,7 +304,7 @@ function Header() {
       </div>
       </div>
       {/* visible on small screens */}
-      <div className='bg-amazon_blue-light border border-amazon_blue-light h-9 lg:hidden sm:flex md:hidden'>
+      <div className='bg-[rgb(43,64,72)] border border-[rgb(43,64,72)] h-9 lg:hidden sm:flex md:hidden'>
         <div className='flex flex-row space-x-2 text-white ml-1 mr-2 hover:border border border-transparent p-1  cursor-pointer'>
                 <p className='flex flex-row pl-3'>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
