@@ -286,7 +286,7 @@ function Header() {
        </div>
         </div>
        
-      <div className='flex space-x-1 items-center pt-1 pb-1 whitespace-nowrap overflow-x-scroll scrollbar-hide' >
+      <div className='flex items-center space-x-1 pt-1 pb-1 whitespace-nowrap overflow-x-scroll scrollbar-hide' >
        <div className='items-center hover:border border-white hidden  lg:flex '>
         <Sidenav /> <p className='font-extrabold'>All</p>
         </div>
@@ -298,8 +298,8 @@ function Header() {
           <p className='p-1 hover:border border-white'><Link href = "#" >Gift cards</Link></p>
           <p className='p-1 hover:border border-white'><Link href = "#" >Sell</Link></p>
         </div>
-      <div className='pr-2 p-1 hover:border text-base border-white '>
-        <p className='float-right'>Turn up the cheer, shop gifts now</p>
+      <div className='pr-2 p-1 hover:border text-base border-white lg:ml-[600px] '>
+        <p>Turn up the cheer, shop gifts now</p>
       </div>
       </div>
       </div>
