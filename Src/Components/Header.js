@@ -278,7 +278,7 @@ function Header() {
 
 {/* second nav */}
 
-      <div className='bg-amazon_blue-light lg:h-9 md:h-9 sm:h-20  text-white '>
+      <div className='bg-amazon_blue-light sm:bg-amazon_blue lg:h-9 md:h-9 sm:h-20  text-white '>
         {/* search bar */}
         <div className='pl-1 pr-2 lg:hidden md:hidden sm:block '>
            <div className='flex items-center text-black bg-yellow-400 h-10 cursor-pointer ml-2 hover:bg-yellow-500 border rounded-md'>
