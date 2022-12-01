@@ -304,7 +304,7 @@ function Header() {
       </div>
       </div>
       {/* visible on small screens */}
-      <div className='bg-[rgb(43,64,72)] border border-[rgb(43,64,72)] h-9 lg:hidden sm:flex md:hidden'>
+      <div className='bg-[rgb(42,54,72)] border border-[rgb(42,54,72)] h-9 lg:hidden sm:flex md:hidden'>
         <div className='flex flex-row space-x-2 text-white ml-1 mr-2 hover:border border border-transparent p-1  cursor-pointer'>
                 <p className='flex flex-row pl-3'>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
