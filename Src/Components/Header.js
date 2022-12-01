@@ -69,7 +69,7 @@ function Header() {
           </button>
     
         {/* dropdown */}
-        <nav tabIndex={0} onKeyDown = {0} role = 'button' className="border border-gray-200 mt-2.5 bg-gray-100 invisible rounded w-60  absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1">
+        <nav tabIndex={0} onKeyDown = {0} role = 'button' className="border z-50 border-gray-200 mt-2.5 bg-gray-100 invisible rounded w-60  absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1">
             <ul className="py-1 text-black p-3 space-y-3">
                 <li className='flex items-center'>
                    <p className='font-bold'>Change language</p>
@@ -174,7 +174,7 @@ function Header() {
     <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clipRule="evenodd" />
     </svg>
         </button>
-        <nav tabIndex={0} className="mr-10 border-1 border-gray-200 mt-2.5 bg-gray-100 invisible rounded w-80  absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1 ">
+        <nav tabIndex={0} className="z-50 mr-10 border-1 border-gray-200 mt-2.5 bg-gray-100 invisible rounded w-80  absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1 ">
             <ul className="py-1">
                 <li>
                     <Link href="#" className="block text-center text-black hover:bg-gray-100">
