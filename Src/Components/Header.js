@@ -8,7 +8,7 @@ import Searchbar from './Searchbar'
 function Header() {
   return (
     <header>
-      <div className='bg-[rgb(26,33,45)] flex p-1.5 items-center flex-grow'>
+      <div className='bg-[rgb(26,33,45)] flex p-1 items-center flex-grow'>
        {/* left section */}
        <div className = 'text-white lg:hidden sm:flex hover:border border-white'>
        <Sidenav />
@@ -291,7 +291,7 @@ function Header() {
         <Sidenav /> <p className='font-extrabold'>All</p>
         </div>
         
-        <div className='flex space-x-2 text-base cursor-pointer  '>
+        <div className='flex space-x-2 lg:text-sm md:text-sm sm:text-base cursor-pointer  '>
           <p className='p-1 hover:border border-white'><Link href = "#" >Todat's Deal</Link></p>
           <p className='p-1 hover:border border-white'><Link href = "#" >Customer Service</Link></p>
           <p className='p-1 hover:border border-white'><Link href = "#" >Registry</Link></p>
