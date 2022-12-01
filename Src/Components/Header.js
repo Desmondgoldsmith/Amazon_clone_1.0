@@ -291,7 +291,7 @@ function Header() {
         <Sidenav /> <p className='font-extrabold'>All</p>
         </div>
         
-        <div className='flex space-x-2 text-sm cursor-pointer  '>
+        <div className='flex space-x-2 text-base cursor-pointer  '>
           <p className='p-1 hover:border border-white'><Link href = "#" >Todat's Deal</Link></p>
           <p className='p-1 hover:border border-white'><Link href = "#" >Customer Service</Link></p>
           <p className='p-1 hover:border border-white'><Link href = "#" >Registry</Link></p>
