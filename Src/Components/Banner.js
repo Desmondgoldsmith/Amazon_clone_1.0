@@ -14,6 +14,8 @@ function Banner() {
        showIndicators = {false}
        showThumbs = {false}
        interval = {5000}
+
+       className = ' sm:h-50'
       >
        
      <div>
