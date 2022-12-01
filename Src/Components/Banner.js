@@ -34,6 +34,9 @@ function Banner() {
         <img loading='lazy' src='https://raw.githubusercontent.com/Desmondgoldsmith/Amazon_clone_1.0/main/public/61BvxKSpy3L-_SX3000_.jpg' alt='banner3'/>
      </div>
      <div>
+        <img loading='lazy' src='https://raw.githubusercontent.com/Desmondgoldsmith/Amazon_clone_1.0/main/public/71qid7QFWJL-_SX3000_.jpg' alt='banner3'/>
+     </div>
+     <div>
         <img loading='lazy' src='https://raw.githubusercontent.com/Desmondgoldsmith/Amazon_clone_1.0/main/public/61shpu9mvML-_SX3000_.jpg' alt='banner3'/>
      </div>
     
