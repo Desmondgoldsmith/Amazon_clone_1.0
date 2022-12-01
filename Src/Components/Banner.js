@@ -9,8 +9,12 @@ function Banner() {
        infiniteLoop
        showStatus = {false}
        showIndicators = {false}
+       showThumbs = {false}
+       interval = {5000}
       >
-
+     <div></div>
+     <div></div>
+     <div></div>
       </Carousel>
     </div>
   )
