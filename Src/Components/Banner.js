@@ -2,7 +2,9 @@ import React from 'react'
 
 function Banner() {
   return (
-    <div>Banner</div>
+    <div className='relative'>
+    Banner
+    </div>
   )
 }
 
