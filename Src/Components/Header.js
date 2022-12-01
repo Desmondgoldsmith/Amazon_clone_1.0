@@ -305,7 +305,7 @@ function Header() {
       </div>
       {/* visible on small screens */}
       <div className='bg-amazon_blue-light h-20 p-2'>
-        <div className='flex flex-row  text-white ml-2 mr-2 hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer'>
+        <div className='lg:hidden sm:flex md:hidden flex flex-row  text-white ml-2 mr-2 hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer'>
                 <p className=' pl-3'>Deliver to</p>
                 <p className='font-extrabold flex flex-row'>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
