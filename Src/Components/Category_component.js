@@ -6,8 +6,8 @@ function Category_component() {
     <div className='flex space-x-3 ml-2 mr-2 -mt-[30px] lg:mt-[-200px] md:-mt-52  overflow-x-scroll scrollbar-hide'>
       <Product_category header = "Gaming Accessories"/>
       <Product_category header = "Dresses"/>
-      <Product_category header = "Games"/>
-      <Product_category header = "Games"/>
+      <Product_category header = "Shop by category"/>
+      <Product_category header = "Health & Personal Care"/>
     </div>
   )
 }
