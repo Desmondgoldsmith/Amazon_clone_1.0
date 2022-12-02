@@ -7,22 +7,26 @@ function Mixed_component({header,productImage1, productImage2, productImage3, pr
         <p className='font-extrabold whitespace-nowrap'>{header}</p>
       <div className='flex space-x-2'>
          <Image src={productImage1} 
-        width={120}
-        height={120} 
+        width={0}
+        height={0}
+        className = "w-[120px] h-[120px] " 
       />
          <Image src={productImage2} 
-        width={120}
-        height={120} 
+        width={0}
+        height={0}
+        className = "w-[120px] h-[120px] " 
       />
        </div>
        <div className='flex space-x-2'>
            <Image src={productImage3} 
-        width={120}
-        height={120} 
+        width={0}
+        height={0}
+        className = "w-[120px] h-[120px] " 
       />
          <Image src={productImage4} 
-        width={120}
-        height={120} 
+        width={0}
+        height={0}
+        className = "w-[120px] h-[120px] " 
       />
        </div>
       
