@@ -2,7 +2,7 @@ import React from 'react'
 
 function Product_category() {
   return (
-    <div className='bg-white p-10 border-2 border-red-600 '>
+    <div className='bg-white p-10 border-2 border-red-600  w-[400px]'>
       <p>The individual category goes here</p>
     </div>
   )
