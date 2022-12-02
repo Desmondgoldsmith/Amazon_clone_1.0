@@ -10,7 +10,7 @@ const nextConfig = {
 module.exports = {
   images: {
     domains:[
-      "pngimg.com","fakestoreapi.com","etc.usf.edu"
+      "pngimg.com","fakestoreapi.com","etc.usf.edu","raw.githubusercontent.com"
     ]
   }
 }
