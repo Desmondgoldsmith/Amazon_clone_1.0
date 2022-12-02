@@ -6,7 +6,7 @@ import Subnavcontent from '../Components/Subnavcontent'
 export default function Home() {
 
 return (
-    <div>
+    <div className = 'bg-[rgb(230,232,232)]'>
       <Head>
         <title>Amazon</title>
         <link rel="icon" href="/favicon.ico" />
