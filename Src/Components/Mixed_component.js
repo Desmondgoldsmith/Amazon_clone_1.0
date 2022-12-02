@@ -7,7 +7,7 @@ function Mixed_component({header,productImage1, productImage2, productImage3, pr
         <p className='font-extrabold whitespace-nowrap'>{header}</p>
       <div className='flex space-x-2'>
          <div className='block'>
-           <Image src={productImage1} 
+        <Image src={productImage1} 
         width={0}
         height={0}
         className = "w-[120px] h-[120px] " 
