@@ -3,7 +3,7 @@ import Product_category from './Product_category'
 
 function Category_component() {
   return (
-    <div className='flex space-x-5'>
+    <div className='flex space-x-3 ml-2 mr-2'>
       <Product_category/>
       <Product_category/>
       <Product_category/>
