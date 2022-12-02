@@ -1,9 +1,10 @@
 import React from 'react'
+import Product_category from './Product_category'
 
 function Category_component() {
   return (
     <div>
-      <h1>I'm Wealthy in jesus name!</h1>
+      <Product_category/>
     </div>
   )
 }
