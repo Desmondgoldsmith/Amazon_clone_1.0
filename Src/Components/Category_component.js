@@ -5,6 +5,9 @@ function Category_component() {
   return (
     <div>
       <Product_category/>
+      <Product_category/>
+      <Product_category/>
+      <Product_category/>
     </div>
   )
 }
