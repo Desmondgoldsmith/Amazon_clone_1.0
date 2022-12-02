@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Banner from '../Components/Banner'
 import Header from '../Components/Header'
-import Subnavcontent from '../Components/Subnavcontent'
 
 export default function Home() {
 
