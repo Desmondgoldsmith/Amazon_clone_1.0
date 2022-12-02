@@ -19,27 +19,33 @@ function Mixed_component({header,productImage1, productImage2, productImage3, pr
             width={0}
             height={0}
             className = "w-[120px] h-[120px] " 
-      /> 
+         /> 
             <p className='font-bold'>{productName2}</p> 
-
          </div>
-        
        </div>
+
        <div className='flex space-x-2'>
-           <Image src={productImage3} 
+
+       <div className='block'>
+        <Image src={productImage3} 
         width={0}
         height={0}
         className = "w-[120px] h-[120px] " 
       />
+        <p className='font-bold'>{productName3}</p> 
+       </div>
+
+       <div className='block'>
          <Image src={productImage4} 
         width={0}
         height={0}
         className = "w-[120px] h-[120px] " 
       />
+        <p className='font-bold'>{productName4}</p> 
        </div>
-      
-     
-     
+  
+        
+       </div>
     </div>
   )
 }
