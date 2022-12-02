@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function Mixed_component({header,productImage1, productImage2, productImage3, productImage4,productName1,productName2,productName3,productName4 }) {
   return (
-    <div className='bg-white p-6  w-[400px] z-30 lg:h-[300px] md:h-[300px] sm:h-[50]'>
+    <div className='bg-white p-6  w-[400px] z-30 lg:h-[350px] md:h-[350px] sm:h-[50]'>
         <p className='font-extrabold whitespace-nowrap'>{header}</p>
       <div className='flex space-x-2'>
          <div className='block'>
