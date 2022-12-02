@@ -7,15 +7,15 @@ function Mixed_component({header,productImage1, productImage2, productImage3, pr
         width={200}
         height={200} 
       />
-         <Image src={productImage1} 
+         <Image src={productImage2} 
         width={200}
         height={200} 
       />
-         <Image src={productImage1} 
+         <Image src={productImage3} 
         width={200}
         height={200} 
       />
-         <Image src={productImage1} 
+         <Image src={productImage4} 
         width={200}
         height={200} 
       />
