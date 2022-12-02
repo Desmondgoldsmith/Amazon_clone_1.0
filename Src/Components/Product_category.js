@@ -9,24 +9,6 @@ function Product_category({header, productImage, productImage1, productImage2, p
         width={500}
         height={500} 
       />
-     <div>
-         <Image src={productImage1} 
-        width={200}
-        height={200} 
-      />
-         <Image src={productImage1} 
-        width={200}
-        height={200} 
-      />
-         <Image src={productImage1} 
-        width={200}
-        height={200} 
-      />
-         <Image src={productImage1} 
-        width={200}
-        height={200} 
-      />
-     </div>
      
     </div>
   )
