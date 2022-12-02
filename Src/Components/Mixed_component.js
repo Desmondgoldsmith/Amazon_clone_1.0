@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function Mixed_component({header,productImage1, productImage2, productImage3, productImage4,productName }) {
   return (
