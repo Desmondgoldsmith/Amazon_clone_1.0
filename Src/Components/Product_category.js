@@ -6,9 +6,28 @@ function Product_category({header, productImage, productImage1, productImage2, p
     <div className='bg-white p-10   w-[400px] z-30 lg:h-[300px] md:h-[300px] sm:h-[50]'>
       <p className='font-extrabold whitespace-nowrap'>{header}</p>
       <Image src={productImage} alt='product images'
-        width={30}
-        height={30} 
+        width={500}
+        height={500} 
       />
+     <div>
+         <Image src={productImage1} 
+        width={200}
+        height={200} 
+      />
+         <Image src={productImage1} 
+        width={200}
+        height={200} 
+      />
+         <Image src={productImage1} 
+        width={200}
+        height={200} 
+      />
+         <Image src={productImage1} 
+        width={200}
+        height={200} 
+      />
+     </div>
+     
     </div>
   )
 }
