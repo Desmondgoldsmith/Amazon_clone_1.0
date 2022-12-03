@@ -1,7 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
-function Mixed_component({header,productImage1, productImage2, productImage3, productImage4,productName1,productName2,productName3,productName4 }) {
+function Mixed_component({link,header,productImage1, productImage2, productImage3, productImage4,productName1,productName2,productName3,productName4 }) {
   return (
     <div className='bg-white p-6  w-[400px] z-30 lg:h-[400px] md:h-[400px] sm:h-[50]'>
         <p className='font-extrabold text-xl whitespace-nowrap mb-2 '>{header}</p>
@@ -24,7 +25,7 @@ function Mixed_component({header,productImage1, productImage2, productImage3, pr
          </div>
        </div>
 
-       <div className='flex space-x-1 '>
+       <div className='flex space-x-1 mb-2'>
 
        <div className='block'>
         <Image src={productImage3} 
@@ -48,6 +49,7 @@ function Mixed_component({header,productImage1, productImage2, productImage3, pr
   
         
        </div>
+       <Link className='text-blue-500' href="#">{link}</Link>
     </div>
   )
 }
