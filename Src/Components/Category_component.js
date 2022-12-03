@@ -12,7 +12,7 @@ function Category_component() {
       <div className='p-1  w-[400px] z-30 lg:h-[400px] md:h-[400px] sm:h-[50]'>
         <div className='bg-white p-6'>
             <p className='font-extrabold text-xl'>Sign in for the best experience</p>
-            <button className='p-1 bg-yellow-300 w-[280px]'>sign in securely</button>
+            <button className='p-1 bg-yellow-300 w-[280px] rounded-md hover:bg-yellow-600'>sign in securely</button>
         </div>
         <div>
             <h1>Here we go</h1>
