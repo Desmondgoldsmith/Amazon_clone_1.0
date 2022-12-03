@@ -11,7 +11,7 @@ function Category_component() {
       <Mixed_component link = "shop now" header = "Shop by category" productImage1 = "https://raw.githubusercontent.com/Desmondgoldsmith/Amazon_clone_1.0/main/public/Images/computer.jpg" productImage2 = "https://raw.githubusercontent.com/Desmondgoldsmith/Amazon_clone_1.0/main/public/Images/PS4.jpg" productImage3 = "https://raw.githubusercontent.com/Desmondgoldsmith/Amazon_clone_1.0/main/public/Images/Baby240X-_SY170_CB468850909_.jpg" productImage4 = "https://raw.githubusercontent.com/Desmondgoldsmith/Amazon_clone_1.0/main/public/Images/Toys240X-_SY170_CB468851693_.jpg"  productName1 = "Computers & Acc" productName2 = "Video Games" productName3 = "Baby" productName4= "Toy & Games"/>
       <div className='p-1  w-[400px] z-30 lg:h-[400px] md:h-[400px] sm:h-[50]'>
         <div className='bg-white p-6'>
-            <p className=''>Sign in for the best experience</p>
+            <p className='font-extrabold text-xl'>Sign in for the best experience</p>
             <button>sign in securely</button>
         </div>
         <div>
