@@ -11,7 +11,7 @@ function Product_category({link,header, productImage}) {
         height={400}
         className = 'h-[310px] w-[350px]'
       />
-        <Link className='text-blue-500' href="#">{link}</Link>
+        <Link className='text-blue-500 hover:text-red-600 hover:underline' href="#">{link}</Link>
     </div>
   )
 }

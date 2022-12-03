@@ -49,7 +49,7 @@ function Mixed_component({link,header,productImage1, productImage2, productImage
   
         
        </div>
-       <Link className='text-blue-500' href="#">{link}</Link>
+       <Link className='text-blue-500 hover:text-red-600 hover:underline' href="#">{link}</Link>
     </div>
   )
 }
