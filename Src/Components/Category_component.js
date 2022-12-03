@@ -37,6 +37,9 @@ function Category_component() {
       {/* for mobile screens */}
       <div className='lg:hidden md:hidden sm:flex z-30 space-x-3 '>
         <Mobileview_Category/>
+        <Mobileview_Category/>
+        <Mobileview_Category/>
+        <Mobileview_Category/>
       </div>
       </div>
   )
