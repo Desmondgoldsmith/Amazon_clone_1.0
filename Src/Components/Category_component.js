@@ -15,7 +15,10 @@ function Category_component() {
             <button className='p-1 bg-yellow-300 w-[280px] rounded-md hover:bg-yellow-500'>sign in securely</button>
         </div>
         <div>
-            <h1 className='bg-white'>Here we go</h1>
+            <Image 
+            src = "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/October/Fuji_D2_45M_en_US_2x._CB418309979_.jpg" 
+            
+            />
         </div>
       </div>
       </div>
