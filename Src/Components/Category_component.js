@@ -1,6 +1,7 @@
 import React from 'react'
 import Mixed_component from './Mixed_component'
 import Product_category from './Product_category'
+import Image from 'next/image'
 
 function Category_component() {
   return (
@@ -9,7 +10,7 @@ function Category_component() {
       <Product_category link = "shop now" header = "Get fit at home" productImage = "https://images-na.ssl-images-amazon.com/images/G/01/events/GFAH/GWDesktop_SingleImageCard_fitathome_2x._SY608_CB434924743_.jpg" />
       <Product_category link = "shop now" header = "Easy returns" productImage = "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Returns_2x._SY608_CB432774709_.jpg" />
       <Mixed_component link = "shop now" header = "Shop by category" productImage1 = "https://raw.githubusercontent.com/Desmondgoldsmith/Amazon_clone_1.0/main/public/Images/computer.jpg" productImage2 = "https://raw.githubusercontent.com/Desmondgoldsmith/Amazon_clone_1.0/main/public/Images/PS4.jpg" productImage3 = "https://raw.githubusercontent.com/Desmondgoldsmith/Amazon_clone_1.0/main/public/Images/Baby240X-_SY170_CB468850909_.jpg" productImage4 = "https://raw.githubusercontent.com/Desmondgoldsmith/Amazon_clone_1.0/main/public/Images/Toys240X-_SY170_CB468851693_.jpg"  productName1 = "Computers & Acc" productName2 = "Video Games" productName3 = "Baby" productName4= "Toy & Games"/>
-      <div className='p-1  w-[400px] z-30 lg:h-[400px] md:h-[400px] sm:h-[50] space-y-3'>
+      <div className='p-1  w-[400px] z-30 lg:h-[400px] md:h-[400px] sm:h-[50] space-y-7'>
         <div className='bg-white p-6'>
             <p className='font-extrabold text-xl'>Sign in for the best experience</p>
             <button className='p-1 bg-yellow-300 w-[280px] rounded-md hover:bg-yellow-500'>sign in securely</button>
@@ -17,7 +18,10 @@ function Category_component() {
         <div>
             <Image 
             src = "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/October/Fuji_D2_45M_en_US_2x._CB418309979_.jpg" 
-            
+            width={180}
+            height={300}
+            alt="Fuji"
+            className = "w-[350px] h-[230px]"
             />
         </div>
       </div>
