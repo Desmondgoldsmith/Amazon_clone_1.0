@@ -2,6 +2,7 @@ import React from 'react'
 import Mixed_component from './Mixed_component'
 import Product_category from './Product_category'
 import Image from 'next/image'
+import Mobileview_Category from './Mobileview_Category'
 
 function Category_component() {
   return (
@@ -32,6 +33,9 @@ function Category_component() {
         <Mixed_component link = "see more" header = "Gaming Accessories"  productImage1 = "https://raw.githubusercontent.com/Desmondgoldsmith/Amazon_clone_1.0/main/public/Images/headset.jpg" productImage2 = "https://raw.githubusercontent.com/Desmondgoldsmith/Amazon_clone_1.0/main/public/Images/keyboard.jpg" productImage3 = "https://raw.githubusercontent.com/Desmondgoldsmith/Amazon_clone_1.0/main/public/Images/Mouse.jpg" productImage4 = "https://raw.githubusercontent.com/Desmondgoldsmith/Amazon_clone_1.0/main/public/Images/Chairs.jpg"  productName1 = "Headset" productName2= "Keyboard" productName3 = "Computer mice" productName4 = "Chairs" />
         <Product_category link = "shop now" header = "Electronics" productImage = "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Electronics_1x._SY304_CB432774322_.jpg" />
       </div>
+
+      {/* for mobile screens */}
+      <Mobileview_Category/>
       </div>
   )
 }
