@@ -12,7 +12,7 @@ function Mixed_component({header,productImage1, productImage2, productImage3, pr
         height={400}
         className = "w-[150px] h-[120px]  " 
       />
-      <p className='font-bold '>{productName1}</p> 
+      <p className='font-bold text-sm '>{productName1}</p> 
     </div>
          <div className='block'>
             <Image src={productImage2} 
@@ -20,7 +20,7 @@ function Mixed_component({header,productImage1, productImage2, productImage3, pr
             height={400}
             className = "w-[150px] h-[120px]  " 
          /> 
-            <p className='font-bold'>{productName2}</p> 
+            <p className='font-bold text-sm'>{productName2}</p> 
          </div>
        </div>
 
@@ -33,7 +33,7 @@ function Mixed_component({header,productImage1, productImage2, productImage3, pr
         className = "w-[150px] h-[120px]  " 
 
       />
-        <p className='font-bold'>{productName3}</p> 
+        <p className='font-bold text-sm'>{productName3}</p> 
        </div>
 
        <div className='block'>
@@ -43,7 +43,7 @@ function Mixed_component({header,productImage1, productImage2, productImage3, pr
         className = "w-[150px] h-[120px]  " 
 
       />
-        <p className='font-bold'>{productName4}</p> 
+        <p className='font-bold text-sm'>{productName4}</p> 
        </div>
   
         
