@@ -9,6 +9,7 @@ function Product_category({link,header, productImage}) {
       <Image src={productImage} alt='product images'
         width={180}
         height={400}
+        objectFit="contain"
         className = 'h-[310px] w-[350px] whitespace-nowrap'
       />
         <Link className='text-blue-500 hover:text-red-600 hover:underline' href="#">{link}</Link>
