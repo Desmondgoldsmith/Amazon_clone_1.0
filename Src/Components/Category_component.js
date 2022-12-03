@@ -6,7 +6,7 @@ import Mobileview_Category from './Mobileview_Category'
 
 function Category_component() {
   return (
-    <div className='space-y-3 ml-2 mr-2 -mt-[30px] lg:mt-[-320px] md:-mt-[180px]  overflow-x-scroll scrollbar-hide '>
+    <div className='space-y-3 ml-2 mr-2 -mt-[10px] lg:mt-[-320px] md:-mt-[180px]  overflow-x-scroll scrollbar-hide '>
       <div className='hidden lg:flex md:flex z-30 space-x-3 '>
       <Product_category link = "shop now" header = "Get fit at home" productImage = "https://images-na.ssl-images-amazon.com/images/G/01/events/GFAH/GWDesktop_SingleImageCard_fitathome_2x._SY608_CB434924743_.jpg" />
       <Product_category link = "shop now" header = "Easy returns" productImage = "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Returns_2x._SY608_CB432774709_.jpg" />
@@ -35,7 +35,9 @@ function Category_component() {
       </div>
 
       {/* for mobile screens */}
-      <Mobileview_Category/>
+      <div className='lg:hidden md:hidden sm:flex z-30 space-x-3 '>
+        <Mobileview_Category/>
+      </div>
       </div>
   )
 }
