@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Mobileview_Category() {
+function Mobileview_Category({title}) {
   return (
-    <div className='bg-black p-1 w-[150px] z-30 h-[200px]'>
-       <h1>I'm a billonaire !</h1>
+    <div className='bg-white p-1 w-[150px] z-30 h-[200px]'>
+       <p>{title}</p>
     </div>
   )
 }
