@@ -6,7 +6,7 @@ import Mobileview_Category from './Mobileview_Category'
 
 function Category_component() {
   return (
-    <div className='lg:ml-8 lg:mr-8 md:ml-4 md:mr-4 ml-2 mr-3 -mt-[10px] lg:mt-[-320px] md:-mt-[180px] space-y-5 '>
+    <div className='lg:ml-8 lg:mr-8 md:ml-4 md:mr-4 ml-2 mr-3 -mt-[50px] lg:mt-[-320px] md:-mt-[180px] space-y-5 '>
          <div className='hidden lg:flex md:flex z-30 space-x-5 whitespace-nowrap overflow-x-scroll scrollbar-hide '>
       <Product_category link = "shop now" header = "Get fit at home" productImage = "https://images-na.ssl-images-amazon.com/images/G/01/events/GFAH/GWDesktop_SingleImageCard_fitathome_2x._SY608_CB434924743_.jpg" />
       <Product_category link = "shop now" header = "Easy returns" productImage = "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Returns_2x._SY608_CB432774709_.jpg" />
@@ -36,7 +36,7 @@ function Category_component() {
      
 
       {/* for mobile screens */}
-      <div className='lg:hidden md:hidden  flex z-30 space-x-2 whitespace-normal overflow-x-scroll scrollbar-hide'>
+      <div className='lg:hidden md:hidden   flex z-30 space-x-2 whitespace-normal overflow-x-scroll scrollbar-hide'>
         <Mobileview_Category   title = "Great holiday gifts are here!" image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_Under20_DT_1x._SY116_CB606650457_.jpg"/>
          <Mobileview_Category title = "Oculus" image = "https://m.media-amazon.com/images/I/71-A3YzCRsL._AC_SY400_.jpg"/>
         <Mobileview_Category title = "Women's Fashion" image = "https://images-na.ssl-images-amazon.com/images/I/61ZpXM5WBYL._AC_UL160_SR160,160_.jpg"/>
