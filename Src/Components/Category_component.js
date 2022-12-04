@@ -41,7 +41,7 @@ function Category_component() {
          <Mobileview_Category title = "Oculus" image = "https://m.media-amazon.com/images/I/71-A3YzCRsL._AC_SY400_.jpg"/>
         <Mobileview_Category title = "Women's Fashion" image = "https://images-na.ssl-images-amazon.com/images/I/61ZpXM5WBYL._AC_UL160_SR160,160_.jpg"/>
         <Mobileview_Category title = "Beauty Pics" image = "https://m.media-amazon.com/images/I/614JV4NOuNL._AC_SY400_.jpg"/>
-        <Mobileview_Category title = "Shop laptops and tablets" image = ""/>
+        <Mobileview_Category title = "Shop laptops and tablets" image = "https://m.media-amazon.com/images/I/81PbOX7ZtaL._AC_SY400_.jpg"/>
         <Mobileview_Category title = "Keep shopping for" image = ""/>
         <Mobileview_Category  title = "something here" image = ""/> 
       </div>
