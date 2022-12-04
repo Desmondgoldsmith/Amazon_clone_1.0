@@ -11,7 +11,7 @@ function Mixed_component({background_color,link,header,productImage1, productIma
         <Image src={productImage1} 
         width={180}
         height={400}
-        className = "w-[150px] h-[120px]  " 
+        className = "w-[150px] h-[120px] cursor-pointer hover:border hover:border-blue-400 " 
       />
       <p className='font-bold text-sm '>{productName1}</p> 
     </div>
