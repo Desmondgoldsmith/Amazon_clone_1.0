@@ -40,10 +40,10 @@ function Category_component() {
         <Mobileview_Category   title = "something here" image = ""/>
          <Mobileview_Category title = "Oculus" image = ""/>
         <Mobileview_Category title = "Women's Fashion" image = ""/>
-        {/*<Mobileview_Category title = "Beauty Pics" image = ""/>
+        <Mobileview_Category title = "Beauty Pics" image = ""/>
         <Mobileview_Category title = "Shop laptops and tablets" image = ""/>
         <Mobileview_Category title = "Keep shopping for" image = ""/>
-        <Mobileview_Category  title = "something here" image = ""/> */}
+        <Mobileview_Category  title = "something here" image = ""/> 
       </div>
       </div>
   )
