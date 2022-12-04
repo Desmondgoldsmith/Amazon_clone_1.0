@@ -36,7 +36,7 @@ function Category_component() {
      
 
       {/* for mobile screens */}
-      <div className='lg:hidden md:hidden  flex z-30 space-x-3 whitespace-nowrap overflow-x-scroll scrollbar-hide'>
+      <div className='lg:hidden md:hidden  flex z-30 space-x-2 whitespace-nowrap overflow-x-scroll scrollbar-hide'>
         <Mobileview_Category   title = "something here" image = ""/>
          <Mobileview_Category title = "Oculus" image = ""/>
         <Mobileview_Category title = "Women's Fashion" image = ""/>
