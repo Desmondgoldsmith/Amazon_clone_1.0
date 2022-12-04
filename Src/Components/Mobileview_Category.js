@@ -10,7 +10,7 @@ function Mobileview_Category({title,image}) {
        alt={title}
        width={100}
        height={120}
-       className = ""  
+       className = "w-[200px] h-[165px]"  
        />
     </div>
   )
