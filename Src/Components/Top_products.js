@@ -1,8 +1,11 @@
 import React from 'react'
+import Shopgift from './Shopgift'
 
 function Top_products() {
   return (
-    <div>Top_products</div>
+    <div>
+   <Shopgift/>
+    </div>
   )
 }
 

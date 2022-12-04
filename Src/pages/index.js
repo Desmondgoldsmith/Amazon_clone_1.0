@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Banner from '../Components/Banner'
 import Category_component from '../Components/Category_component'
 import Header from '../Components/Header'
-import Shopgift from '../Components/Shopgift'
+import Top_products from '../Components/Top_products'
 
 export default function Home() {
 
@@ -21,7 +21,7 @@ return (
         {/* category card */}
         <Category_component />
         {/* gift component */}
-        <Shopgift/>
+        <Top_products/>
       </main>
     </div>
   )
