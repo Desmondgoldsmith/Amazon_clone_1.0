@@ -3,7 +3,7 @@ import Shopgift from './Shopgift'
 
 function Top_products() {
   return (
-    <div className='border-2 border-red-600'>
+    <div className='border-2 border-red-600 h-[250px]'>
    <Shopgift/>
     </div>
   )
