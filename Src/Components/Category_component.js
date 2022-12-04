@@ -36,9 +36,9 @@ function Category_component() {
      
 
       {/* for mobile screens */}
-      <div className='lg:hidden md:hidden  flex z-30 space-x-2 whitespace-nowrap overflow-x-scroll scrollbar-hide'>
+      <div className='lg:hidden md:hidden  flex z-30 space-x-2 whitespace-normal overflow-x-scroll scrollbar-hide'>
         <Mobileview_Category   title = "something here" image = ""/>
-         <Mobileview_Category title = "Oculus" image = ""/>
+         <Mobileview_Category title = "Oculus" image = "https://m.media-amazon.com/images/I/71-A3YzCRsL._AC_SY400_.jpg"/>
         <Mobileview_Category title = "Women's Fashion" image = ""/>
         <Mobileview_Category title = "Beauty Pics" image = ""/>
         <Mobileview_Category title = "Shop laptops and tablets" image = ""/>
