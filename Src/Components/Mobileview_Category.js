@@ -8,8 +8,9 @@ function Mobileview_Category({title,image}) {
        <Image 
        src={image}
        alt={title}
-       width={150}
-       height={200}  
+       width={100}
+       height={120}
+       className = ""  
        />
     </div>
   )
