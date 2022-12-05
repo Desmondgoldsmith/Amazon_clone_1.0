@@ -4,9 +4,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel'
 function Top_products() {
   return (
-    <div className='border-2  border-red-600 h-[250px] ml-8 mr-11 mb-20 bg-white '>
-      
-      <p className='pl-8'>This is the Title</p>
+    <div>
+     <div className='border-2  border-red-600 h-[250px] ml-8 mr-11 mb-20 bg-white '>
+  <p className='pl-8'>This is the Title</p>
     <div className='flex  overflow-x-scroll scrollbar-hide'>
       <Shopgift/>
       <Shopgift/>
@@ -17,6 +17,10 @@ function Top_products() {
       <Shopgift/>
       <Shopgift/>    
     </div>
+      </div>
+      <div>
+        
+      </div>
    
     </div>
   )
