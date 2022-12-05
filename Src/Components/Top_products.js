@@ -18,8 +18,27 @@ function Top_products() {
       <Shopgift/>    
     </div>
       </div>
-      <div>
-        
+      <div><Carousel
+       autoPlay
+       infiniteLoop
+       showStatus = {false}
+       showIndicators = {false}
+       showThumbs = {false}
+       interval = {5000}
+
+       className = ' sm:h-50  '
+      >
+       
+     <div>
+        <img className='border-2 border-red-600 w-[50px] h-[50px]' loading='lazy' src='https://images-na.ssl-images-amazon.com/images/G/01/events/GFAH/GWDesktop_SingleImageCard_fitathome_2x._SY608_CB434924743_.jpg' alt='banner1'/>
+     </div>
+     <div>
+        <img  className='border-2 border-red-600 w-[50px] h-[50px]' loading='lazy' src='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Returns_2x._SY608_CB432774709_.jpg"' alt='banner2'/>
+     </div>
+     
+    
+      </Carousel>
+
       </div>
    
     </div>
