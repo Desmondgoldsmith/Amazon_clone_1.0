@@ -35,8 +35,8 @@ function Top_products() {
       <Shopgift productImage = "https://m.media-amazon.com/images/I/51Mj5OtsMvL._AC_SY200_.jpg"/>
       <Shopgift productImage = "https://m.media-amazon.com/images/I/51XZJwsgnmL._AC_SY200_.jpg"/>
       <Shopgift productImage = "https://m.media-amazon.com/images/I/61bPiEPsl4L._AC_SY400_.jpg"/>
-      <Shopgift productImage = ""/>
-      <Shopgift productImage = ""/>
+      <Shopgift productImage = "https://m.media-amazon.com/images/I/61dYy8ZB8LL._AC_SY200_.jpg"/>
+      <Shopgift productImage = "https://m.media-amazon.com/images/I/61hXNZ7p0-S._AC_SY200_.jpg"/>
       <Shopgift productImage = ""/>
       <Shopgift productImage = ""/>    
     </div>
