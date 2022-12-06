@@ -31,14 +31,14 @@ function Top_products() {
       </svg>
    </div> 
    <div className='flex overflow-x-scroll scrollbar-hide' ref = {lisrRef}>
-      <Shopgift/>
-      <Shopgift/>
-      <Shopgift/>
-      <Shopgift/>
-      <Shopgift/>
-      <Shopgift/>
-      <Shopgift/>
-      <Shopgift/>    
+      <Shopgift  productImage = "https://m.media-amazon.com/images/I/51LS7arqYHL._AC_SY200_.jpg"/>
+      <Shopgift productImage = ""/>
+      <Shopgift productImage = ""/>
+      <Shopgift productImage = ""/>
+      <Shopgift productImage = ""/>
+      <Shopgift productImage = ""/>
+      <Shopgift productImage = ""/>
+      <Shopgift productImage = ""/>    
     </div>
     <div className = "text-dark p-1 hover:rounded-full hover:bg-gray-500 hover:text-white cursor-pointer" onClick={rightScroll}>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
