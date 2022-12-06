@@ -32,7 +32,7 @@ function Top_products() {
    </div> 
    <div className='flex overflow-x-scroll scrollbar-hide' ref = {lisrRef}>
       <Shopgift  productImage = "https://m.media-amazon.com/images/I/51LS7arqYHL._AC_SY200_.jpg"/>
-      <Shopgift productImage = ""/>
+      <Shopgift productImage = "https://m.media-amazon.com/images/I/51Mj5OtsMvL._AC_SY200_.jpg"/>
       <Shopgift productImage = ""/>
       <Shopgift productImage = ""/>
       <Shopgift productImage = ""/>
