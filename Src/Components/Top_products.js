@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useRef} from 'react'
 import Shopgift from './Shopgift'
 
 function Top_products() {
@@ -12,7 +12,7 @@ function Top_products() {
      <path fillRule="evenodd" d="M7.72 12.53a.75.75 0 010-1.06l7.5-7.5a.75.75 0 111.06 1.06L9.31 12l6.97 6.97a.75.75 0 11-1.06 1.06l-7.5-7.5z" clipRule="evenodd" />
       </svg>
    </div> 
-   <div className='flex overflow-x-scroll scrollbar-hide'>
+   <div className='flex overflow-x-scroll scrollbar-hide' ref = {lisrRef}>
       <Shopgift/>
       <Shopgift/>
       <Shopgift/>
