@@ -6,7 +6,18 @@ function Top_products() {
   const leftScroll = () => {
     if (lisrRef.current) {
           lisrRef.current.scrollBy({
-            left:200
+            top: 0,
+            left:200,
+            behavior:'smooth'
+          })
+        }
+  }
+  const rightScroll = () => {
+    if (lisrRef.current) {
+          lisrRef.current.scrollBy({
+            top: 0,
+            left:-200,
+            behavior:'smooth'
           })
         }
   }
