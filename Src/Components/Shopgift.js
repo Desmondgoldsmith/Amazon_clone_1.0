@@ -4,7 +4,12 @@ function Shopgift() {
   return (
     <div className='ml-4 mr-4 p-3'>
      <div className='w-[200px] h-[200px]  truncate-normal bg-white '>
-       <h1 className=''>This component will contain all the DATA  to be passed to the Top_product component for rendering</h1>
+       <Image src = {} 
+        width={100}
+        height={100}
+        alt="books"
+        className = ""
+       />
      </div>
      </div>
   )
