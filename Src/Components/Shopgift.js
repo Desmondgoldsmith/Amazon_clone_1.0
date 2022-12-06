@@ -7,9 +7,9 @@ function Shopgift({productImage}) {
      <div className='w-[200px] h-[200px]  truncate-normal bg-white '>
        <Image src = {productImage} 
         width={150}
-        height={150}
+        height={100}
         alt="books"
-        className = ""
+        className = "h-[200px]"
        />
      </div>
      </div>
