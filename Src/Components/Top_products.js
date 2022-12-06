@@ -22,7 +22,7 @@ function Top_products() {
         }
   }
   return (
-    <div className='border-2 border-red-600 h-[250px] ml-8 mr-11 mb-20 bg-white '> 
+    <div className='h-[250px] ml-8 mr-11 mb-20 bg-white '> 
     <p className='pl-8'>This is the Title</p>
    <div className='flex items-center'>
      <div className = "text-dark p-1 hover:rounded-full hover:bg-gray-500 hover:text-white cursor-pointer" onClick={leftScroll}>
