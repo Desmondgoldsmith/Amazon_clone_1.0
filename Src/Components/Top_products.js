@@ -23,7 +23,7 @@ function Top_products() {
   }
   return (
     <div> 
-    <div className='h-[250px] ml-8 mr-11 mb-20 bg-white '>
+    <div className='h-[250px] ml-8 mr-11 mb-5 mt-3 bg-white '>
   <p className='pl-8 text-lg font-bold'>Top sellers in books for you</p>
     <div className='flex items-center'>
       <div className = "text-dark p-1 hover:rounded-full hover:bg-gray-500 hover:text-white cursor-pointer" onClick={leftScroll}>
