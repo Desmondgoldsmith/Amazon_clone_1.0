@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
-function Fitness_and_Toys({header,productImage}) {
+function Fitness_and_Toys({header,productImage,link}) {
   return (
     <div className='bg-white p-6  w-[325px] z-30 h-[400px]  mb-2 shrink-0'>
       <p className='font-extrabold whitespace-nowrap text-xl'>{header}</p>
