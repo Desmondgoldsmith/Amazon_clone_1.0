@@ -1,9 +1,15 @@
 import React from 'react'
 
-function Fitness_and_Toys() {
+function Fitness_and_Toys({header,productImage}) {
   return (
-    <div>
-      <h1>Fitness and Toys</h1>
+    <div className='bg-white p-6  w-[325px] z-30 h-[400px]  mb-2 shrink-0'>
+      <p className='font-extrabold whitespace-nowrap text-xl'>{header}</p>
+      <Image src={productImage} alt='product images'
+        width={180}
+        height={400}
+        className = 'h-[310px] w-[350px] whitespace-nowrap'
+      />
+        <Link className='text-blue-500 hover:text-red-600 hover:underline' href="#">{link}</Link>
     </div>
   )
 }
