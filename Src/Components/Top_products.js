@@ -69,8 +69,8 @@ function Top_products() {
         </svg>
     </div> 
     <div className='flex overflow-x-scroll scrollbar-hide' ref = {lisrRef}>
-      <Top_Apparels  productImage = "https://m.media-amazon.com/images/I/51LS7arqYHL._AC_SY200_.jpg"/>
-      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/51Mj5OtsMvL._AC_SY200_.jpg"/>
+      <Top_Apparels  productImage = "https://m.media-amazon.com/images/I/81hzTjKhYrL._AC_SY400_.jpg"/>
+      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/61mqHQ-erjL._AC_SY400_.jpg"/>
       <Top_Apparels productImage = "https://m.media-amazon.com/images/I/51XZJwsgnmL._AC_SY200_.jpg"/>
       <Top_Apparels productImage = "https://m.media-amazon.com/images/I/61bPiEPsl4L._AC_SY400_.jpg"/>
       <Top_Apparels productImage = "https://m.media-amazon.com/images/I/61odCjaagJL._AC_SY400_.jpg"/>
