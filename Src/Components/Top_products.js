@@ -39,7 +39,15 @@ function Top_products() {
       <Shopgift productImage = "https://m.media-amazon.com/images/I/61hXNZ7p0-S._AC_SY200_.jpg"/>
       <Shopgift productImage = "https://m.media-amazon.com/images/I/61NnZ4V1nhL._AC_SY200_.jpg"/>
       <Shopgift productImage = "https://m.media-amazon.com/images/I/61tKEVbKaQL._AC_SY400_.jpg"/>    
-    </div>
+      <Shopgift productImage = "https://m.media-amazon.com/images/I/61bPiEPsl4L._AC_SY400_.jpg"/>
+      <Shopgift productImage = "https://m.media-amazon.com/images/I/61odCjaagJL._AC_SY400_.jpg"/>
+      <Shopgift productImage = "https://m.media-amazon.com/images/I/61hXNZ7p0-S._AC_SY200_.jpg"/>
+      <Shopgift productImage = "https://m.media-amazon.com/images/I/51XZJwsgnmL._AC_SY200_.jpg"/>
+      <Shopgift productImage = "https://m.media-amazon.com/images/I/61NnZ4V1nhL._AC_SY200_.jpg"/>
+      <Shopgift productImage = "https://m.media-amazon.com/images/I/61tKEVbKaQL._AC_SY400_.jpg"/>    
+      <Shopgift  productImage = "https://m.media-amazon.com/images/I/51LS7arqYHL._AC_SY200_.jpg"/>
+      <Shopgift productImage = "https://m.media-amazon.com/images/I/51Mj5OtsMvL._AC_SY200_.jpg"/>
+      </div>
     <div className = "text-dark p-1 hover:rounded-full hover:bg-gray-500 hover:text-white cursor-pointer" onClick={rightScroll}>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
   <path fillRule="evenodd" d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z" clipRule="evenodd" />
