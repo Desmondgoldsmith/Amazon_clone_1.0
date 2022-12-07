@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 function Fitness_and_Toys({title,productImage,link}) {
   return (
-    <div className='bg-white p-6 border-2 border-red-600  truncate-normal w-[325px] z-30 h-[400px]  mb-2 shrink-0'>
-      <p className='font-extrabold  text-xl text-black'>{title}</p>
+    <div className='bg-white p-6 border-2 border-red-600   w-[325px] z-30 h-[400px]  mb-2 shrink-0'>
+      <p className='font-extrabold whitespace-normal text-xl'>{title}</p>
       <Image src={productImage} alt='product images'
         width={180}
         height={400}
