@@ -75,7 +75,7 @@ function Top_products() {
       <Top_Apparels productImage = "https://m.media-amazon.com/images/I/71DEBeVBnmL._AC_SY400_.jpg"/>
       <Top_Apparels productImage = "https://m.media-amazon.com/images/I/71r8rv62cZL._AC_SY400_.jpg"/>
       <Top_Apparels productImage = "https://m.media-amazon.com/images/I/81s5Hcf4VcL._AC_SY400_.jpg"/>
-      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/61NnZ4V1nhL._AC_SY200_.jpg"/>
+      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/71okvN+6QiL._AC_SY400_.jpg"/>
       <Top_Apparels productImage = "https://m.media-amazon.com/images/I/61tKEVbKaQL._AC_SY400_.jpg"/>    
       <Top_Apparels productImage = "https://m.media-amazon.com/images/I/61bPiEPsl4L._AC_SY400_.jpg"/>
       <Top_Apparels productImage = "https://m.media-amazon.com/images/I/61odCjaagJL._AC_SY400_.jpg"/>
