@@ -1,4 +1,6 @@
 import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 
 function Fitness_and_Toys({header,productImage}) {
   return (
