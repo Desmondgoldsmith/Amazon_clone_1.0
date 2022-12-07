@@ -38,7 +38,7 @@ function Top_products() {
       <Shopgift productImage = "https://m.media-amazon.com/images/I/61dYy8ZB8LL._AC_SY200_.jpg"/>
       <Shopgift productImage = "https://m.media-amazon.com/images/I/61hXNZ7p0-S._AC_SY200_.jpg"/>
       <Shopgift productImage = "https://m.media-amazon.com/images/I/61NnZ4V1nhL._AC_SY200_.jpg"/>
-      <Shopgift productImage = ""/>    
+      <Shopgift productImage = "https://m.media-amazon.com/images/I/61tKEVbKaQL._AC_SY400_.jpg"/>    
     </div>
     <div className = "text-dark p-1 hover:rounded-full hover:bg-gray-500 hover:text-white cursor-pointer" onClick={rightScroll}>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
