@@ -1,4 +1,5 @@
 import React,{useRef} from 'react'
+import Top_Apparels from './Top_Apparels'
 import Top_books from './Top_books'
 
 function Top_products() {
@@ -68,22 +69,22 @@ function Top_products() {
         </svg>
     </div> 
     <div className='flex overflow-x-scroll scrollbar-hide' ref = {lisrRef}>
-      <Top_books  productImage = "https://m.media-amazon.com/images/I/51LS7arqYHL._AC_SY200_.jpg"/>
-      <Top_books productImage = "https://m.media-amazon.com/images/I/51Mj5OtsMvL._AC_SY200_.jpg"/>
-      <Top_books productImage = "https://m.media-amazon.com/images/I/51XZJwsgnmL._AC_SY200_.jpg"/>
-      <Top_books productImage = "https://m.media-amazon.com/images/I/61bPiEPsl4L._AC_SY400_.jpg"/>
-      <Top_books productImage = "https://m.media-amazon.com/images/I/61odCjaagJL._AC_SY400_.jpg"/>
-      <Top_books productImage = "https://m.media-amazon.com/images/I/61hXNZ7p0-S._AC_SY200_.jpg"/>
-      <Top_books productImage = "https://m.media-amazon.com/images/I/61NnZ4V1nhL._AC_SY200_.jpg"/>
-      <Top_books productImage = "https://m.media-amazon.com/images/I/61tKEVbKaQL._AC_SY400_.jpg"/>    
-      <Top_books productImage = "https://m.media-amazon.com/images/I/61bPiEPsl4L._AC_SY400_.jpg"/>
-      <Top_books productImage = "https://m.media-amazon.com/images/I/61odCjaagJL._AC_SY400_.jpg"/>
-      <Top_books productImage = "https://m.media-amazon.com/images/I/61hXNZ7p0-S._AC_SY200_.jpg"/>
-      <Top_books productImage = "https://m.media-amazon.com/images/I/51XZJwsgnmL._AC_SY200_.jpg"/>
-      <Top_books productImage = "https://m.media-amazon.com/images/I/61NnZ4V1nhL._AC_SY200_.jpg"/>
-      <Top_books productImage = "https://m.media-amazon.com/images/I/61tKEVbKaQL._AC_SY400_.jpg"/>    
-      <Top_books  productImage = "https://m.media-amazon.com/images/I/51LS7arqYHL._AC_SY200_.jpg"/>
-      <Top_books productImage = "https://m.media-amazon.com/images/I/51Mj5OtsMvL._AC_SY200_.jpg"/>
+      <Top_Apparels  productImage = "https://m.media-amazon.com/images/I/51LS7arqYHL._AC_SY200_.jpg"/>
+      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/51Mj5OtsMvL._AC_SY200_.jpg"/>
+      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/51XZJwsgnmL._AC_SY200_.jpg"/>
+      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/61bPiEPsl4L._AC_SY400_.jpg"/>
+      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/61odCjaagJL._AC_SY400_.jpg"/>
+      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/61hXNZ7p0-S._AC_SY200_.jpg"/>
+      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/61NnZ4V1nhL._AC_SY200_.jpg"/>
+      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/61tKEVbKaQL._AC_SY400_.jpg"/>    
+      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/61bPiEPsl4L._AC_SY400_.jpg"/>
+      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/61odCjaagJL._AC_SY400_.jpg"/>
+      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/61hXNZ7p0-S._AC_SY200_.jpg"/>
+      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/51XZJwsgnmL._AC_SY200_.jpg"/>
+      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/61NnZ4V1nhL._AC_SY200_.jpg"/>
+      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/61tKEVbKaQL._AC_SY400_.jpg"/>    
+      <Top_Apparels  productImage = "https://m.media-amazon.com/images/I/51LS7arqYHL._AC_SY200_.jpg"/>
+      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/51Mj5OtsMvL._AC_SY200_.jpg"/>
       </div>
     <div className = "text-dark p-1 hover:rounded-full hover:bg-gray-500 hover:text-white cursor-pointer" onClick={rightScroll}>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
