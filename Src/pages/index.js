@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Banner from '../Components/Banner'
 import Category_component from '../Components/Category_component'
 import Header from '../Components/Header'
+import Top_fittness_and_Toys from '../Components/Top_fittness_and_Toys'
 import Top_products from '../Components/Top_products'
 
 export default function Home() {
@@ -23,6 +24,7 @@ return (
         {/* gift component */}
         <Top_products/>
         {/* fitness and Toys component */}
+        <Top_fittness_and_Toys/>
       </main>
     </div>
   )
