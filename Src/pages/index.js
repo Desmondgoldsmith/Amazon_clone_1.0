@@ -22,6 +22,7 @@ return (
         <Category_component />
         {/* gift component */}
         <Top_products/>
+        {/* fitness and Toys component */}
       </main>
     </div>
   )
