@@ -59,9 +59,9 @@ function Top_products() {
    </div>
     </div>
 
-    {/* Rendering the apparel top products here  */}
+    {/* Rendering the apparel top products here from the Top_apparel component  */}
     <div className='h-[250px] ml-8 mr-11 mb-20 bg-white '>
-  <p className='pl-8 text-lg font-bold'>Top sellers in books for you</p>
+  <p className='pl-8 text-lg font-bold'>Popular products in Apparel internationally</p>
     <div className='flex items-center'>
       <div className = "text-dark p-1 hover:rounded-full hover:bg-gray-500 hover:text-white cursor-pointer" onClick={leftScroll}>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 ">
