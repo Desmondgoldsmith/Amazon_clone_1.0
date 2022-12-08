@@ -3,8 +3,9 @@ import Image from 'next/image'
 
 function Signin() {
   return (
-    <div className='bg-[rgb(255,255,255)]'>
-      <div className='flex flex-col justify-center items-center'>
+    <div className='bg-[rgb(255,255,255)] grid justify-items-stretch'>
+    {/* logo */}
+      <div className='justify-self-center'>
         <Image 
         src = "http://g-ec2.images-amazon.com/images/G/01/social/api-share/amazon_logo_500500._V323939215_.png"
         alt = "logo"
@@ -12,6 +13,12 @@ function Signin() {
         height = {150} 
         />
       </div>
+      {/* sign-in form */}
+    <div className='border w-[500px] justify-self-center'>
+        <h1>Boyz</h1>
+      </div>
+      
+
     </div>
   )
 }
