@@ -30,7 +30,7 @@ function Signin() {
         <label for = "name" className='font-bold grid mb-2 mt-2'>Re-enter password</label>
         <input className='rounded-md border w-[400px] text-[15px] border-gray-400 grid p-1' type="text" id='name' name='name'/>
         
-        <button className='bg-[rgb(240,197,97)] w-[400px] h-[40px]'>Continue</button>
+        <button className='bg-[rgb(240,197,97)] w-[400px] h-[40px] mt-3'>Continue</button>
          </form>
       </div>
       
