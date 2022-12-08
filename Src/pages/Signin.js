@@ -14,11 +14,11 @@ function Signin() {
         />
       </div>
       {/* sign-in form */}
-    <div className='border w-[500px] justify-self-center pl-3 pr-3'>
+    <div className='border w-[450px] justify-self-center pl-3 pr-3'>
         <h1 className='text-[30px]'>Create account</h1>
         <form className='mt-6'> 
         <label for = "name" className='font-bold grid mb-2'>Your name</label>
-        <input className='rounded-sm border border-gray-400 grid' type="text" id='name' name='name' />
+        <input className='rounded-sm border w-[400px] text-[18px] border-gray-400 grid p-1' type="text" id='name' name='name' placeholder='First and Last Name' />
          </form>
       </div>
       
