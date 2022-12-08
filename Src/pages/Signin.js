@@ -16,6 +16,9 @@ function Signin() {
       {/* sign-in form */}
     <div className='border w-[500px] justify-self-center'>
         <h1 className='text-[30px]'>Create account</h1>
+        <form> 
+        <label for = "name" className='font-bold'>Your name</label>
+         </form>
       </div>
       
 
