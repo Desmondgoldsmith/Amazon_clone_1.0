@@ -22,6 +22,9 @@ function Signin() {
 
         <label for = "name" className='font-bold grid mb-2 mt-2'>Mobile number or email</label>
         <input className='rounded-md border w-[400px] text-[18px] border-gray-400 grid p-1' type="text" id='name' name='name' />
+        
+        <label for = "name" className='font-bold grid mb-2 mt-2'>Password</label>
+        <input className='rounded-md border w-[400px] text-[18px] border-gray-400 grid p-1' type="text" id='name' name='name' placeholder='At least 6 characters' />
          </form>
       </div>
       
