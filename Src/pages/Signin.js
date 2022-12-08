@@ -15,7 +15,7 @@ function Signin() {
       </div>
       {/* sign-in form */}
     <div className='border w-[500px] justify-self-center'>
-        <h1>Boyz</h1>
+        <h1>Create account</h1>
       </div>
       
 
