@@ -18,13 +18,14 @@ function Signin() {
         <h1 className='text-[30px]'>Create account</h1>
         <form className='mt-6'> 
         <label for = "name" className='font-bold grid mb-2'>Your name</label>
-        <input className='rounded-md border w-[400px] text-[18px] border-gray-400 grid p-1' type="text" id='name' name='name' placeholder='First and last name' />
+        <input className='rounded-md border w-[400px] text-[15px] border-gray-400 grid p-1' type="text" id='name' name='name' placeholder='First and last name' />
 
         <label for = "name" className='font-bold grid mb-2 mt-2'>Mobile number or email</label>
-        <input className='rounded-md border w-[400px] text-[18px] border-gray-400 grid p-1' type="text" id='name' name='name' />
+        <input className='rounded-md border w-[400px] text-[15px] border-gray-400 grid p-1' type="text" id='name' name='name' />
         
         <label for = "name" className='font-bold grid mb-2 mt-2'>Password</label>
-        <input className='rounded-md border w-[400px] text-[18px] border-gray-400 grid p-1' type="text" id='name' name='name' placeholder='At least 6 characters' />
+        <input className='rounded-md border w-[400px] text-[15px] border-gray-400 grid p-1' type="text" id='name' name='name' placeholder='At least 6 characters' />
+         <p className='text-xs'>Passwords must be at least 6 characters long</p>
          </form>
       </div>
       
