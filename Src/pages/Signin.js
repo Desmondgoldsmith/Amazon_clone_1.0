@@ -18,7 +18,10 @@ function Signin() {
         <h1 className='text-[30px]'>Create account</h1>
         <form className='mt-6'> 
         <label for = "name" className='font-bold grid mb-2'>Your name</label>
-        <input className='rounded-sm border w-[400px] text-[18px] border-gray-400 grid p-1' type="text" id='name' name='name' placeholder='First and Last Name' />
+        <input className='rounded-md border w-[400px] text-[18px] border-gray-400 grid p-1' type="text" id='name' name='name' placeholder='First and last name' />
+
+        <label for = "name" className='font-bold grid mb-2 mt-2'>Mobile number or email</label>
+        <input className='rounded-md border w-[400px] text-[18px] border-gray-400 grid p-1' type="text" id='name' name='name' />
          </form>
       </div>
       
