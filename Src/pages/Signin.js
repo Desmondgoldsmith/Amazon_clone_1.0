@@ -35,7 +35,7 @@ function Signin() {
          <p className='text-xs mt-3'>By creating an account, you agree to Amazon's <span className='text-blue-500'>Conditions of Use</span>  and <span className='text-blue-500'>Privacy Notice</span>.</p>
          
          </form>
-         <hr className='mt-4 mb-4 w-[250px] justify-self-center items-center'/>
+         <hr className='mt-4 mb-4 w-[250px] justify-self-center'/>
          <p  className='text-sm'>Already have an account? <span className='text-blue-500'>Sign in</span> </p>
          <p className='text-sm mb-3'>Buying for work? <span className='text-blue-500'>Create a free business account</span> </p>
       </div>
