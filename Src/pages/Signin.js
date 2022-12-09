@@ -16,7 +16,7 @@ function Signin() {
       {/* sign-in form */}
     <div className='border w-[400px] justify-self-center pl-3 pr-3'>
         <h1 className='text-[30px]'>Create account</h1>
-        <form className='mt-6'> 
+        <form className='mt-3'> 
         <label for = "name" className='font-bold grid mb-2'>Your name</label>
         <input className='rounded-md border w-[370px] text-[15px] border-gray-400 grid p-1' type="text" id='name' name='name' placeholder='First and last name' />
 
