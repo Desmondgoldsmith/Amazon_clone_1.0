@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 function Signin() {
   const router = useRouter()
   return (
-    <div onClick={()=>router('/')} className='bg-[rgb(255,255,255)] grid justify-items-stretch -mt-[30px]'>
+    <div onClick={()=>router.push('/')} className='bg-[rgb(255,255,255)] grid justify-items-stretch -mt-[30px]'>
     {/* logo */}
       <div className='justify-self-center'>
         <Image 
