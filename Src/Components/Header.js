@@ -17,7 +17,7 @@ function Header() {
        <div className = 'text-white lg:hidden sm:flex hover:border border-white'>
        <Sidenav />
        </div>
-       <div className='mt-2 items-center flex-grow sm:flex-grow-0 hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer'>
+       <div onClick={()=>router('/')} className='mt-2 items-center flex-grow sm:flex-grow-0 hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer'>
          <Image src = 'https://pngimg.com/uploads/amazon/amazon_PNG25.png'
           width={100}
           height={20}
