@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Sidenav from './Sidenav'
 import Searchbar from './Searchbar'
+import {signIn, signOut , useSession} from "next-auth/client"
 
 function Header() {
   return (
