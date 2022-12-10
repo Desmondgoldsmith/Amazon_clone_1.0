@@ -168,7 +168,7 @@ function Header() {
   </svg>
 </p>
       </div>
-      <div className='hidden lg:block hover:border hoverable border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer group relative '>
+      <div onClick = {signIn} className='hidden lg:block hover:border hoverable border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer group relative '>
         <p>Hello,Desmond Goldsmith</p>
         <button className='font-extrabold link  text-sm flex '>Accounts & Lists
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
@@ -179,7 +179,7 @@ function Header() {
             <ul className="py-1">
                 <li>
                     <Link href="#" className="block text-center text-black hover:bg-gray-100">
-                       <button className='bg-yellow-400 p-3 w-60 font-bold  text-gray-700 rounded-md hover:bg-yellow-500 cursor-pointer'>Sign in</button>
+                       <button onClick = {signIn} className='bg-yellow-400 p-3 w-60 font-bold  text-gray-700 rounded-md hover:bg-yellow-500 cursor-pointer'>Sign in</button>
                        <p className = "text-center font-xs">New customer here ? <span className='hover:underline hover:text-blue-500'>start here</span></p>
                     </Link>
                 </li>
