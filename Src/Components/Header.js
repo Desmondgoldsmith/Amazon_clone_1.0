@@ -181,6 +181,9 @@ function Header() {
             <ul className="py-1">
                 <li>
                     <Link href="#" className="block text-center text-black hover:bg-gray-100">
+                       <p>{
+                        session ? `${session.user.name}` + <Image src={`${session.user.image}`} width = {50} height = {50} /> : ""
+                       }</p>
                        <button onClick = {()=>signIn()} className='bg-yellow-400 p-3 w-60 font-bold  text-gray-700 rounded-md hover:bg-yellow-500 cursor-pointer'>{session ? "Sign out" : "Sign in"}</button>
                        <p className = "text-center font-xs">New customer here ? <span className='hover:underline hover:text-blue-500'>start here</span></p>
                     </Link>
