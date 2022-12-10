@@ -7,6 +7,7 @@ import Searchbar from './Searchbar'
 import { useSession, signIn, signOut } from "next-auth/react"
 
 function Header() {
+  const [session] = useSession()
   return (
     <header>
       <div className='bg-[rgb(26,33,45)] flex p-1 items-center flex-grow'>
