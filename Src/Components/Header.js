@@ -169,8 +169,8 @@ function Header() {
   </svg>
 </p>
       </div>
-      <div onClick = {()=>signIn()} className='hidden lg:block hover:border hoverable border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer group relative '>
-        <p>{session ? `${session.user.name}` : "Sign-in"}</p>
+      <div className='hidden lg:block hover:border hoverable border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer group relative '>
+        <p onClick = {()=>signIn()} className = "font-bold">{session ? `${session.user.name}` : "Sign-in"}</p>
         <button className='font-extrabold link  text-sm flex '>Accounts & Lists
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
     <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clipRule="evenodd" />
