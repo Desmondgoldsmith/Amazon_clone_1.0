@@ -8,7 +8,7 @@ function Cart() {
 
       <div>
       {/* cart product section */}
-        <div className = "w-[400px] bg-white">
+        <div className = "w-[1200px] bg-white border-2 border-black">
             <p>Shopping Cart</p>
             <hr/>
         </div>
