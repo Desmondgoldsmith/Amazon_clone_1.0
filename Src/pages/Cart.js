@@ -3,7 +3,7 @@ import Header from '../Components/Header'
 
 function Cart() {
   return (
-    <div className = "bg-gray-200">
+    <div className = "bg-gray-200 ">
       <Header />
 
       <div className = "flex mt-[20px] ml-4 mr-4">
@@ -13,7 +13,7 @@ function Cart() {
             <p className = "text-right text-[13px] font-bold text-gray-500">price</p>
             <hr/>
             {/* // cart items */}
-            <div className = " mt-4 flex space-x-4">
+            <div className = " mt-4 flex space-x-4 mb-4">
             <div className = "">
               <img src="https://m.media-amazon.com/images/I/51LS7arqYHL._AC_SY200_.jpg"
                alt="cart image" 
@@ -28,8 +28,8 @@ function Cart() {
                   <p className = "text-[13px]">Gift options not available.<span className = "text-blue-500">Learn more</span> </p>
                   <p className='text-[13px]'><span className='font-bold'>Style:</span> Book</p>
                   </div>
-                  <div className=' w-[140px] -mr-4'>
-                    <p className = "text-[20px] text-right font-extrabold">$20.00</p>
+                  <div className=' w-[140px] -mr-2'>
+                    <p className = "text-[20px] text-right font-extrabold">$2000.00</p>
                   </div>
               </div>
              
@@ -54,9 +54,11 @@ function Cart() {
               </div>
             </div>
               
-              {/* sub total */}
-              <hr/>
+             
             </div>
+             {/* sub total */}
+              <hr/>
+              <p>Subtotal(1 item): $20.000 </p>
         </div>
         {/* total price section */}
         <div className = "w-[240px] bg-white ">
