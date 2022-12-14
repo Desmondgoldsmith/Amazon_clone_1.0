@@ -8,7 +8,7 @@ function Cart() {
 
       <div>
       {/* cart product section */}
-        <div className = "">
+        <div className = "w-[400px] bg-white">
             <p>Shopping Cart</p>
             <hr/>
         </div>
