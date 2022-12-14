@@ -40,9 +40,9 @@ function Cart() {
                   <option value="">10+</option>
                 </select>
 
-                <p>| <span className  = "text-blue-500 hover:text-underline">delete</span> |</p>
-                <p>| <span className  = "text-blue-500 hover:text-underline">save for later</span> |</p>
-                <p>| <span className  = "text-blue-500 hover:text-underline">compare with similar items</span> |</p>
+                <p className ="text-[15px]">| <span className  = "text-blue-500 hover:text-underline">delete</span> |</p>
+                <p className ="text-[15px]"> <span className  = "text-blue-500 hover:text-underline"> save for later</span> |</p>
+                <p className ="text-[15px]"> <span className  = "text-blue-500 hover:text-underline"> compare with similar items</span> |</p>
               </div>
             </div>
               
