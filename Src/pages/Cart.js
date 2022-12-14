@@ -25,7 +25,7 @@ function Cart() {
               <p className='text-green-600 text-[13px]'>In Stock</p>
               <p className = "text-[13px]">Gift options not available.<span className = "text-blue-500">Learn more</span> </p>
               <p className='text-[13px]'><span className='font-bold'>Style:</span> Book</p>
-              <div className = "flex items-center space-x-4">
+              <div className = "flex items-center space-x-4 cursor-pointer">
                 <select className='bg-gray-200 outline-none border border-gray-200 p-2 rounded-md' name="" id="">
                   <option value="Qty:1">Qty:1</option>
                   <option value="">1</option>
@@ -40,9 +40,9 @@ function Cart() {
                   <option value="">10+</option>
                 </select>
 
-                <p className ="text-[15px]">| <span className  = "text-blue-500 hover:text-underline">delete</span> |</p>
-                <p className ="text-[15px]"> <span className  = "text-blue-500 hover:text-underline"> save for later</span> |</p>
-                <p className ="text-[15px]"> <span className  = "text-blue-500 hover:text-underline"> compare with similar items</span> |</p>
+                <p className ="text-[15px]">| <span className  = "text-blue-500 hover:underline cursor-pointer">delete</span> |</p>
+                <p className ="text-[15px]"> <span className  = "text-blue-500 hover:underline cursor-pointer"> save for later</span> |</p>
+                <p className ="text-[15px]"> <span className  = "text-blue-500 hover:underline cursor-pointer"> compare with similar items</span> |</p>
               </div>
             </div>
               
