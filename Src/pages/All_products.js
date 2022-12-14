@@ -6,11 +6,15 @@ function All_products() {
     <div className = "flex" >
     <div className = " w-[1280px]">
       <Header/>
+
+      {/* page content  */}
+      <div>
+        
+      </div>
     </div>
     <div className = "w-[160px]">
     <h1>this is the cart section</h1>
     </div>
- 
     </div>
     </div>
   )
