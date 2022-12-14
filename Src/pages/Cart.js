@@ -5,6 +5,11 @@ function Cart() {
   return (
     <div>
       <Header />
+
+      <div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
   )
 }
