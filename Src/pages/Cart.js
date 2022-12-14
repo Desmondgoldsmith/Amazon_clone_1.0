@@ -8,7 +8,7 @@ function Cart() {
 
       <div className = "flex mt-[20px] ml-4 mr-4">
       {/* cart product section */}
-        <div className = "w-[1150px] mr-5 bg-white p-3">
+        <div className = "w-[1150px] mr-5 bg-white p-3 mb-5">
             <p className = "text-[25px]">Shopping Cart</p>
             <p className = "text-right text-[13px] font-bold text-gray-500">price</p>
             <hr/>
@@ -62,7 +62,7 @@ function Cart() {
         </div>
         {/* total price section */}
         <div className = "w-[240px] bg-white ">
-          <p>Subtotal</p>
+          <p className='text-[20px] text-right'>Subtotal</p>
         </div>
       </div>
     </div>
