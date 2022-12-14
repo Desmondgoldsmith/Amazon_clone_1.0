@@ -3,12 +3,12 @@ import Header from '../Components/Header'
 
 function Cart() {
   return (
-    <div className = "bg-gray-300">
+    <div className = "bg-gray-200">
       <Header />
 
-      <div className = "flex mt-[25px]">
+      <div className = "flex mt-[20px] ml-4 mr-4">
       {/* cart product section */}
-        <div className = "w-[1150px] bg-white border-2 border-black">
+        <div className = "w-[1150px] mr-5 bg-white border-2 border-black">
             <p>Shopping Cart</p>
             <hr/>
         </div>
