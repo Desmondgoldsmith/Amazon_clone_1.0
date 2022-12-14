@@ -22,14 +22,14 @@ function Cart() {
             </div>
             <div className='mb-4'>
               <div className='flex'>
-                  <div className ="border-2 border-green-600">
+                  <div className =" w-[800px]">
                   <p className='text-[20px]'>This is the product name and everything ypu are suppoded to know about the  product and blah .. blah ... blah ...  blah .... blahhhhhhhhhh</p>
                   <p className='text-green-600 text-[13px]'>In Stock</p>
                   <p className = "text-[13px]">Gift options not available.<span className = "text-blue-500">Learn more</span> </p>
                   <p className='text-[13px]'><span className='font-bold'>Style:</span> Book</p>
                   </div>
-                  <div>
-                    <p className = "text-[20px] font-extrabold border-2 border-red-600">$20.00</p>
+                  <div className=' w-[140px] -mr-4'>
+                    <p className = "text-[20px] text-right font-extrabold">$20.00</p>
                   </div>
               </div>
              
