@@ -9,8 +9,12 @@ function All_products() {
 
       {/* page content  */}
       <div className = "flex">
-       <div></div>
-       <div></div>
+       <div className="w-[300px] border-2 border-red-600">
+        <h1>Left component</h1>
+       </div>
+       <div className = "w-[900px] border-2 border-blue-600">
+        <h1>Right component</h1>
+       </div>
       </div>
     </div>
     <div className = "w-[160px]">
