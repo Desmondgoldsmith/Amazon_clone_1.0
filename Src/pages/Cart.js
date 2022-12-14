@@ -7,7 +7,9 @@ function Cart() {
       <Header />
 
       <div>
+      {/* cart product section */}
         <div></div>
+        {/* total price section */}
         <div></div>
       </div>
     </div>
