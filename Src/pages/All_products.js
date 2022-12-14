@@ -3,7 +3,14 @@ import Header from '../Components/Header'
 function All_products() {
   return (
     <div>
-     <Header/>
+    <div >
+    <div className = "border border-red-600">
+      <Header/>
+    </div>
+    <div className = "border border-red-600">
+    </div>
+ 
+    </div>
     </div>
   )
 }
