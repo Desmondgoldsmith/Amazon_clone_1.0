@@ -109,11 +109,11 @@ function All_products() {
       <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href = "/#">Leafael</Link></p>
 
       <p className='text-[16px] font-extrabold'> Price </p>
-      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href = "/#">Up to $25</Link></p>
-      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href = "/#">$25 to $50</Link></p>
-      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href = "/#">$50 to $100</Link> </p>
-      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href = "/#">$100 to $200</Link> </p>
-      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href = "/#">$200 & above</Link> </p>
+      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><input type = "checkbox"></input>  Up to $25</p>
+      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><input type = "checkbox"></input> $25 to $50</p>
+      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><input type = "checkbox"></input> $50 to $100 </p>
+      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><input type = "checkbox"></input> $100 to $200 </p>
+      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><input type = "checkbox"></input> $200 & above </p>
 
         
        </div>
