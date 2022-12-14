@@ -94,32 +94,26 @@ function All_products() {
       </div>
 
 {/*  */}
-      <p>Amazon Fashion</p>
-      <p>Our Brands</p>
-      <p> Premium Brands</p>
+      <p className='text-[16px] font-extrabold'>Amazon Fashion</p>
+      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href= "/#">Our Brands</Link></p>
+      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href= "/#">Premium Brands</Link> </p>
+      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href= "/#">Popular Brands</Link></p>
 
-      <p>Popular Brands</p>
-      <p>Brands</p>
+      <p className='text-[16px] font-extrabold'>Brands</p>
+      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href = "/#">JoycuFF</Link></p>
+      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href = "/#">adidas</Link> </p>
+      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href = "/#">UGG</Link>  </p>
+      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href = "/#">Clarks</Link> </p>
+      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href = "/#">Amazon Essentials</Link></p>
+      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href = "/#">Crocs</Link> </p>
+      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href = "/#">Leafael</Link></p>
 
-      <p>JoycuFF</p>
-
-      <p> adidas</p>
-
-      <p> UGG </p>
-
-      <p> Clarks</p>
-
-      <p>Amazon Essentials</p>
-
-      <p> Crocs</p>
-
-      <p>Leafael</p>
-      <p> Price </p>
-      <p>Up to $25</p>
-      <p>$25 to $50</p>
-      <p> $50 to $100</p>
-      <p> $100 to $200</p>
-      <p> $200 & above</p>
+      <p className='text-[16px] font-extrabold'> Price </p>
+      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href = "/#">Up to $25</Link></p>
+      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href = "/#">$25 to $50</Link></p>
+      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href = "/#">$50 to $100</Link> </p>
+      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href = "/#">$100 to $200</Link> </p>
+      <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href = "/#">$200 & above</Link> </p>
 
         
        </div>
