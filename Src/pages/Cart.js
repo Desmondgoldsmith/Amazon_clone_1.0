@@ -13,7 +13,7 @@ function Cart() {
             <hr/>
         </div>
         {/* total price section */}
-        <div></div>
+        <div className = "bg-white border-2 border-red-600"></div>
       </div>
     </div>
   )
