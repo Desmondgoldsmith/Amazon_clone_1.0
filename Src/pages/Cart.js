@@ -26,7 +26,7 @@ function Cart() {
               <p className = "text-[13px]">Gift options not available.<span className = "text-blue-500">Learn more</span> </p>
               <p className='text-[13px]'><span className='font-bold'>Style:</span> Book</p>
               <div>
-                <select className='bg-gray-300 outline-none border border-gray-300 p-2 rounded-md' name="" id="">
+                <select className='bg-gray-200 outline-none border border-gray-200 p-2 rounded-md' name="" id="">
                   <option value="">Qty:1</option>
                   <option value="">1</option>
                   <option value="">2</option>
@@ -37,7 +37,7 @@ function Cart() {
                   <option value="">7</option>
                   <option value="">8</option>
                   <option value="">9</option>
-                  <option value="">10</option>
+                  <option value="">10+</option>
                 </select>
               </div>
             </div>
