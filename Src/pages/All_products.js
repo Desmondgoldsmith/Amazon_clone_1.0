@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import Header from '../Components/Header'
 function All_products() {
@@ -11,14 +12,14 @@ function All_products() {
       <div className = "flex mt-5">
        <div className="w-[300px] border-2 border-red-600 p-1">
          <p className='text-[16px] font-extrabold'>Departments</p>
-         <p>Women's Fashion</p>
-         <p>Women's Shoes</p>
-        <p>Women's Clothing</p>
-        <p>Home & Kitchen</p>
-        <p>Men's Fashion</p>
-        <p>Boys' Fashion</p>
-        <p>Girls' Jewelry</p>
-        <p>Bath & Bathing Accessories</p>
+         <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href="#">Women's Fashion</Link> </p>
+         <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href="#">Women's Shoes</Link> </p>
+        <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href="#"> Women's Clothing</Link></p>
+        <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href="#">Home & Kitchen</Link> </p>
+        <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href="#">Men's Fashion</Link> </p>
+        <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href="#">Boys' Fashion</Link> </p>
+        <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href="#">Girls' Jewelry</Link> </p>
+        <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href="#">Bath & Bathing Accessories</Link> </p>
        </div>
        <div className = "w-[1000px] border-2 border-blue-600">
         <h1>Right component</h1>
