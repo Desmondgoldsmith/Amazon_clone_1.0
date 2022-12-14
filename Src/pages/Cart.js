@@ -20,7 +20,9 @@ function Cart() {
                className = "w-[200px]"
                />
             </div>
-            <div></div>
+            <div>
+              <p className='font-[15px]'>This is the product name and everything ypu are suppoded to know about the  product</p>
+            </div>
               
             </div>
         </div>
