@@ -93,6 +93,34 @@ function All_products() {
         </Link></p>
       </div>
 
+{/*  */}
+      <p>Amazon Fashion</p>
+      <p>Our Brands</p>
+      <p> Premium Brands</p>
+
+      <p>Popular Brands</p>
+      <p>Brands</p>
+
+      <p>JoycuFF</p>
+
+      <p> adidas</p>
+
+      <p> UGG </p>
+
+      <p> Clarks</p>
+
+      <p>Amazon Essentials</p>
+
+      <p> Crocs</p>
+
+      <p>Leafael</p>
+      <p> Price </p>
+      <p>Up to $25</p>
+      <p>$25 to $50</p>
+      <p> $50 to $100</p>
+      <p> $100 to $200</p>
+      <p> $200 & above</p>
+
         
        </div>
        <div className = "w-[1000px] p-2">
