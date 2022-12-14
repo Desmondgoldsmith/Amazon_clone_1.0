@@ -8,7 +8,10 @@ function Cart() {
 
       <div>
       {/* cart product section */}
-        <div></div>
+        <div className = "">
+            <p>Shopping Cart</p>
+            <hr/>
+        </div>
         {/* total price section */}
         <div></div>
       </div>
