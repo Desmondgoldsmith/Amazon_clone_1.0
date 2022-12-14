@@ -13,15 +13,17 @@ function Cart() {
             <p className = "text-right text-[13px] font-bold text-gray-500">price</p>
             <hr/>
             {/* // cart items */}
-            <div className = " mt-4">
-            <div className = "flex">
+            <div className = " mt-4 flex space-x-4">
+            <div className = "">
               <img src="https://m.media-amazon.com/images/I/51LS7arqYHL._AC_SY200_.jpg"
                alt="cart image" 
                className = "w-[200px]"
                />
             </div>
             <div>
-              <p className='text-[20px]'>This is the product name and everything ypu are suppoded to know about the  product</p>
+              <p className='text-[20px]'>This is the product name and everything ypu are suppoded to know about the  product and blah .. blah ... blah ...  blah .... blahhhhhhhhhh</p>
+              <p className='text-green-600 text-[13px]'>In Stock</p>
+              <p className = "text-[13px]">Gift options not available.Gift options not available.<span className = "text-blue-500">Learn more</span> </p>
             </div>
               
             </div>
