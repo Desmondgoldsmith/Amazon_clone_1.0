@@ -25,7 +25,7 @@ function Cart() {
               <p className='text-green-600 text-[13px]'>In Stock</p>
               <p className = "text-[13px]">Gift options not available.<span className = "text-blue-500">Learn more</span> </p>
               <p className='text-[13px]'><span className='font-bold'>Style:</span> Book</p>
-              <div className = "flex">
+              <div className = "flex items-center space-x-4">
                 <select className='bg-gray-200 outline-none border border-gray-200 p-2 rounded-md' name="" id="">
                   <option value="Qty:1">Qty:1</option>
                   <option value="">1</option>
