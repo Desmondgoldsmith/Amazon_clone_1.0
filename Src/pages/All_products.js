@@ -8,8 +8,9 @@ function All_products() {
       <Header/>
 
       {/* page content  */}
-      <div>
-        
+      <div className = "flex">
+       <div></div>
+       <div></div>
       </div>
     </div>
     <div className = "w-[160px]">
