@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import React from 'react'
 import Header from '../Components/Header'
+import Image from 'next/image'
+
 function All_products() {
     
   return (
@@ -11,7 +13,7 @@ function All_products() {
 
       {/* page content  */}
       <div className = "flex mt-5">
-       <div className="w-[300px] p-1">
+       <div className="w-[300px] p-2">
          <p className='text-[16px] font-extrabold'>Departments</p>
          <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href="/#">Women's Fashion</Link> </p>
          <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href="/#">Women's Shoes</Link> </p>
@@ -114,11 +116,20 @@ function All_products() {
       <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><input type = "checkbox"></input> $50 to $100 </p>
       <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><input type = "checkbox"></input> $100 to $200 </p>
       <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><input type = "checkbox"></input> $200 & above </p>
-
         
        </div>
        <div className = "w-[1000px] p-2">
-        <h1>Right component</h1>
+        <h1 className = "text-[20px] font-extrabold">RESULTS</h1>
+        <p>Price and other details may vary based on product size and color.</p>
+        {/* dixplay products */}
+        <div className='w-[180px] border-2 border-red-600'>
+          <Image 
+          src = "https://m.media-amazon.com/images/I/51LS7arqYHL._AC_SY200_.jpg"
+          alt = "product images"
+          width = {150}
+          height ={100}
+          />
+        </div>
        </div>
       </div>
     </div>
