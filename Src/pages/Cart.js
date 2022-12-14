@@ -61,8 +61,9 @@ function Cart() {
               <p className='text-[20px] text-right'>Subtotal(1 item): <span className='font-extrabold'>$20.000 </span> </p>
         </div>
         {/* total price section */}
-        <div className = "w-[240px] bg-white ">
-        <p className='text-[20px]'>Subtotal(1 item): <span className='font-extrabold'>$20.000 </span> </p>
+        <div className = "w-[240px] bg-white p-2 h-[200px]">
+        <p className='text-[18px]'>Subtotal(1 item): <span className='font-extrabold'>$20.000 </span> </p>
+        <button className = "w-[180] bg-yellow-300 p-2 rounded-lg">proceed to checkout</button>
         </div>
       </div>
     </div>
