@@ -23,7 +23,8 @@ function Cart() {
             <div>
               <p className='text-[20px]'>This is the product name and everything ypu are suppoded to know about the  product and blah .. blah ... blah ...  blah .... blahhhhhhhhhh</p>
               <p className='text-green-600 text-[13px]'>In Stock</p>
-              <p className = "text-[13px]">Gift options not available.Gift options not available.<span className = "text-blue-500">Learn more</span> </p>
+              <p className = "text-[13px]">Gift options not available.<span className = "text-blue-500">Learn more</span> </p>
+              <p className='text-[13px]'><span className='font-bold'>Style:</span></p>
             </div>
               
             </div>
