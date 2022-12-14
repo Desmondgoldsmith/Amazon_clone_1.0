@@ -14,14 +14,14 @@ function Cart() {
             <hr/>
             {/* // cart items */}
             <div className = " mt-4">
-            <div>
+            <div className = "flex">
               <img src="https://m.media-amazon.com/images/I/51LS7arqYHL._AC_SY200_.jpg"
                alt="cart image" 
                className = "w-[200px]"
                />
             </div>
             <div>
-              <p className='font-[15px]'>This is the product name and everything ypu are suppoded to know about the  product</p>
+              <p className='text-[20px]'>This is the product name and everything ypu are suppoded to know about the  product</p>
             </div>
               
             </div>
