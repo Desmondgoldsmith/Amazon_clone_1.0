@@ -62,7 +62,7 @@ function Cart() {
         </div>
         {/* total price section */}
         <div className = "w-[240px] bg-white ">
-          <p >Subtotal</p>
+        <p className='text-[20px]'>Subtotal(1 item): <span className='font-extrabold'>$20.000 </span> </p>
         </div>
       </div>
     </div>
