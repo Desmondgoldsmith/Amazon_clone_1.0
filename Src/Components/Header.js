@@ -272,7 +272,7 @@ function Header() {
         <p>Returns</p>
         <p className='font-extrabold  link text-sm'>& Orders</p>
       </div>
-      <div className='relative flex items-center hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer'>
+      <div onClick = {} className='relative flex items-center hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer'>
       <ShoppingCartIcon className='h-10' />
       <span className='absolute ml-4 z-50 bg-amazon_blue text-center px-0.5 mb-5 hover:no-underline text-orange-500 font-extrabold text-sm'>0</span>
 
