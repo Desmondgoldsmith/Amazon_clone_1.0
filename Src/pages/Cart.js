@@ -24,7 +24,22 @@ function Cart() {
               <p className='text-[20px]'>This is the product name and everything ypu are suppoded to know about the  product and blah .. blah ... blah ...  blah .... blahhhhhhhhhh</p>
               <p className='text-green-600 text-[13px]'>In Stock</p>
               <p className = "text-[13px]">Gift options not available.<span className = "text-blue-500">Learn more</span> </p>
-              <p className='text-[13px]'><span className='font-bold'>Style:</span></p>
+              <p className='text-[13px]'><span className='font-bold'>Style:</span> Book</p>
+              <div>
+                <select className='bg-gray-300 outline-none border border-gray-300 p-2 rounded-md' name="" id="">
+                  <option value="">Qty:1</option>
+                  <option value="">1</option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                  <option value="">4</option>
+                  <option value="">5</option>
+                  <option value="">6</option>
+                  <option value="">7</option>
+                  <option value="">8</option>
+                  <option value="">9</option>
+                  <option value="">10</option>
+                </select>
+              </div>
             </div>
               
             </div>
