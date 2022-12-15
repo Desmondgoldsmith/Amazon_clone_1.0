@@ -7,7 +7,10 @@ function Cart() {
   return (
     <div className = "bg-gray-200 ">
       <Header />
-
+      {/* incase user is not signed in */}
+      <div className = "mr-5 bg-white p-3 mb-5">
+        <p></p>
+       </div>
       <div className = "flex mt-[20px] ml-4 mr-4">
       {/* cart product section */}
         <div className = "w-[1150px] mr-5 bg-white p-3 mb-5">
