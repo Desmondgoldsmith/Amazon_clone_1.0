@@ -11,16 +11,20 @@ function Cart() {
       {/* cart product section */}
         <div className = "w-[1150px] mr-5 bg-white p-3 mb-5">
            {/* {items.length == 0 ? } */}
-            <div>
+            <div className ="flex">
             <div>
              <Image
-             src = ""
+             src = "https://m.media-amazon.com/images/G/01/cart/empty/kettle-desaturated._CB445243794_.svg"
              width = {100}
              height = {100}
-             className = ""
+             className = "w-[200px] h-[200px]"
              />
+            </div>
             <div>
-            <div><div>
+            <p className  = 'text-[23px] font-bold'>Your Amazon Cart is empty</p>
+            <p className ="text-[12px] text-blue-500 hover:underline hover:text-red-500">Shop today's deals</p>
+            <button className = "bg-yellow-400 p-2 rounded-md w-[150px]">sign into your account</button>
+            </div>
             </div>
             <p className = "text-[25px]">Shopping Cart</p>
             <p className = "text-right text-[13px] font-bold text-gray-500">price</p>
