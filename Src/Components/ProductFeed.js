@@ -1,11 +1,19 @@
 import React,{useState} from 'react'
 import Image from 'next/image'
+import {useDispatch} from "react-redux"
 
 const max_rating =  5;
 const min_rating = 1;
 
 
 function ProductFeed({products}) {
+
+  const dispatch = useDispatch()
+
+  const addToCart = () => {
+    
+  }
+
   // randomize the star icon
   const [rating] = useState(
     Math.floor(Math.random() * (max_rating - min_rating + 1)) + min_rating
@@ -45,7 +53,7 @@ function ProductFeed({products}) {
 
            
         <p>$<span className = "font-extrabold text-[18px]">{price}</span></p>   
-        <button className ="p-2 w-[220px] rounded-md bg-yellow-500 hover:bg-yellow-600">Add to cart</button>
+        <button onClick = {addToCart} className ="p-2 w-[220px] rounded-md bg-yellow-500 hover:bg-yellow-600">Add to cart</button>
         
           </div>
           </div>
