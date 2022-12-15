@@ -4,6 +4,7 @@ import useDispatch from 'react-redux'
 
 
 function ProductList({title,price,description,category,image,id}) {
+    const dispatch = useDispatch()
     const addCart = () =>{
         product = {
             title,
@@ -13,7 +14,7 @@ function ProductList({title,price,description,category,image,id}) {
             image,
             id
         }
-
+    dispatch()
     }
   return (
     <div>
