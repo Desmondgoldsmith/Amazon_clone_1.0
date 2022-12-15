@@ -6,14 +6,22 @@ function Cart() {
   const items = useSelector(selectItems)
   return (
     <div className = "bg-gray-200 ">
-      <Header />
-      {/* incase user is not signed in */}
-      <div className = "mr-5 bg-white p-3 mb-5">
-        <p></p>
-       </div>
+      <Header />    
       <div className = "flex mt-[20px] ml-4 mr-4">
       {/* cart product section */}
         <div className = "w-[1150px] mr-5 bg-white p-3 mb-5">
+           {/* {items.length == 0 ? } */}
+            <div>
+            <div>
+             <Image
+             src = ""
+             width = {100}
+             height = {100}
+             className = ""
+             />
+            <div>
+            <div><div>
+            </div>
             <p className = "text-[25px]">Shopping Cart</p>
             <p className = "text-right text-[13px] font-bold text-gray-500">price</p>
             <hr/>
