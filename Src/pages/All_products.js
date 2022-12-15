@@ -124,8 +124,10 @@ function All_products({products}) {
     <ProductFeed products = {products} />
       </div>
     </div>
-    <div className = "w-[160px] p-3">
+    <div className = "w-[160px] p-2 text-center">
     <p className ="text-sm font-bold">Subtotal</p>
+    <p className = "text-red-900 font-bold">$200</p>
+    <button className = "w-[140px] p-2 rounded-lg bg-gray-300">Go to cart</button>
     </div>
     </div>
     </div>
