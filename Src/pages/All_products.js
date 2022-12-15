@@ -3,12 +3,12 @@ import React from 'react'
 import Image from 'next/image'
 import Header from '../Components/Header'
 import ProductFeed from '../Components/ProductFeed'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/router';
 
 
 
 function All_products({products}) {
-  const router = useRouter()
+  const router = useRouter();
     
   return (
     <div>
