@@ -8,7 +8,7 @@ function ProductList({title,price,description,category,image,id}) {
     const dispatch = useDispatch()
    
     const addCart = () =>{
-        product = {
+       const product = {
             title,
             price,
             description,
