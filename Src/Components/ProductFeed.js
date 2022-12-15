@@ -2,7 +2,11 @@ import React,{useState} from 'react'
 import Image from 'next/image'
 
 function ProductFeed({products}) {
-  const [rating] = useState(3)
+  const max_rating =  5;
+  const min_rating = 1;
+  const [rating] = useState(
+    Math.floor(Math.random() * (max_rating - min_rating + 1)) + max_rating
+  )
   return (
     <div>
            
