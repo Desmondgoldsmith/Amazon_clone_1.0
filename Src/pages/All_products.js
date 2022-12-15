@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import React from 'react'
 import Header from '../Components/Header'
-import Image from 'next/image'
 import ProductFeed from '../Components/ProductFeed'
 
-function All_products() {
+
+
+function All_products({products}) {
     
   return (
     <div>
@@ -120,7 +121,7 @@ function All_products() {
         
        </div>
   {/* product feeds */}
-    <ProductFeed  />
+    <ProductFeed products = {products} />
       </div>
     </div>
     <div className = "w-[160px]">
@@ -128,7 +129,23 @@ function All_products() {
     </div>
     </div>
     </div>
+
+    
   )
+  
 }
+
+// 
+export async function getServerSideProps(context){
+  const products = await fetch("https://fakestoreapi.com/products").then(
+      (res) => res.json
+  );
+  return{
+    props:{
+      products,
+  }
+  }
+}
+
 
 export default All_products
