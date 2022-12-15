@@ -4,11 +4,12 @@ import Image from 'next/image'
 function ProductFeed({products}) {
   return (
     <div>
-           {products.map((product)=>(
+           
            <div className = "w-[1000px] p-2">
         <h1 className = "text-[20px] font-extrabold">RESULTS</h1>
         <p>Price and other details may vary based on product size and color.</p>
         {/* dixplay products */}
+        {products.map((product)=>(
         <div className='w-[200px]'>
           <Image 
           src = "https://m.media-amazon.com/images/I/51LS7arqYHL._AC_SY200_.jpg"
@@ -18,7 +19,7 @@ function ProductFeed({products}) {
           className ="w-[200px] h-[220px]"
           />
           <div className = "p-1">
-            <p className = "text-[16px] font-semibold">AnneMarie Borlind Facial Firming Gel, 50 ML</p>
+            <p className = "text-[16px] font-semibold">{product.title}</p>
           <div className = "text-yellow-500">
             <p className = "cursor-pointer text-[13px] ">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
@@ -31,8 +32,9 @@ function ProductFeed({products}) {
         
           </div>
           </div>
+          ))}
        </div>
-       ))}
+       
     </div>
   )
 }
