@@ -10,7 +10,7 @@ function ProductFeed({products}) {
         <p>Price and other details may vary based on product size and color.</p>
         {/* dixplay products */}
       <div className = "flex flex-wrap space-x-4 p-2">
-        {products.map((product)=>(
+        {products.map(({title,price,description,category,image,id})=>(
             <div className='w-[220px]'>
           <Image 
           src = "https://m.media-amazon.com/images/I/51LS7arqYHL._AC_SY200_.jpg"
@@ -20,7 +20,7 @@ function ProductFeed({products}) {
           className ="w-[220px] h-[220px]"
           />
           <div className = "p-1">
-            <p className = "text-[16px] font-semibold">{product.title}</p>
+            <p className = "text-[16px] font-semibold">{title}</p>
           <div className = "text-yellow-500">
             <p className = "cursor-pointer text-[13px] ">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
@@ -29,7 +29,7 @@ function ProductFeed({products}) {
           </p> 
         </div>
         <p>$<span className = "font-extrabold text-[18px]">54.99</span></p>   
-        <button className ="p-2 w-[190px] rounded-md bg-yellow-500 hover:bg-yellow-600">Add to cart</button>
+        <button className ="p-2 w-[220px] rounded-md bg-yellow-500 hover:bg-yellow-600">Add to cart</button>
         
           </div>
           </div>
