@@ -3,14 +3,13 @@ import Mixed_component from './Mixed_component'
 import Product_category from './Product_category'
 import Image from 'next/image'
 import Mobileview_Category from './Mobileview_Category'
-import {useRouter} from 'next/router'
 
 function Category_component() {
-  const router  = useRouter()
+  
   return (
     <div className='lg:ml-8 lg:mr-8 md:ml-4 md:mr-4 ml-2 mr-3 -mt-[50px] lg:mt-[-320px] md:-mt-[180px] space-y-5 '>
          <div className='hidden lg:flex md:flex z-30 space-x-5 whitespace-nowrap overflow-x-scroll scrollbar-hide '>
-      <Product_category onClick = {()=>router.push('/All_product')} link = "shop now" header = "Get fit at home" productImage = "https://images-na.ssl-images-amazon.com/images/G/01/events/GFAH/GWDesktop_SingleImageCard_fitathome_2x._SY608_CB434924743_.jpg" />
+      <Product_category  link = "shop now" header = "Get fit at home" productImage = "https://images-na.ssl-images-amazon.com/images/G/01/events/GFAH/GWDesktop_SingleImageCard_fitathome_2x._SY608_CB434924743_.jpg" />
       <Product_category link = "shop now" header = "Easy returns" productImage = "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Returns_2x._SY608_CB432774709_.jpg" />
       <Mixed_component link = "shop now" background_color = "red-600" header = "Shop by category" productImage1 = "https://raw.githubusercontent.com/Desmondgoldsmith/Amazon_clone_1.0/main/public/Images/computer.jpg" productImage2 = "https://raw.githubusercontent.com/Desmondgoldsmith/Amazon_clone_1.0/main/public/Images/PS4.jpg" productImage3 = "https://raw.githubusercontent.com/Desmondgoldsmith/Amazon_clone_1.0/main/public/Images/Baby240X-_SY170_CB468850909_.jpg" productImage4 = "https://raw.githubusercontent.com/Desmondgoldsmith/Amazon_clone_1.0/main/public/Images/Toys240X-_SY170_CB468851693_.jpg"  productName1 = "Computers & Acc" productName2 = "Video Games" productName3 = "Baby" productName4= "Toy & Games"/>
       <div className='p-1  w-[350px] z-30 lg:h-[400px] md:h-[400px] sm:h-[50] space-y-7 '>
