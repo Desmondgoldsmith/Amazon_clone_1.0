@@ -4,7 +4,7 @@ import Image from 'next/image'
 function ProductFeed({products}) {
   return (
     <div>
-           {products.map()=>}
+           {products.map((product)=>(
            <div className = "w-[1000px] p-2">
         <h1 className = "text-[20px] font-extrabold">RESULTS</h1>
         <p>Price and other details may vary based on product size and color.</p>
@@ -32,6 +32,7 @@ function ProductFeed({products}) {
           </div>
           </div>
        </div>
+       ))}
     </div>
   )
 }
