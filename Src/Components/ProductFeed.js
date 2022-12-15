@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import Image from 'next/image'
 import {useDispatch} from "react-redux"
+import addToCart from '../Slices/Cartslice'
 
 const max_rating =  5;
 const min_rating = 1;
@@ -10,8 +11,17 @@ function ProductFeed({products}) {
 
   const dispatch = useDispatch()
 
-  const addToCart = () => {
-    
+  const addCart = () => {
+    const product ={
+     title,
+    price,
+    description,
+    category,
+    image,
+    id 
+    }
+    // dispatching 'products' as action to the reduux store
+    dispatch(addToCart(product))
   }
 
   // randomize the star icon
