@@ -10,11 +10,11 @@ function All_products({products}) {
   return (
     <div>
     <div className = "flex" >
-    <div className = " w-[1280px]">
+    <div className = " w-[1280px] border border-r-black ">
       <Header/>
 
       {/* page content  */}
-      <div className = "flex mt-5">
+      <div className = "flex mt-5  ">
        <div className="w-[300px] p-2">
          <p className='text-[16px] font-extrabold'>Departments</p>
          <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href="/#">Women's Fashion</Link> </p>
