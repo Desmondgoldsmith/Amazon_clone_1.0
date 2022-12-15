@@ -8,7 +8,7 @@ import CartItems from "../Components/CartItems"
 function Cart() {
   const items = useSelector(selectItems)
   return (
-    <div className = "bg-gray-200 h-screen ">
+    <div className = "bg-gray-200 h-fit ">
       <Header />   
       {/* display this when cart is empty */} 
       {items.length == 0 ? 
