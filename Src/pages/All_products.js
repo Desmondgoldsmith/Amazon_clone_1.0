@@ -138,7 +138,7 @@ function All_products({products}) {
 // 
 export async function getServerSideProps(context){
   const products = await fetch("https://fakestoreapi.com/products").then(
-      (res) => JSON.parse(JSON.stringify(res))
+      (res) => res.json()
   );
   return{
     props:{
