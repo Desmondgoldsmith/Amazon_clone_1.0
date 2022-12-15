@@ -4,11 +4,14 @@ import Image from 'next/image'
 import Header from '../Components/Header'
 import ProductFeed from '../Components/ProductFeed'
 import { useRouter } from 'next/router';
+import {useSelector} from 'react-redux'
+import {useSelector} from '../Slices/Cartslice'
 
 
 
 function All_products({products}) {
   const router = useRouter();
+  const items = useSelector(selectItems)
     
   return (
     <div>
@@ -127,6 +130,9 @@ function All_products({products}) {
     <ProductFeed products = {products} />
       </div>
     </div>
+
+
+    {/* sidebar */}
     <div className = "w-[160px] p-2 text-center border border-l-black">
     <p className ="text-sm font-bold">Subtotal</p>
     <p className = "text-red-900 font-bold">$200</p>
