@@ -36,8 +36,9 @@ function Cart() {
             <p className = "text-[25px]">Shopping Cart</p>
             <p className = "text-right text-[13px] font-bold text-gray-500">price</p>
             <hr/>
-            
-            <CartItems />
+            {items.map((item) => (
+            <CartItems title={title} price={price} description={description} category={category} image = {image} id={id} key = {id}/>
+             ))}
               
               {/* sub total */}
               <p className='text-[20px] text-right'>Subtotal(1 item): <span className='font-extrabold'>$20.000 </span> </p>
