@@ -2,6 +2,8 @@ import React from 'react'
 import Header from '../Components/Header'
 import {useSelector} from "react-redux"
 import {selectItems} from "../Slices/Cartslice"
+import Image from 'next/image'
+
 function Cart() {
   const items = useSelector(selectItems)
   return (
