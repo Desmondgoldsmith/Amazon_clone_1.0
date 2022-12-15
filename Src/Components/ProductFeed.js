@@ -13,7 +13,7 @@ function ProductFeed({products}) {
         {products.map(({title,price,description,category,image,id})=>(
             <div className='w-[220px]'>
           <Image 
-          src = "https://m.media-amazon.com/images/I/51LS7arqYHL._AC_SY200_.jpg"
+          src = {image}
           alt = "product images"
           width = {150}
           height ={100}
@@ -28,7 +28,7 @@ function ProductFeed({products}) {
             </svg>
           </p> 
         </div>
-        <p>$<span className = "font-extrabold text-[18px]">54.99</span></p>   
+        <p>$<span className = "font-extrabold text-[18px]">{price}</span></p>   
         <button className ="p-2 w-[220px] rounded-md bg-yellow-500 hover:bg-yellow-600">Add to cart</button>
         
           </div>
