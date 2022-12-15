@@ -4,13 +4,11 @@ import Image from 'next/image'
 import Header from '../Components/Header'
 import ProductFeed from '../Components/ProductFeed'
 import { useRouter } from 'next/router';
-import {useSelector} from 'react-redux'
 
 
 
 function All_products({products}) {
   const router = useRouter();
-  const selector = useSelector()
     
   return (
     <div>

@@ -6,8 +6,12 @@ import Sidenav from './Sidenav'
 import Searchbar from './Searchbar'
 import { useSession, signIn, signOut } from "next-auth/react"
 import { useRouter } from 'next/router'
+import {useSelector} from 'react-redux'
+import {selectItems} from "../Slices/Cartslice"
 
 function Header() {
+   const items = useSelector(selectItems)
+
     const { data: session} = useSession() //storing user login details in session
     const router  = useRouter() //to get our router object
   return (
@@ -274,7 +278,7 @@ function Header() {
       </div>
       <div onClick = {() => router.push('/Cart')} className='relative flex items-center hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer'>
       <ShoppingCartIcon className='h-10' />
-      <span className='absolute ml-4 z-50 bg-amazon_blue text-center px-0.5 mb-5 hover:no-underline text-orange-500 font-extrabold text-sm'>0</span>
+      <span className='absolute ml-4 z-50 bg-amazon_blue text-center px-0.5 mb-5 hover:no-underline text-orange-500 font-extrabold text-sm'>{items.length}</span>
 
       <p className='hidden sm:inline font-extrabold link text-sm'>Cart</p>
       </div>
