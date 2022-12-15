@@ -9,15 +9,15 @@ function ProductFeed({products}) {
         <h1 className = "text-[20px] font-extrabold">RESULTS</h1>
         <p>Price and other details may vary based on product size and color.</p>
         {/* dixplay products */}
-      <div className = "flex border-2 border-red-600 flex-wrap space-x-8 p-2">
+      <div className = "flex border-2 border-red-600 flex-wrap space-x-4 p-2">
         {products.map((product)=>(
-            <div className='w-[200px]'>
+            <div className='w-[220px]'>
           <Image 
           src = "https://m.media-amazon.com/images/I/51LS7arqYHL._AC_SY200_.jpg"
           alt = "product images"
           width = {150}
           height ={100}
-          className ="w-[200px] h-[220px]"
+          className ="w-[220px] h-[220px]"
           />
           <div className = "p-1">
             <p className = "text-[16px] font-semibold">{product.title}</p>
