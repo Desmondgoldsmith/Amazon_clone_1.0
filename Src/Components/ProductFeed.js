@@ -26,7 +26,7 @@ function ProductFeed({products}) {
           className ="w-[220px] h-[220px]"
           />
           <div className = "p-1">
-            <p className = "text-[16px] font-semibold text-clip overflow-hidden">{title}</p>
+            <p className = "text-[16px] font-semibold truncate hover:overflow-visible hover:whitespace-normal ">{title}</p>
               <div className = "text-yellow-500 flex">
         {/* randomize the star icons */}
             {/* {Array(rating).fill().map((_, i) =>( */}
