@@ -5,7 +5,7 @@ import Header from '../Components/Header'
 import ProductFeed from '../Components/ProductFeed'
 import { useRouter } from 'next/router';
 import {useSelector} from 'react-redux'
-import {useSelector} from '../Slices/Cartslice'
+import {selectItems} from '../Slices/Cartslice'
 
 
 
