@@ -7,11 +7,11 @@ import Image from 'next/image'
 function Cart() {
   const items = useSelector(selectItems)
   return (
-    <div className = "bg-gray-200 ">
-      <Header />    
+    <div className = "bg-gray-200 h-[600px] ">
+      <Header />   
+      {/* display this when cart is empty */} 
       {items.length == 0 ? 
-      {/* display this when cart is empty */}
-      <div className ="flex bg-white ml-5 mr-5 mt-5 p-3 space-x-20 w-[1150px] mb-5">
+      <div className ="flex bg-white ml-5 mr-5 mt-5 p-3 space-x-20 w-[1150px]">
             <div>
              <Image
              src = "https://m.media-amazon.com/images/G/01/cart/empty/kettle-desaturated._CB445243794_.svg"
@@ -26,11 +26,7 @@ function Cart() {
             <button className = "bg-yellow-400 p-2 rounded-md w-[300px] pt-3">sign into your account</button>
             </div>
             </div>
-
-
-            :
-            
-            {/* else display this */}
+          :
 
       <div className = "flex mt-[20px] ml-4 mr-4">
       {/* cart product section */}
