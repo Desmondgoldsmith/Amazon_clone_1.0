@@ -1,6 +1,20 @@
 import React from 'react'
+import Image from 'next/image'
+import useDispatch from 'react-redux'
 
-function ProductList() {
+
+function ProductList({title,price,description,category,image,id}) {
+    const addCart = () =>{
+        product = {
+            title,
+            price,
+            description,
+            category,
+            image,
+            id
+        }
+
+    }
   return (
     <div>
         <div className='w-[220px]'>

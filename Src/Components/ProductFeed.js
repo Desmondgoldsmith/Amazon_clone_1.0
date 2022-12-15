@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
-import Image from 'next/image'
 import {useDispatch} from "react-redux"
 import addToCart from '../Slices/Cartslice'
+import ProductList from "./ProductList"
 
 const max_rating =  5;
 const min_rating = 1;
@@ -35,8 +35,7 @@ function ProductFeed({products}) {
         {/* dixplay products */}
       <div className = "flex flex-wrap space-x-4 p-2">
         {products.map(({title,price,description,category,image,id})=>(
-      
-
+        <ProductList title={title} price={price} description={description} category={category} image = {image} id={id} key = {id}/>
         ))}
       </div>
 
