@@ -4,14 +4,14 @@ function CartItems({title,price,description,category,image,id}) {
   return (
     <div>
               {/* // cart items */}
-              <div className = " mt-4 flex space-x-4 mb-4">
+              <div className = " mt-4 flex space-x-4 mb-4 ">
             <div className = "">
               <img src={image}
                alt="cart image" 
                className = "w-[200px]"
                />
             </div>
-            <div className='mb-4'>
+            <div className='mb-4 space-y-3'>
               <div className='flex'>
                   <div className =" w-[800px]">
                   <p className='text-[20px]'>{title}</p>
