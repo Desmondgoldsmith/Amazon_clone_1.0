@@ -1,6 +1,4 @@
 import React,{useState} from 'react'
-import {useDispatch} from "react-redux"
-import addToCart from '../Slices/Cartslice'
 import ProductList from "./ProductList"
 
 const max_rating =  5;
