@@ -10,7 +10,7 @@ function All_products({products}) {
   return (
     <div>
     <div className = "flex" >
-    <div className = " w-[1280px] border border-r-black ">
+    <div className = " w-[1280px] ">
       <Header/>
 
       {/* page content  */}
@@ -124,8 +124,8 @@ function All_products({products}) {
     <ProductFeed products = {products} />
       </div>
     </div>
-    <div className = "w-[160px]">
-    <h1>this is the cart section</h1>
+    <div className = "w-[160px] p-3">
+    <p className ="text-sm font-bold">Subtotal</p>
     </div>
     </div>
     </div>
