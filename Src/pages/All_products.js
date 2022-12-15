@@ -134,6 +134,9 @@ function All_products({products}) {
 
     {/* sidebar */}
     <div className = "w-[160px] p-2 text-center border border-l-black">
+    {items.length == 0 ? 
+    <p className= "font-bold text-[18px]">Cart is empth !</p>
+    :
     <p className ="text-sm font-bold">Subtotal</p>
     <p className = "text-red-900 font-bold">$200</p>
     <button onClick = {()=>router.push('/Cart')} className = "w-[140px] p-2 rounded-lg bg-gray-300">Go to cart</button>
@@ -171,6 +174,7 @@ function All_products({products}) {
         </div>
     </div>
     <hr/>
+    }
     </div>
     </div>
     </div>
