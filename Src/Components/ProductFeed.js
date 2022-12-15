@@ -63,7 +63,7 @@ function ProductFeed({products}) {
 
            
         <p>$<span className = "font-extrabold text-[18px]">{price}</span></p>   
-        <button onClick = {addToCart} className ="p-2 w-[220px] rounded-md bg-yellow-500 hover:bg-yellow-600">Add to cart</button>
+        <button onClick = {()=>addCart()} className ="p-2 w-[220px] rounded-md bg-yellow-500 hover:bg-yellow-600">Add to cart</button>
         
           </div>
           </div>
