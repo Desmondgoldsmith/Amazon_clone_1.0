@@ -7,21 +7,6 @@ const min_rating = 1;
 
 function ProductFeed({products}) {
 
-  const dispatch = useDispatch()
-
-  const addCart = () => {
-    const product ={
-     title,
-    price,
-    description,
-    category,
-    image,
-    id 
-    }
-    // dispatching 'products' as action to the reduux store
-    dispatch(addToCart(product))
-  }
-
   // randomize the star icon
   const [rating] = useState(
     Math.floor(Math.random() * (max_rating - min_rating + 1)) + min_rating

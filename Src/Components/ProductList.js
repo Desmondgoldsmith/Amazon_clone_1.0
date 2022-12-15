@@ -6,6 +6,7 @@ import {addToCart} from '../Slices/Cartslice'
 
 function ProductList({title,price,description,category,image,id}) {
     const dispatch = useDispatch()
+   
     const addCart = () =>{
         product = {
             title,
@@ -15,6 +16,7 @@ function ProductList({title,price,description,category,image,id}) {
             image,
             id
         }
+    // dispatching 'products' as action to the reduux store
     dispatch(addToCart(product))
     }
   return (
