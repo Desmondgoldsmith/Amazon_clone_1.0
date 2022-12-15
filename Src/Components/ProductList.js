@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import useDispatch from 'react-redux'
+import {useDispatch} from 'react-redux'
+import {addToCart} from '../Slices/Cartslice'
 
 
 function ProductList({title,price,description,category,image,id}) {
@@ -14,7 +15,7 @@ function ProductList({title,price,description,category,image,id}) {
             image,
             id
         }
-    dispatch()
+    dispatch(addToCart(product))
     }
   return (
     <div>
