@@ -9,7 +9,7 @@ function ProductFeed({products}) {
         <h1 className = "text-[20px] font-extrabold">RESULTS</h1>
         <p>Price and other details may vary based on product size and color.</p>
         {/* dixplay products */}
-      <div className = "flex border-2 border-red-600 flex-wrap space-x-4 p-2">
+      <div className = "flex flex-wrap space-x-4 p-2">
         {products.map((product)=>(
             <div className='w-[220px]'>
           <Image 
