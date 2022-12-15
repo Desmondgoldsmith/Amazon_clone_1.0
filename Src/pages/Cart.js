@@ -1,8 +1,9 @@
 import React from 'react'
 import Header from '../Components/Header'
-import {useSelector} from "../Slices/Cartslice"
+import {useSelector} from "react-redux"
+import {selectItems} from "../Slices/Cartslice"
 function Cart() {
-  const items = useSelector()
+  const items = useSelector(selectItems)
   return (
     <div className = "bg-gray-200 ">
       <Header />
