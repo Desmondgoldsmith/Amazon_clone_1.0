@@ -9,6 +9,7 @@ function Cart() {
   return (
     <div className = "bg-gray-200 ">
       <Header />    
+      {items.length == 0 ? 
       <div className ="flex bg-white ml-5 mr-5 mt-5 p-3 space-x-20 w-[1150px]">
             <div>
              <Image
@@ -24,6 +25,7 @@ function Cart() {
             <button className = "bg-yellow-400 p-2 rounded-md w-[300px] pt-3">sign into your account</button>
             </div>
             </div>
+            :
       <div className = "flex mt-[20px] ml-4 mr-4">
       {/* cart product section */}
         <div className = "w-[1150px] mr-5 bg-white p-3 mb-5">
@@ -85,6 +87,7 @@ function Cart() {
         <button className = "w-[220px] bg-yellow-300 p-2 rounded-lg hover:bg-yellow-500">proceed to checkout</button>
         </div>
       </div>
+    }
     </div>
   )
 }
