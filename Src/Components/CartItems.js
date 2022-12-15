@@ -1,12 +1,12 @@
 import React from 'react'
 
-function CartItems() {
+function CartItems({title,price,description,category,image,id}) {
   return (
     <div>
               {/* // cart items */}
               <div className = " mt-4 flex space-x-4 mb-4">
             <div className = "">
-              <img src="https://m.media-amazon.com/images/I/51LS7arqYHL._AC_SY200_.jpg"
+              <img src={image}
                alt="cart image" 
                className = "w-[200px]"
                />
@@ -14,13 +14,14 @@ function CartItems() {
             <div className='mb-4'>
               <div className='flex'>
                   <div className =" w-[800px]">
-                  <p className='text-[20px]'>This is the product name and everything ypu are suppoded to know about the  product and blah .. blah ... blah ...  blah .... blahhhhhhhhhh</p>
+                  <p className='text-[20px]'>{title}</p>
                   <p className='text-green-600 text-[13px]'>In Stock</p>
                   <p className = "text-[13px]">Gift options not available.<span className = "text-blue-500">Learn more</span> </p>
-                  <p className='text-[13px]'><span className='font-bold'>Style:</span> Book</p>
+                  <p className = "text-[13px]">{description} </p>
+                  <p className='text-[13px]'><span className='font-bold'>Style:</span> {category}</p>
                   </div>
                   <div className=' w-[140px] -mr-2'>
-                    <p className = "text-[20px] text-right font-extrabold">$2000.00</p>
+                    <p className = "text-[20px] text-right font-extrabold">${price}</p>
                   </div>
               </div>
              
