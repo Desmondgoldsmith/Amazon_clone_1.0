@@ -13,7 +13,7 @@ function Product_category({link,header, productImage}) {
         height={400}
         className = 'h-[310px] w-[350px] whitespace-nowrap'
       />
-        <p className='text-blue-500 hover:text-red-600 hover:underline' onClick = {()=>router.push('/All_product')}>{link}</p>
+        <p className='text-blue-500 cursor-pointer hover:text-red-600 hover:underline' onClick = {()=>router.push('/All_products')}>{link}</p>
     </div>
   )
 }
