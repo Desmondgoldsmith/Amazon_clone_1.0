@@ -128,6 +128,12 @@ function All_products({products}) {
     <p className ="text-sm font-bold">Subtotal</p>
     <p className = "text-red-900 font-bold">$200</p>
     <button className = "w-[140px] p-2 rounded-lg bg-gray-300">Go to cart</button>
+    <Image
+      src = "https://m.media-amazon.com/images/I/51LS7arqYHL._AC_SY200_.jpg"
+      width ={50}
+      height = {50}
+      className = "w-[100px] h-[100px]"
+    />
     </div>
     </div>
     </div>
