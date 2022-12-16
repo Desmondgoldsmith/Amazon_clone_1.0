@@ -5,11 +5,12 @@ import { useSelector } from 'react-redux'
 import Header from '../Components/Header'
 import ProductFeed from '../Components/ProductFeed'
 import Products_bar from '../Components/Products_bar'
-import { selectItems } from '../Slices/Cartslice'
+import { selectItems, sumTotal } from '../Slices/Cartslice'
 
 function All_products({products}) {
  const items = useSelector(selectItems)
- const router = useRouter()
+ const router = useRouter() //for routing
+ const sum = useSelector(sumTotal) // sum total price of items in cart
   return (
     <div>
     <div className = "flex" >
@@ -136,7 +137,7 @@ function All_products({products}) {
     :
     <div>
     <p className ="text-sm font-bold">Subtotal</p>
-    <p className = "text-red-900 font-bold">$200</p>
+    <p className = "text-red-900 font-bold">${sum}</p>
     <button onClick = {()=>router.push('/Cart')} className = "w-[140px] p-2 rounded-lg bg-gray-300">Go to cart</button>
    
      {items.map((item)=>(
