@@ -11,7 +11,7 @@ function Cart() {
   const {data:session} = useSession()
   const items = useSelector(selectItems) 
   const router = useRouter()
-  
+
   return (
     <div className = "bg-gray-200 h-fit ">
       <Header />   
@@ -29,7 +29,7 @@ function Cart() {
             <div>
             <p className  = 'text-[23px] font-bold pt-10'>Your Amazon Cart is empty</p>
             <p className ="text-[12px] cursor-pointer text-blue-500 hover:underline hover:text-red-500">Shop today's deals</p>
-            <button onClick={`${!session ? signIn : router.push("/All_products")}`} className = {`bg-yellow-400 p-2 rounded-md w-[300px] pt-3`}>{!session ? "sign into your account" : "View products"}</button>
+            <button onClick={!session ? signIn : ()=>router.push("/All_products")} className = {`bg-yellow-400 p-2 rounded-md w-[300px] pt-3`}>{!session ? "sign into your account" : "View products"}</button>
             </div>
             </div>
           :
