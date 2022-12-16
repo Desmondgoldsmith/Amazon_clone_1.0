@@ -3,7 +3,8 @@ import Mixed_component from './Mixed_component'
 import Product_category from './Product_category'
 import Image from 'next/image'
 import Mobileview_Category from './Mobileview_Category'
-import {useSession} from 'next-auth/react'
+import {useSession , signIn , signOut} from 'next-auth/react'
+
 function Category_component() {
   const {data:session} = useSession()
   return (
