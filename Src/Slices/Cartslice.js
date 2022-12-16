@@ -10,7 +10,9 @@ export const cartSlice = createSlice({
   reducers: {
     addToCart: (state, action) => {state.items = [...state.items, action.payload]},
     removeFromCart: (state, action) => {
-      const index = state.items.findIndex(cartItems) => cartItems.id === action.payload.id
+      // getting the index of the product we want to delete
+      const index  = state.itmes.findIndex((cartItem) => cartItem.id === action.payload.id)
+      let newCart = [...state.items]
     },
   },
 });
