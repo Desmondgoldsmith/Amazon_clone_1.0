@@ -14,7 +14,8 @@ function ProductList({title,price,description,category,image,id}) {
     Math.floor(Math.random() * (max_rating - min_rating + 1)) + min_rating
   )
    
-    const addCart = () =>{
+    const addCart = (e) =>{
+      e.preventDefault();
        const product = {
             title,
             price,
@@ -49,7 +50,7 @@ function ProductList({title,price,description,category,image,id}) {
 
            
         <p>$<span className = "font-extrabold text-[18px]">{price}</span></p>   
-        <button onClick = {()=>addCart()} className ="p-2 w-[220px] rounded-md bg-yellow-500 hover:bg-yellow-600">Add to cart</button>
+        <button onClick = {(e)=>addCart(e)} className ="p-2 w-[220px] rounded-md bg-yellow-500 hover:bg-yellow-600">Add to cart</button>
         
           </div>
           </div>

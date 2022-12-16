@@ -8,7 +8,7 @@ import { useSession } from 'next-auth/react'
 
 function Cart() {
   const {data:session} = useSession()
-  const items = useSelector(selectItems)
+  const items = useSelector(selectItems) 
   return (
     <div className = "bg-gray-200 h-fit ">
       <Header />   
