@@ -9,7 +9,9 @@ export const cartSlice = createSlice({
   initialState,
   reducers: {
     addToCart: (state, action) => {state.items = [...state.items, action.payload]},
-    removeFromCart: (state, action) => {},
+    removeFromCart: (state, action) => {
+      const index = state.items.findIndex(cartItems) => cartItems.id === action.payload.id
+    },
   },
 });
 
