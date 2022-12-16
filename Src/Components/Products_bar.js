@@ -1,6 +1,7 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import {removeFromCart, selectItems} from  '../Slices/Cartslice'
+import Image from 'next/image'
 
 function Products_bar() {
     const dispatch = useDispatch()
