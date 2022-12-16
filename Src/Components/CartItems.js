@@ -40,7 +40,7 @@ function CartItems({title,price,description,category,image,id}) {
                   <option value="">10+</option>
                 </select>
 
-                <p className ="text-[14px]">| <span className  = "text-blue-500 hover:underline cursor-pointer">delete</span> |</p>
+                <p className ="text-[14px]">| <span  onClick = {()=>removeItem()} className  = "text-blue-500 hover:underline cursor-pointer">delete</span> |</p>
                 <p className ="text-[14px]"> <span className  = "text-blue-500 hover:underline cursor-pointer"> save for later</span> |</p>
                 <p className ="text-[14px]"> <span className  = "text-blue-500 hover:underline cursor-pointer"> compare with similar items</span> |</p>
               </div>
