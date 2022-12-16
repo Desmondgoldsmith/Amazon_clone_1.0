@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../Components/Header'
 import {useSelector} from "react-redux"
-import {selectItems} from "../Slices/Cartslice"
+import {selectItems, sumTotal} from "../Slices/Cartslice"
 import Image from 'next/image'
 import CartItems from "../Components/CartItems"
 import { useSession, signIn } from 'next-auth/react'
@@ -11,6 +11,8 @@ function Cart() {
   const {data:session} = useSession()
   const items = useSelector(selectItems) 
   const router = useRouter()
+  const sum = useSelector(sumTotal)
+
 
   return (
     <div className = "bg-gray-200 h-fit ">
@@ -46,13 +48,13 @@ function Cart() {
              ))}
               
               {/* sub total */}
-              <p className='text-[20px] text-right'>Subtotal(1 item): <span className='font-extrabold'>$20.000 </span> </p>
+              <p className='text-[20px] text-right'>Subtotal(1 item): <span className='font-extrabold'>${sum} </span> </p>
         </div>
         {/* total price section */}
         {/* prevent user form proceeding to checkout if ! signed in  */}
         
         <div className = "w-[240px] bg-white p-2 h-[120px]">
-        <p className='text-[18px]'>Subtotal(1 item): <span className='font-extrabold'>$20.000 </span> </p>
+        <p className='text-[18px]'>Subtotal(1 item): <span className='font-extrabold'>${sum} </span> </p>
           <button disabled = {!session} className = {`w-[220px] ${!session ? `bg-gray-300 cursor-not-allowed` : `bg-yellow-300 hover:bg-yellow-500` }  p-2 rounded-lg `}>{!session ? "sign-in first" :  "proceed to checkout"}</button>
         </div>
      
