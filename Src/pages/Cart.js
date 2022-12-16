@@ -50,7 +50,7 @@ function Cart() {
         
         <div className = "w-[240px] bg-white p-2 h-[120px]">
         <p className='text-[18px]'>Subtotal(1 item): <span className='font-extrabold'>$20.000 </span> </p>
-        <button className = "w-[220px] bg-yellow-300 p-2 rounded-lg hover:bg-yellow-500">{!session ? "sign-in first" :  "proceed to checkout"}</button>
+          <button disabled = {!session} className = {`w-[220px] ${!session ? `bg-gray-300 cursor-not-allowed` : `bg-yellow-300 hover:bg-yellow-500` }  p-2 rounded-lg `}>{!session ? "sign-in first" :  "proceed to checkout"}</button>
         </div>
      
       </div>
