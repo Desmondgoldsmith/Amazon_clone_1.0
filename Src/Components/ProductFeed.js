@@ -1,16 +1,9 @@
 import React,{useState} from 'react'
 import ProductList from "./ProductList"
 
-const max_rating =  5;
-const min_rating = 1;
-
-
 function ProductFeed({products}) {
 
-  // randomize the star icon
-  const [rating] = useState(
-    Math.floor(Math.random() * (max_rating - min_rating + 1)) + min_rating
-  )
+ 
   return ( 
            <div className = "w-[1000px] p-2">
         <h1 className = "text-[20px] font-extrabold">RESULTS</h1>

@@ -151,7 +151,7 @@ function All_products({products}) {
           height = {50}
           className = "w-[150px] h-[150px]"
         />
-        <p className = "text-base font-bold text-center">$ 1.00</p>
+        <p className = "text-base font-bold text-center">$ {item.price}</p>
         <div className ="flex space-x-1">
         <select className='bg-gray-200 outline-none border border-gray-200 p-2 rounded-md' name="" id="">
                   <option value="Qty:1">Qty:1</option>
@@ -176,7 +176,6 @@ function All_products({products}) {
           
         </div>
     </div>
-    <hr/>
     ))}
     </div>
     }
