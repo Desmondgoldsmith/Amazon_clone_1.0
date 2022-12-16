@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import {removeFromCart, selectItems} from  '../Slices/Cartslice'
 import Image from 'next/image'
 
-function Products_bar({id}) {
+function Products_bar({id,image,price}) {
     const dispatch = useDispatch()
     const items = useSelector(selectItems)
 
@@ -12,27 +12,17 @@ function Products_bar({id}) {
         dispatch(removeFromCart({id}))
       }
   return (
-    <div className='border border-l-black'>
-        {/* sidebar */}
-        <div className = "w-[160px] p-2 text-center ">
-    {/* if cart items is less than 0 show cart empty else .... */}
-    {items.length == 0 ? 
-    <p className= "font-bold text-[18px]">Cart is empty !</p>
-    :
     <div>
-    <p className ="text-sm font-bold">Subtotal</p>
-    <p className = "text-red-900 font-bold">$200</p>
-    <button onClick = {()=>router.push('/Cart')} className = "w-[140px] p-2 rounded-lg bg-gray-300">Go to cart</button>
-    {/* cart products preview */}
-    {items.map((item)=>(
+        {/* sidebar */}
+  {/* cart products preview */}
     <div className = "mt-5 mb-2">
     <Image
-          src = {item.image}
+          src = {image}
           width ={50}
           height = {50}
           className = "w-[150px] h-[150px]"
         />
-        <p className = "text-base font-bold text-center">$ {item.price}</p>
+        <p className = "text-base font-bold text-center">$ {price}</p>
         <div className ="flex space-x-1">
         <select className='bg-gray-200 outline-none border border-gray-200 p-2 rounded-md' name="" id="">
                   <option value="Qty:1">Qty:1</option>
@@ -56,10 +46,6 @@ function Products_bar({id}) {
 
           
         </div>
-    </div>
-    ))}
-    </div>
-    }
     </div>
     </div>
   )

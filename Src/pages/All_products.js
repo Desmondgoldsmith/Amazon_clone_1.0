@@ -1,14 +1,15 @@
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import React from 'react'
+import { useSelector } from 'react-redux'
 import Header from '../Components/Header'
 import ProductFeed from '../Components/ProductFeed'
 import Products_bar from '../Components/Products_bar'
-
-
-
+import { selectItems } from '../Slices/Cartslice'
 
 function All_products({products}) {
- 
+ const items = useSelector(selectItems)
+ const router = useRouter()
   return (
     <div>
     <div className = "flex" >
@@ -128,7 +129,23 @@ function All_products({products}) {
     </div>
 
      {/* sidebar fits here */}
-      <Products_bar id = {products.id}/>
+     <div className = "w-[160px] p-2 text-center border border-l-black">
+    {/* if cart items is less than 0 show cart empty else .... */}
+    {items.length == 0 ? 
+    <p className= "font-bold text-[18px]">Cart is empty !</p>
+    :
+    <div>
+    <p className ="text-sm font-bold">Subtotal</p>
+    <p className = "text-red-900 font-bold">$200</p>
+    <button onClick = {()=>router.push('/Cart')} className = "w-[140px] p-2 rounded-lg bg-gray-300">Go to cart</button>
+   
+     {items.map((item)=>(
+            <Products_bar id = {item.id} image = {item.image} price = {item.price} key={item.id} />
+     ))}
+    </div>
+    }
+    </div>
+
     </div>
     </div>
 
