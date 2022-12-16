@@ -19,6 +19,7 @@ export const cartSlice = createSlice({
       }else{
         console.warn(`the product with id of ${state.items.id} does not exist`)
       }
+      state.items = newCart;
     },
   },
 });
