@@ -8,7 +8,7 @@ import { useSession, signIn } from 'next-auth/react'
 import { useRouter } from 'next/router'
 
 function Cart() {
-  const {data:session} = useSession() //get the actual session state at the moment
+  const {data:session} = useSession() //get the actual session state at the moment ie. if the user is logged in or out
   const items = useSelector(selectItems) 
   const router = useRouter() //for routing purposes
   const sum = useSelector(sumTotal)// sum total price of items in cart
