@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
-import {useSession , signIn , signOut} from "next-auth/react"
+import {useSession , signIn , signOut , getSession} from "next-auth/react"
 
 function Signin() {
   const router = useRouter() //creating a router object to be able to use it in our routes
