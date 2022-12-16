@@ -48,5 +48,8 @@ function Signin() {
     </div>
   )
 }
-
+// using server side auth
+export async function getServerSideProps(context){
+  
+}
 export default Signin
