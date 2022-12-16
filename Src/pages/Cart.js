@@ -7,7 +7,7 @@ import CartItems from "../Components/CartItems"
 import { useSession } from 'next-auth/react'
 
 function Cart() {
-  const [session] = useSession()
+  const {data:session} = useSession()
   const items = useSelector(selectItems)
   return (
     <div className = "bg-gray-200 h-fit ">
