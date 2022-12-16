@@ -13,7 +13,7 @@ function ProductList({title,price,description,category,image,id}) {
   const [rating] = useState(
     Math.floor(Math.random() * (max_rating - min_rating + 1)) + min_rating
   )
-   
+  //  adding to cart
     const addCart = (e) =>{
       e.preventDefault();
        const product = {
