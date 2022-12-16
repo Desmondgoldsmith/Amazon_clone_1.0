@@ -19,7 +19,7 @@ function Cart() {
       <Header />   
       {/* display this when cart is empty */} 
       {items.length == 0 ? 
-      <div className ="flex bg-white ml-5 mr-5 mt-5 p-3 space-x-20 w-[1150px]">
+      <div className ="flex bg-white ml-5 mr-5 mb-5 border-2 border-red-600 mt-5 p-3 space-x-20 w-[1150px]">
             <div>
              <Image
              src = "https://m.media-amazon.com/images/G/01/cart/empty/kettle-desaturated._CB445243794_.svg"
