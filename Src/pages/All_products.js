@@ -143,9 +143,10 @@ function All_products({products}) {
     <p className = "text-red-900 font-bold">$200</p>
     <button onClick = {()=>router.push('/Cart')} className = "w-[140px] p-2 rounded-lg bg-gray-300">Go to cart</button>
     {/* cart products preview */}
+    {items.map((item)=>(
     <div className = "mt-5 mb-2">
     <Image
-          src = "https://m.media-amazon.com/images/I/51LS7arqYHL._AC_SY200_.jpg"
+          src = {item.image}
           width ={50}
           height = {50}
           className = "w-[150px] h-[150px]"
@@ -176,6 +177,7 @@ function All_products({products}) {
         </div>
     </div>
     <hr/>
+    ))}
     </div>
     }
     </div>
