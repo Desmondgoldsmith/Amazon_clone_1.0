@@ -1,6 +1,11 @@
 import React from 'react'
+import useDispatch from 'react-redux'
 
 function CartItems({title,price,description,category,image,id}) {
+  const dispatch = useDispatch() //creating an object of the useDispatch func
+  const removeItem = () =>{
+    dispatch()
+  }
   return (
     <div>
               {/* // cart items */}
