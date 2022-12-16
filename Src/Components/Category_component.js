@@ -15,7 +15,7 @@ function Category_component() {
       <div className='p-1  w-[350px] z-30 lg:h-[400px] md:h-[400px] sm:h-[50] space-y-7 '>
         <div className='bg-white p-6'>
             <p className='font-extrabold text-xl whitespace-normal'>Sign in for the best experience</p>
-            <button onClick = {} className='p-1 bg-yellow-300 w-[280px] rounded-md hover:bg-yellow-500'>sign in securely</button>
+            <button onClick = {!session ? signIn : signOut} className='p-1 bg-yellow-300 w-[280px] rounded-md hover:bg-yellow-500'>sign in securely</button>
         </div>
         <div >
             <Image 
