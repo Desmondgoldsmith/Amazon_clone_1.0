@@ -4,8 +4,10 @@ import {useSelector} from "react-redux"
 import {selectItems} from "../Slices/Cartslice"
 import Image from 'next/image'
 import CartItems from "../Components/CartItems"
+import { useSession } from 'next-auth/react'
 
 function Cart() {
+  const [session] = useSession()
   const items = useSelector(selectItems)
   return (
     <div className = "bg-gray-200 h-fit ">
@@ -44,13 +46,13 @@ function Cart() {
               <p className='text-[20px] text-right'>Subtotal(1 item): <span className='font-extrabold'>$20.000 </span> </p>
         </div>
         {/* total price section */}
-        {/* display this section only when the cart is ! empty */}
-        {items.length = 0 ? "" :
+        {/* prevent user form proceeding to checkout if ! signed in  */}
+        
         <div className = "w-[240px] bg-white p-2 h-[120px]">
         <p className='text-[18px]'>Subtotal(1 item): <span className='font-extrabold'>$20.000 </span> </p>
-        <button className = "w-[220px] bg-yellow-300 p-2 rounded-lg hover:bg-yellow-500">proceed to checkout</button>
+        <button className = "w-[220px] bg-yellow-300 p-2 rounded-lg hover:bg-yellow-500">{!session ? "sign-in first" :  "proceed to checkout"}</button>
         </div>
-      }
+     
       </div>
     }
     </div>
