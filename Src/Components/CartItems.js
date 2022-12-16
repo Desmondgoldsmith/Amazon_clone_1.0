@@ -1,8 +1,10 @@
 import React from 'react'
 import {useDispatch} from 'react-redux'
 import {removeFromCart} from "../Slices/Cartslice"
+import { useSelector } from 'react-redux'
 
 function CartItems({title,price,description,category,image,id}) {
+  const items = useSelector(selectItems)
   const dispatch = useDispatch() //creating an object of the useDispatch func
   const removeItem = () =>{
     dispatch(removeFromCart({id}))
@@ -32,19 +34,12 @@ function CartItems({title,price,description,category,image,id}) {
               </div>
              
               <div className = "flex items-center space-x-4 cursor-pointer">
-                <select className='bg-gray-200 outline-none border border-gray-200 p-2 rounded-md' name="" id="">
-                  <option value="Qty:1">Qty:1</option>
-                  <option value="">1</option>
-                  <option value="">2</option>
-                  <option value="">3</option>
-                  <option value="">4</option>
-                  <option value="">5</option>
-                  <option value="">6</option>
-                  <option value="">7</option>
-                  <option value="">8</option>
-                  <option value="">9</option>
-                  <option value="">10+</option>
-                </select>
+              {/* increase qty of product in cart */}
+                <button className='bg-gray-200 outline-none border border-gray-200 p-2 rounded-md' name="" id="">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+            <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 9a.75.75 0 00-1.5 0v2.25H9a.75.75 0 000 1.5h2.25V15a.75.75 0 001.5 0v-2.25H15a.75.75 0 000-1.5h-2.25V9z" clipRule="evenodd" />
+          </svg>
+                </button>
 
                 <p className ="text-[14px]">| <span  onClick = {()=>removeItem()} className  = "text-blue-500 hover:underline cursor-pointer">delete</span> |</p>
                 <p className ="text-[14px]"> <span className  = "text-blue-500 hover:underline cursor-pointer"> save for later</span> |</p>
