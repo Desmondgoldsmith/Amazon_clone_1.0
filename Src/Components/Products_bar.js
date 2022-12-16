@@ -3,17 +3,18 @@ import { useDispatch, useSelector } from 'react-redux'
 import {removeFromCart, selectItems} from  '../Slices/Cartslice'
 import Image from 'next/image'
 
-function Products_bar() {
+function Products_bar({id}) {
     const dispatch = useDispatch()
     const items = useSelector(selectItems)
 
+    // deleteItem from cart
     const deleteItem = () => {
         dispatch(removeFromCart({id}))
       }
   return (
-    <div>
+    <div className='border border-l-black'>
         {/* sidebar */}
-        <div className = "w-[160px] p-2 text-center border border-l-black">
+        <div className = "w-[160px] p-2 text-center ">
     {/* if cart items is less than 0 show cart empty else .... */}
     {items.length == 0 ? 
     <p className= "font-bold text-[18px]">Cart is empty !</p>

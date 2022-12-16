@@ -1,22 +1,14 @@
 import Link from 'next/link'
 import React from 'react'
-import Image from 'next/image'
 import Header from '../Components/Header'
 import ProductFeed from '../Components/ProductFeed'
-import { useRouter } from 'next/router';
-import { useSelector} from 'react-redux'
-import {selectItems} from '../Slices/Cartslice'
 import Products_bar from '../Components/Products_bar'
 
 
 
 
 function All_products({products}) {
-  const router = useRouter();
-  const items = useSelector(selectItems)
-
  
-    
   return (
     <div>
     <div className = "flex" >
@@ -136,7 +128,7 @@ function All_products({products}) {
     </div>
 
      {/* sidebar fits here */}
-      <Products_bar/>
+      <Products_bar id = {products.id}/>
     </div>
     </div>
 
