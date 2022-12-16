@@ -3,9 +3,9 @@ import Mixed_component from './Mixed_component'
 import Product_category from './Product_category'
 import Image from 'next/image'
 import Mobileview_Category from './Mobileview_Category'
-
+import {useSession} from 'next-auth/react'
 function Category_component() {
-  
+  const {data:session} = useSession()
   return (
     <div className='lg:ml-8 lg:mr-8 md:ml-4 md:mr-4 ml-2 mr-3 -mt-[50px] lg:mt-[-320px] md:-mt-[180px] space-y-5 '>
          <div className='hidden lg:flex md:flex z-30 space-x-5 whitespace-nowrap overflow-x-scroll scrollbar-hide '>
