@@ -10,6 +10,7 @@ import {useSelector} from 'react-redux'
 import {selectItems} from "../Slices/Cartslice"
 
 function Header() {
+    //getting the contents of the items in the "item" array
    const items = useSelector(selectItems)
 
     const { data: session} = useSession() //storing user login details in session

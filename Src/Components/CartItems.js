@@ -1,11 +1,24 @@
 import React from 'react'
 import {useDispatch} from 'react-redux'
-import {removeFromCart, selectItems} from "../Slices/Cartslice"
+import {addToCart, removeFromCart, selectItems} from "../Slices/Cartslice"
 import { useSelector } from 'react-redux'
 
-function CartItems({title,price,description,category,image,id}) {
-  const items = useSelector(selectItems) //getting the contents of the items in the "item" array
+function CartItems({title,price,description,category,image,id}) {  
   const dispatch = useDispatch() //creating an object of the useDispatch func
+  
+  // increase product qty in cart
+   const increaseQty = () => {
+    const products = {
+      title,
+      price,
+      description,
+      category,
+      image,
+      id
+    }
+    dispatch(addToCart(products))
+   }
+   // remove products from cart
   const removeItem = () =>{
     dispatch(removeFromCart({id}))
   }
