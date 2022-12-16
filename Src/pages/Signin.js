@@ -6,6 +6,14 @@ import {useSession , signIn , signOut} from "next-auth/react"
 function Signin() {
   const router = useRouter() //creating a router object to be able to use it in our routes
   const {data: session} = useSession()
+
+   if(session){
+    return {
+      redirect : { destination : '/' }
+    }
+   }
+
+
   return (
     <div className='bg-[rgb(255,255,255)] grid justify-items-stretch -mt-[30px]'>
     {/* logo */}
