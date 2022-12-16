@@ -5,7 +5,7 @@ import {removeFromCart} from "../Slices/Cartslice"
 function CartItems({title,price,description,category,image,id}) {
   const dispatch = useDispatch() //creating an object of the useDispatch func
   const removeItem = () =>{
-    dispatch(removeFromCart(id))
+    dispatch(removeFromCart({id}))
   }
   return (
     <div>
