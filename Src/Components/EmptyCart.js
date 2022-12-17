@@ -23,9 +23,9 @@ function EmptyCart() {
             <button onClick={!session ? signIn : ()=>router.push("/All_products")} className = {`bg-yellow-400 p-2 rounded-md w-[300px] pt-3`}>{!session ? "sign into your account" : "View products"}</button>
             </div>
             </div>
-            <div className = " mt-5 mb-5 mx-5 p-5"></div>
+            <div className = "bg-white mt-5 mb-5 mx-5 p-10 w-[1150px]"></div>
 
-            <p className ="text-xs mb-5 w-[1100px] ml-5 mr-5">The price and availability of items at Amazon.com are subject to change. The Cart is a temporary place to store a list of your items and reflects each item's most recent price. Shopping Cart <span className = "text-blue-500 hover:text-red hover:underline">Learn more</span>
+            <p className ="text-xs mb-5 w-[1100px] ml-5 mr-5">The price and availability of items at Amazon.com are subject to change. The Cart is a temporary place to store a list of your items and reflects each item's most recent price. Shopping Cart <span className = "text-blue-500 hover:text-red hover:underline cursor-pointer"> Learn more </span>
               Do you have a gift card or promotional code? We'll ask you to enter your claim code when it's time to pay.</p>
               <div className = " mt-5 mb-5 mx-5 p-3"></div>
     </div>
