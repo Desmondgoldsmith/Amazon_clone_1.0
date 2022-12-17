@@ -14,15 +14,15 @@ function Cart_small_screen() {
            {/* total price section */}
         {/* prevent user form proceeding to checkout if ! signed in  */}
         
-        <div className = "w-full bg-white p-2 h-[120px] pt-4 mb-[20px]">
+        <div className = "w-full bg-white p-2  pt-4 mb-[20px]">
         <p className='text-[23px] mb-5'>Subtotal(1 item): <span className='font-extrabold'>${sum} </span> </p>
          <hr className='mb-5'/>
-          <button disabled = {!session} className = {`w-full ${!session ? `bg-gray-300 cursor-not-allowed` : `bg-yellow-300 hover:bg-yellow-500` }  p-2 rounded-lg `}>{!session ? "sign-in first" :  "proceed to checkout"}</button>
+          <button disabled = {!session} className = {`w-full mb-5 ${!session ? `bg-gray-300 cursor-not-allowed` : `bg-yellow-300 hover:bg-yellow-500` }  p-2 rounded-lg `}>{!session ? "sign-in first" :  "proceed to checkout"}</button>
         </div>
 
 
       {/* cart product section */}
-        <div className = "w-[1150px] mr-5 bg-white p-3 mb-5">
+        <div className = "w-full bg-white p-1 mb-5">
            {/* {items.length == 0 ? } */}
             <p className = "text-[25px]">Shopping Cart</p>
             <p className = "text-right text-[13px] font-bold text-gray-500">price</p>
