@@ -35,12 +35,13 @@ function CartItems({title,price,description,category,image,id}) {
               <div className='flex'>
                   <div className ="w-full lg:w-[800px] md:w-[800px] border border-red-600">
                   <p className='text-[20px]'>{title}</p>
+                  <p className = "text-[20px] inline-block lg:hidden md:hidden font-extrabold">${price}</p>
                   <p className='text-green-600 text-[13px]'>In Stock</p>
                   <p className = "text-[13px]">Gift options not available.<span className = "text-blue-500">Learn more</span> </p>
                   <p className = "text-[13px]">{description} </p>
                   <p className='text-[13px]'><span className='font-bold'>Style:</span> {category}</p>
                   </div>
-                  <div className=' w-full lg:w-[140px] md:w-[140px] -mr-2'>
+                  <div className='hidden lg:inline-block md:inline-block border border-red-600 w-full lg:w-[140px] md:w-[140px] -mr-2'>
                     <p className = "text-[20px] text-right font-extrabold">${price}</p>
                   </div>
               </div>
