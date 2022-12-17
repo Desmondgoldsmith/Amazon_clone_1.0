@@ -15,10 +15,11 @@ function Cart() {
   return (
     <div className = "bg-gray-200 h-fit ">
       <Header />   
-      {/* display this when cart is empty */} 
+      {/* display when cart is empty else display items in cart */}
       {items.length == 0  
       ?<EmptyCart />
-       : <div className = "flex mt-[20px] ml-4 mr-4">
+      : 
+       <div className = "flex mt-[20px] ml-4 mr-4">
       {/* cart product section */}
         <div className = "w-[1150px] mr-5 bg-white p-3 mb-5">
            {/* {items.length == 0 ? } */}
