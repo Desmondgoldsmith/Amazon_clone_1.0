@@ -10,7 +10,7 @@ function ProductFeed({products}) {
         <p className= "text-xs">Price and other details may vary based on product size and color.</p>
        <hr className='mt-2 mb-2'/>
         {/* dixplay products */}
-      <div className = "flex flex-wrap space-x-4 p-2">
+      <div className = "flex  flex-wrap space-x-4 p-2">
         {products.map(({title,price,description,category,image,id})=>(
         <ProductList title={title} price={price} description={description} category={category} image = {image} id={id} key = {id}/>
         ))}
