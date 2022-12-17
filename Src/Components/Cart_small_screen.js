@@ -10,11 +10,11 @@ function Cart_small_screen() {
     const items = useSelector(selectItems)
   return (
     <div className = "w-full">
-         <div className = "block md:hidden lg:hidden mt-[20px]  w-full">
+         <div className = "block md:hidden lg:hidden  ">
            {/* total price section */}
         {/* prevent user form proceeding to checkout if ! signed in  */}
         
-        <div className = "w-[240px] bg-white p-2 h-[120px]">
+        <div className = "w-full bg-white p-2 h-[120px] pt-4 mb-[20px]">
         <p className='text-[18px]'>Subtotal(1 item): <span className='font-extrabold'>${sum} </span> </p>
          <hr/>
           <button disabled = {!session} className = {`w-[220px] ${!session ? `bg-gray-300 cursor-not-allowed` : `bg-yellow-300 hover:bg-yellow-500` }  p-2 rounded-lg `}>{!session ? "sign-in first" :  "proceed to checkout"}</button>
