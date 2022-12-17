@@ -14,7 +14,7 @@ function EmptyCart() {
              src = "https://m.media-amazon.com/images/G/01/cart/empty/kettle-desaturated._CB445243794_.svg"
              width = {100}
              height = {100}
-             className = "w-[300px] h-[300px]"
+             className = "w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] md:w-[300px] md:h-[300px]"
              />
             </div>
             <div>
