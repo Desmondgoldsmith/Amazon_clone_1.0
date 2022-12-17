@@ -19,7 +19,7 @@ function Cart() {
       {items.length == 0  
       ?<EmptyCart />
       : 
-       <div className = "flex mt-[20px] ml-4 mr-4">
+       <div className = "hidden md:flex lg:flex mt-[20px] ml-4 mr-4">
       {/* cart product section */}
         <div className = "w-[1150px] mr-5 bg-white p-3 mb-5">
            {/* {items.length == 0 ? } */}
