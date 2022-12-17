@@ -8,7 +8,7 @@ function EmptyCart() {
     const router = useRouter()
   return (
     <div>
-      <div className ="block lg:flex md:flex bg-white ml-5 mr-5 my-5 p-3 space-x-20 w-full md:w-[1150px] lg:w-[1150px]">
+      <div className ="block lg:flex md:flex bg-white mx-5 my-5 p-3 space-x-0 md:space-x-20 lg:space-x-20 w-full md:w-[1150px] lg:w-[1150px]">
             <div>
              <Image
              src = "https://m.media-amazon.com/images/G/01/cart/empty/kettle-desaturated._CB445243794_.svg"
@@ -18,7 +18,7 @@ function EmptyCart() {
              />
             </div>
             <div>
-            <p className  = 'text-[23px] font-bold pt-10'>Your Amazon Cart is empty</p>
+            <p className  = 'text-[23px] font-bold pt-10 border-2 border-red-600'>Your Amazon Cart is empty</p>
             <p className ="text-[12px] cursor-pointer text-blue-500 hover:underline hover:text-red-500">Shop today's deals</p>
             <button onClick={!session ? signIn : ()=>router.push("/All_products")} className = {`bg-yellow-400 p-2 rounded-md w-[300px] pt-3`}>{!session ? "sign into your account" : "View products"}</button>
             </div>
