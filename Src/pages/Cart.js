@@ -5,6 +5,7 @@ import {selectItems, sumTotal} from "../Slices/Cartslice"
 import CartItems from "../Components/CartItems"
 import { useSession } from 'next-auth/react'
 import EmptyCart from '../Components/EmptyCart'
+import Cart_small_screen from '../Components/Cart_small_screen'
 
 function Cart() {
   const {data:session} = useSession() //get the actual session state at the moment ie. if the user is logged in or out
@@ -19,6 +20,7 @@ function Cart() {
       {items.length == 0  
       ?<EmptyCart />
       : 
+      <div>
        <div className = "hidden md:flex lg:flex mt-[20px] ml-4 mr-4">
       {/* cart product section */}
         <div className = "w-[1150px] mr-5 bg-white p-3 mb-5">
@@ -42,6 +44,8 @@ function Cart() {
         </div>
      
       </div>
+     <Cart_small_screen/>
+     </div>
     }
     </div>
   )
