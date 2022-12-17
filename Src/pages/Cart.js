@@ -6,6 +6,7 @@ import Image from 'next/image'
 import CartItems from "../Components/CartItems"
 import { useSession, signIn } from 'next-auth/react'
 import { useRouter } from 'next/router'
+import EmptyCart from '../Components/EmptyCart'
 
 function Cart() {
   const {data:session} = useSession() //get the actual session state at the moment ie. if the user is logged in or out
@@ -18,27 +19,12 @@ function Cart() {
     <div className = "bg-gray-200 h-fit ">
       <Header />   
       {/* display this when cart is empty */} 
-      {items.length == 0 ? 
-      <div className ="flex bg-white ml-5 mr-5 my-5 border-2 border-red-600  p-3 space-x-20 w-[1150px]">
-            <div>
-             <Image
-             src = "https://m.media-amazon.com/images/G/01/cart/empty/kettle-desaturated._CB445243794_.svg"
-             width = {100}
-             height = {100}
-             className = "w-[300px] h-[300px]"
-             />
-            </div>
-            <div>
-            <p className  = 'text-[23px] font-bold pt-10'>Your Amazon Cart is empty</p>
-            <p className ="text-[12px] cursor-pointer text-blue-500 hover:underline hover:text-red-500">Shop today's deals</p>
-            <button onClick={!session ? signIn : ()=>router.push("/All_products")} className = {`bg-yellow-400 p-2 rounded-md w-[300px] pt-3`}>{!session ? "sign into your account" : "View products"}</button>
-            </div>
-            </div>
-            <div className = "bg-white my-5 mx-5 p-5"></div>
+      {items.length == 0  
+      ?<EmptyCart />
             
-          :
+         
 
-      <div className = "flex mt-[20px] ml-4 mr-4">
+       : <div className = "flex mt-[20px] ml-4 mr-4">
       {/* cart product section */}
         <div className = "w-[1150px] mr-5 bg-white p-3 mb-5">
            {/* {items.length == 0 ? } */}
