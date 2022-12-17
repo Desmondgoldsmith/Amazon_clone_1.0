@@ -19,7 +19,7 @@ function EmptyCart() {
             </div>
             <div className = "pl-2 pr-4 ">
             <p className  = 'text-[23px] font-bold pt-10 w-full lg:w-none md:w-none text-center'>Your Amazon Cart is empty</p>
-            <p className ="text-[12px] w-[200px] cursor-pointer border border-red-400 text-blue-500 hover:underline hover:text-red-500">Shop today's deals</p>
+            <p className ="text-[12px] text-center lg:text-justify md:text-justify cursor-pointer  text-blue-500 hover:underline hover:text-red-500">Shop today's deals</p>
             <button onClick={!session ? signIn : ()=>router.push("/All_products")} className = {`bg-yellow-400 p-2 rounded-md w-[300px] pt-3`}>{!session ? "sign into your account" : "View products"}</button>
             </div>
             </div>
