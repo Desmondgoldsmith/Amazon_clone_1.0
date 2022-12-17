@@ -29,13 +29,13 @@ function ProductList({title,price,description,category,image,id}) {
     }
   return (
     <div>
-        <div className='flex md:flex lg:block space-x-2 w-[350px] md:w-[350px] items-center lg:w-[220px] border-2 border-red-600'>
+        <div className='flex md:flex lg:block space-x-2 lg:space-x-0 md:space-x-2 w-[350px] md:w-[350px] items-center lg:w-[220px]'>
           <Image 
           src = {image}
           alt = "product images"
           width = {150}
           height ={100}
-          className ="w-[140px] h-[140px] md:w-[180px] md:h-[180px] lg:w-[220px] lg:h-[220px]"
+          className ="w-[130px] h-[130px] md:w-[180px] md:h-[180px] lg:w-[220px] lg:h-[220px]"
           />
           <div className = "p-1">
             {/* displays only on larg screen */}
