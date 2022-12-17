@@ -25,7 +25,7 @@ function CartItems({title,price,description,category,image,id}) {
     <div>
               {/* // cart items */}
               <div className = " mt-4 flex space-x-4 mb-4 ">
-            <div className = "">
+            <div className = "border-2 border-red-600 h-[180px] lg:h-auto md:h-auto">
               <img src={image}
                alt="cart image" 
                className = "w-[200px]"
@@ -46,7 +46,7 @@ function CartItems({title,price,description,category,image,id}) {
                   </div>
               </div>
              
-              <div className = "flex items-center space-x-4 cursor-pointer">
+              <div className = "hidden lg:flex md:flex lg:mt-auto md:mt-auto  items-center space-x-4 cursor-pointer">
               {/* increase qty of product in cart */}
                 <button onClick={()=>increaseQty()} className='bg-gray-200 outline-none border border-gray-200 p-2 rounded-md' name="" id="">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
