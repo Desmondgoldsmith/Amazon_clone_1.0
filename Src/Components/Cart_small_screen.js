@@ -24,8 +24,7 @@ function Cart_small_screen() {
       {/* cart product section */}
         <div className = "w-full bg-white p-1 mb-5">
            {/* {items.length == 0 ? } */}
-            <p className = "text-[25px]">Shopping Cart</p>
-            <p className = "text-right text-[13px] font-bold text-gray-500">price</p>
+            <p className = "text-[25px] mb-2">Shopping Cart</p>
             <hr/>
             {items.map((item , i) => (
             <CartItems title={item.title} price={item.price} description={item.description} category={item.category} image = {item.image} id={item.id} key = {i}/>
