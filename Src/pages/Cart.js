@@ -13,7 +13,7 @@ function Cart() {
 
 
   return (
-    <div className = "bg-gray-200 h-fit ">
+    <div className = "bg-gray-200 h-fit w-full">
       <Header />   
       {/* display when cart is empty else display items in cart */}
       {items.length == 0  
