@@ -21,9 +21,6 @@ function Cart() {
       {/* display this when cart is empty */} 
       {items.length == 0  
       ?<EmptyCart />
-            
-         
-
        : <div className = "flex mt-[20px] ml-4 mr-4">
       {/* cart product section */}
         <div className = "w-[1150px] mr-5 bg-white p-3 mb-5">
