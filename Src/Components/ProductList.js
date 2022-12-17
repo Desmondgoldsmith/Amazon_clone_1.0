@@ -29,7 +29,7 @@ function ProductList({title,price,description,category,image,id}) {
     }
   return (
     <div>
-        <div className='w-[350px] md:w-[350px] items-center lg:w-[220px] border-2 border-red-600'>
+        <div className='flex md:flex lg:block w-[350px] md:w-[350px] items-center lg:w-[220px] border-2 border-red-600'>
           <Image 
           src = {image}
           alt = "product images"
