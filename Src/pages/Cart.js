@@ -19,7 +19,7 @@ function Cart() {
       <Header />   
       {/* display this when cart is empty */} 
       {items.length == 0 ? 
-      <div className ="flex bg-white ml-5 mr-5 mb-5 border-2 border-red-600 mt-5 p-3 space-x-20 w-[1150px]">
+      <div className ="flex bg-white ml-5 mr-5 my-5 border-2 border-red-600  p-3 space-x-20 w-[1150px]">
             <div>
              <Image
              src = "https://m.media-amazon.com/images/G/01/cart/empty/kettle-desaturated._CB445243794_.svg"
@@ -34,6 +34,8 @@ function Cart() {
             <button onClick={!session ? signIn : ()=>router.push("/All_products")} className = {`bg-yellow-400 p-2 rounded-md w-[300px] pt-3`}>{!session ? "sign into your account" : "View products"}</button>
             </div>
             </div>
+            <div className = "bg-white my-5 mx-5 p-5"></div>
+            
           :
 
       <div className = "flex mt-[20px] ml-4 mr-4">
