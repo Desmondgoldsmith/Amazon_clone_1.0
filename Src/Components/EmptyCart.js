@@ -8,7 +8,7 @@ function EmptyCart() {
     const router = useRouter()
   return (
     <div>
-      <div className ="block lg:flex md:flex bg-white mx-5 my-5 p-3 space-x-0 md:space-x-20 lg:space-x-20 w-full md:w-[1150px] lg:w-[1150px]">
+      <div className ="block lg:flex md:flex border-2 border-red-600 bg-white mx-2 my-2 md:mx-5 md:my-5 lg:mx-5 lg:my-5 p:1 lg:p-3 md:p-3  space-x-0 md:space-x-20 lg:space-x-20 w-full md:w-[1150px] lg:w-[1150px]">
             <div>
              <Image
              src = "https://m.media-amazon.com/images/G/01/cart/empty/kettle-desaturated._CB445243794_.svg"
