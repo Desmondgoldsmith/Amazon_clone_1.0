@@ -25,7 +25,7 @@ function EmptyCart() {
             </div>
             <div className = "bg-white mx-0 my-2 md:mx-5 md:my-5 lg:mx-5 lg:my-5 p-10 w-full md:w-[1150px] lg:w-[1150px]"></div>
 
-            <p className ="text-xs mb-5 w-full md:w-[1150px] lg:w-[1150px] ml-5 mr-5">The price and availability of items at Amazon.com are subject to change. The Cart is a temporary place to store a list of your items and reflects each item's most recent price. Shopping Cart <span className = "text-blue-500 hover:text-red hover:underline cursor-pointer"> Learn more </span>
+            <p className ="hidden lg:inline-block md:inline-block text-xs mb-5 w-full md:w-[1150px] lg:w-[1150px] ml-5 mr-5">The price and availability of items at Amazon.com are subject to change. The Cart is a temporary place to store a list of your items and reflects each item's most recent price. Shopping Cart <span className = "text-blue-500 hover:text-red hover:underline cursor-pointer"> Learn more </span>
               Do you have a gift card or promotional code? We'll ask you to enter your claim code when it's time to pay.</p>
               <div className = " mt-5 mb-5 mx-5 p-3"></div>
     </div>
