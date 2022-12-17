@@ -30,8 +30,6 @@ function Cart_small_screen() {
             <CartItems title={item.title} price={item.price} description={item.description} category={item.category} image = {item.image} id={item.id} key = {i}/>
              ))}
               
-              {/* sub total */}
-              <p className='text-[20px] text-right'>Subtotal(1 item): <span className='font-extrabold'>${sum} </span> </p>
         </div>
        
      
