@@ -15,9 +15,9 @@ function Cart_small_screen() {
         {/* prevent user form proceeding to checkout if ! signed in  */}
         
         <div className = "w-full bg-white p-2 h-[120px] pt-4 mb-[20px]">
-        <p className='text-[18px]'>Subtotal(1 item): <span className='font-extrabold'>${sum} </span> </p>
-         <hr/>
-          <button disabled = {!session} className = {`w-[220px] ${!session ? `bg-gray-300 cursor-not-allowed` : `bg-yellow-300 hover:bg-yellow-500` }  p-2 rounded-lg `}>{!session ? "sign-in first" :  "proceed to checkout"}</button>
+        <p className='text-[23px] mb-5'>Subtotal(1 item): <span className='font-extrabold'>${sum} </span> </p>
+         <hr className='mb-5'/>
+          <button disabled = {!session} className = {`w-full ${!session ? `bg-gray-300 cursor-not-allowed` : `bg-yellow-300 hover:bg-yellow-500` }  p-2 rounded-lg `}>{!session ? "sign-in first" :  "proceed to checkout"}</button>
         </div>
 
 
