@@ -14,7 +14,7 @@ function All_products({products}) {
   return (
     <div>
     <div className = "flex" >
-    <div className = " w-[1280px] ">
+    <div className = "w-full md:w-full  lg:w-[1280px] ">
       <Header/>
 
       {/* page content  */}
