@@ -40,7 +40,7 @@ function CartItems({title,price,description,category,image,id}) {
                   <p className = "text-[13px]">{description} </p>
                   <p className='text-[13px]'><span className='font-bold'>Style:</span> {category}</p>
                   </div>
-                  <div className=' w-[140px] -mr-2'>
+                  <div className=' w-full lg:w-[140px] md:w-[140px] -mr-2'>
                     <p className = "text-[20px] text-right font-extrabold">${price}</p>
                   </div>
               </div>
