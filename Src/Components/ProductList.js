@@ -38,7 +38,7 @@ function ProductList({title,price,description,category,image,id}) {
           className ="w-[140px] h-[140px] md:w-[180px] md:h-[180px] lg:w-[220px] lg:h-[220px]"
           />
           <div className = "p-1">
-            <p className = "text-[16px] font-semibold cursor-pointer truncate hover:overflow-visible hover:whitespace-normal hover:ease-in hover:duration-300">{title}</p>
+            <p className = "text-[16px] font-semibold cursor-pointer truncate whitespace-normal md:whitespace-normal lg:hover:overflow-visible lg:hover:whitespace-normal hover:ease-in hover:duration-300">{title}</p>
               <div className = "text-yellow-500 flex">
         {/* randomize the star icons */}
             {/* {Array(rating).fill().map((_, i) =>( */}
