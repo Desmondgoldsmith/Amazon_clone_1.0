@@ -25,7 +25,7 @@ function CartItems({title,price,description,category,image,id}) {
     <div>
               {/* // cart items */}
               <div className = " mt-4 flex space-x-4 mb-4 ">
-            <div className = "border-2 border-red-600 h-[180px] lg:h-auto md:h-auto">
+            <div className = "">
               <img src={image}
                alt="cart image" 
                className = "w-[200px]"
@@ -57,6 +57,11 @@ function CartItems({title,price,description,category,image,id}) {
                 <p className ="text-[14px]">| <span  onClick = {()=>removeItem()} className  = "text-blue-500 hover:underline cursor-pointer">delete</span> |</p>
                 <p className ="text-[14px]"> <span className  = "text-blue-500 hover:underline cursor-pointer"> save for later</span> |</p>
                 <p className ="text-[14px]"> <span className  = "text-blue-500 hover:underline cursor-pointer"> compare with similar items</span> |</p>
+              </div>
+
+              {/* mobile screen only */}
+              <div className='flex'>
+
               </div>
             </div>
               
