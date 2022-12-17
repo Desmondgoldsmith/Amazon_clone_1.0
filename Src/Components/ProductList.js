@@ -35,7 +35,7 @@ function ProductList({title,price,description,category,image,id}) {
           alt = "product images"
           width = {150}
           height ={100}
-          className ="w-[220px] h-[220px]"
+          className ="w-[140px] h-[140px] md:w-[180px] md:h-[180px] lg:w-[220px] lg:h-[220px]"
           />
           <div className = "p-1">
             <p className = "text-[16px] font-semibold cursor-pointer truncate hover:overflow-visible hover:whitespace-normal hover:ease-in hover:duration-300">{title}</p>
