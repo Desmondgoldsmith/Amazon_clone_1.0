@@ -1,16 +1,16 @@
 import { useSession } from 'next-auth/react'
 import React from 'react'
 import { useSelector } from 'react-redux'
-import { sumTotal } from '../Slices/Cartslice'
+import { selectItems, sumTotal } from '../Slices/Cartslice'
 import CartItems from './CartItems'
 
 function Cart_small_screen() {
     const {data:session} = useSession()
     const sum = useSelector(sumTotal) // sum total price of items in cart
-    const items = useSelector()
+    const items = useSelector(selectItems)
   return (
     <div className = "w-full">
-         <div className = "block md:hidden lg:hidden mt-[20px] ml-4 mr-4">
+         <div className = "block md:hidden lg:hidden mt-[20px]  w-full">
            {/* total price section */}
         {/* prevent user form proceeding to checkout if ! signed in  */}
         
