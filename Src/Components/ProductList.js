@@ -29,7 +29,8 @@ function ProductList({title,price,description,category,image,id}) {
     }
   return (
     <div>
-        <div className='flex md:flex lg:block space-x-2 lg:space-x-0 md:space-x-2 w-[350px] md:w-[350px] items-center lg:w-[220px]'>
+        <div className='flex md:flex lg:block space-x-2 lg:space-x-0 md:space-x-2  w-full md:w-full items-center lg:w-[220px]'>
+         <div className='p-1 '>
           <Image 
           src = {image}
           alt = "product images"
@@ -37,6 +38,8 @@ function ProductList({title,price,description,category,image,id}) {
           height ={100}
           className ="w-[130px] h-[130px] md:w-[180px] md:h-[180px] lg:w-[220px] lg:h-[220px]"
           />
+         </div>
+          
           <div className = "p-1">
             {/* displays only on larg screen */}
             <p className = "hidden md:hidden lg:block text-[16px] font-semibold cursor-pointer truncate   hover:overflow-visible hover:whitespace-normal hover:ease-in hover:duration-300">{title}</p>
