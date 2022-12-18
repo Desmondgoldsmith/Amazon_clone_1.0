@@ -29,7 +29,9 @@ function ShoppingTrends({Trends}) {
        </div>
 
        {/* gifts for everyone */}
-       <div></div>
+       <div>
+        <Gifts/>
+       </div>
     </div>
   )
 }
