@@ -1,36 +1,16 @@
 import React from 'react'
-
-function Gifts({image,link}) {
+import Image from 'next/image'
+function Gifts({image,name}) {
   return (
-    <div className='flex w-full'>
-      <div  className='flex' >
+    <div className=' w-full'>
+      
         <Image
          src={image}
          width={120}
          height={120}
          className =" "
         />
-        <Image
-         src={image}
-         width={120}
-         height={120}
-         className =" "
-        />
-      </div>
-      <div className='flex'>
-      <Image
-         src={image}
-         width={120}
-         height={120}
-         className =" "
-        />
-        <Image
-         src={image}
-         width={120}
-         height={120}
-         className =" "
-        />
-      </div>
+        <p>{name}</p>
     </div>
   )
 }
