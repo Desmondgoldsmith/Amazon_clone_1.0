@@ -30,15 +30,11 @@ function ShoppingTrends({Trends}) {
        </div>
 
        {/* gifts for everyone */}
-       <div className = "flex w-full border-2 border-red-600 pl-2 mt-3 mb-3 space-x-2">
-       <div className='mt-2 mb-2'>
+       <div className = " w-full border-2 border-red-600 grid gap-4 grid-cols-2 ">
        <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/GW/QuadCards/DT/HOL22_GW_DT_QuadCard_1_Electronics_1x._SY116_CB608522082_.jpg" name =""/>
         <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/GW/QuadCards/DT/HOL22_GW_DT_QuadCard_2_Home_2x._SY232_CB608522082_.jpg" name =""/>
-       </div>
-       <div>
        <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/GW/QuadCards/DT/HOL22_GW_DT_QuadCard_3_Fashion_2x._SY232_CB608522082_.jpg" name =""/>
         <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/GW/QuadCards/DT/HOL22_GW_DT_QuadCard_4_Beauty_2x._SY232_CB608522082_.jpg" name =""/>
-       </div>
          </div>
     </div>
   )
