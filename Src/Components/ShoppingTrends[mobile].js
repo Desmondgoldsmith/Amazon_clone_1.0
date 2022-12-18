@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ShoppingTrends[mobile]() {
+function ShoppingTrends() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function ShoppingTrends[mobile]() {
   )
 }
 
-export default ShoppingTrends[mobile]
+export default ShoppingTrends

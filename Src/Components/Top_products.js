@@ -1,4 +1,5 @@
 import React,{useRef} from 'react'
+import ShoppingTrends from './ShoppingTrends[mobile]'
 import Top_Apparels from './Top_Apparels'
 import Top_books from './Top_books'
 
@@ -93,7 +94,12 @@ function Top_products() {
    </div> 
    </div>
     </div>
-   
+
+    {/* displaying content for mobile screens */}
+      <div>
+        <ShoppingTrends/>
+      </div>
+     
    
   </div>
    
