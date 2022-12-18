@@ -34,7 +34,7 @@ function ShoppingTrends({Trends}) {
        <h1 className = "p-2 text-[18px] font-extrabold">Gifts for Everyone</h1>
       <div className = " w-full grid gap-4 grid-cols-2 p-2 ">
             <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/GW/QuadCards/DT/HOL22_GW_DT_QuadCard_1_Electronics_1x._SY116_CB608522082_.jpg" name ="Electronics"/>
-              <Gifts image = "" name ="Home"/>
+              <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/GW/QuadCards/DT/HOL22_GW_DT_QuadCard_2_Home_2x._SY232_CB608522082_.jpg" name ="Home"/>
             <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/GW/QuadCards/DT/HOL22_GW_DT_QuadCard_3_Fashion_2x._SY232_CB608522082_.jpg" name ="Fashion"/>
               <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/GW/QuadCards/DT/HOL22_GW_DT_QuadCard_4_Beauty_2x._SY232_CB608522082_.jpg" name ="Beauty"/>
               </div>
@@ -60,7 +60,7 @@ function ShoppingTrends({Trends}) {
             <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_ShopAll_DT_2x._SY232_CB606650457_.jpg" name ="For Him"/>
               <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_Under30_DT_2x._SY232_CB606650457_.jpg" name ="For Her"/>
             <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_Under20_DT_2x._SY232_CB606650457_.jpg" name ="For you"/>
-              <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_Under10_DT_2x._SY232_CB606650457_.jpg" name ="Beauty"/>
+              <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_Under10_DT_2x._SY232_CB606650457_.jpg" name ="For it"/>
               </div>
        </div>
        
