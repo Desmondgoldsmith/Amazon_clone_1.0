@@ -60,7 +60,7 @@ function ShoppingTrends({Trends}) {
             <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_ShopAll_DT_2x._SY232_CB606650457_.jpg" name ="For Him"/>
               <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_Under30_DT_2x._SY232_CB606650457_.jpg" name ="For Her"/>
             <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_Under20_DT_2x._SY232_CB606650457_.jpg" name ="For you"/>
-              <Gifts image = "" name ="Beauty"/>
+              <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_Under10_DT_2x._SY232_CB606650457_.jpg" name ="Beauty"/>
               </div>
        </div>
        
