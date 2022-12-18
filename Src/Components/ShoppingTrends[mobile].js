@@ -15,7 +15,7 @@ function ShoppingTrends({Trends}) {
         ))}
       </div>
        </div>
-       <hr className =""/>
+       <hr className ="bg-gray-300 border-2 border-gray-300 mt-4 mb-4"/>
        {/* another component */}
        <div className = "block md:hidden lg:hidden w-fill p-2  bg-white">
         <h1 className = "text-[18px] font-extrabold">More top picks for you</h1>
