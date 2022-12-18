@@ -3,7 +3,7 @@ import ShoppingTrends from './ShoppingTrends[mobile]'
 import Top_Apparels from './Top_Apparels'
 import Top_books from './Top_books'
 
-function Top_products({products}) {
+function Top_products({Trends}) {
   const lisrRef = useRef(null)
   const leftScroll = () => {
     if (lisrRef.current) {
@@ -97,7 +97,7 @@ function Top_products({products}) {
 
     {/* displaying content for mobile screens */}
       <div>
-        <ShoppingTrends products = {products}/>
+        <ShoppingTrends Trends = {Trends}/>
       </div>
      
    
@@ -106,14 +106,15 @@ function Top_products({products}) {
   )
 }
 
+
 export async function getServerSideProps(context){
-  const products  = await fetch("https://fakestoreapi.com/products").then(
-    (res) => res.json()
-  )
+  const Trends = await fetch("https://fakestoreapi.com/products").then(
+      (res) => res.json()
+  );
   return{
     props:{
-      products,
-    }
+      Trends,
+  }
   }
 }
 
