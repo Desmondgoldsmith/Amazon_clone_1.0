@@ -3,7 +3,7 @@ import ShoppingTrends from './ShoppingTrends[mobile]'
 import Top_Apparels from './Top_Apparels'
 import Top_books from './Top_books'
 
-function Top_products() {
+function Top_products({products}) {
   const lisrRef = useRef(null)
   const leftScroll = () => {
     if (lisrRef.current) {
@@ -97,7 +97,7 @@ function Top_products() {
 
     {/* displaying content for mobile screens */}
       <div>
-        <ShoppingTrends/>
+        <ShoppingTrends products = {products}/>
       </div>
      
    
