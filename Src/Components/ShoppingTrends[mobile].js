@@ -39,6 +39,18 @@ function ShoppingTrends({Trends}) {
               <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/GW/QuadCards/DT/HOL22_GW_DT_QuadCard_4_Beauty_2x._SY232_CB608522082_.jpg" name ="Beauty"/>
               </div>
        </div>
+
+        {/* another component */}
+        <div className = "block md:hidden lg:hidden w-fill p-2 mt-2 bg-white">
+        <h1 className = "text-[18px] font-extrabold">Deals on fashion</h1>
+       <hr className='mt-2 mb-2'/>
+        {/* dixplay products */}
+      <div className = "block md:block lg:flex  flex-wrap space-y-4 md:space-y-4 lg:-space-y-0 lg:space-x-4 p-0 md:p-2 lg:p-2 ">
+        { Trends.slice(8,10).map(({title,price,description,category,image,id})=>(
+        <ProductTrends title={title} price={price} description={description} category={category} image = {image} id={id} key = {id}/>
+        ))}
+      </div>
+       </div>
        
     </div>
   )
