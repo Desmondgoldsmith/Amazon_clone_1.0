@@ -14,12 +14,12 @@ function All_products({products}) {
   return (
     <div>
     <div className = "flex" >
-    <div className = "w-full md:w-full  lg:w-[1280px] ">
+    <div className = "w-full md:w-full  lg:w-full ">
       <Header/>
 
       {/* page content  */}
       <div className = "flex mt-5  ">
-       <div className="hidden lg:inline-block md:hidden w-[300px] p-2">
+       <div className="hidden lg:inline-block md:block w-[300px] p-2">
          <p className='text-[16px] font-extrabold'>Departments</p>
          <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href="/#">Women's Fashion</Link> </p>
          <p className = "cursor-pointer hover:underline hover:text-orange-400 text-[13px]"><Link href="/#">Women's Shoes</Link> </p>
@@ -130,7 +130,7 @@ function All_products({products}) {
     </div>
 
      {/* sidebar fits here */}
-     <div className = "hidden lg:block md:hidden w-[160px] p-2 text-center border border-l-black">
+     <div className = "hidden md:hidden lg:inline-block  w-[160px] p-2 text-center border border-l-black">
     {/* if cart items is less than 0 show cart empty else .... */}
     {items.length == 0 ? 
     <p className= "font-bold text-[18px]">Cart is empty !</p>
