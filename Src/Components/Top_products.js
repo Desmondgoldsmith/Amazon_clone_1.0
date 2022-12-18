@@ -25,7 +25,7 @@ function Top_products() {
   return (
     <div> 
     {/* rendering the Top_books component here */}
-    <div className='h-[250px] ml-8 mr-11 mb-3 mt-3 bg-white '>
+    <div className='hidden md:block lg:block h-[250px] ml-8 mr-11 mb-3 mt-3 bg-white '>
   <p className='pl-8 text-lg font-bold'>Top sellers in books for you</p>
     <div className='flex items-center'>
       <div className = "text-dark p-1 hover:rounded-full hover:bg-gray-500 hover:text-white cursor-pointer" onClick={leftScroll}>
