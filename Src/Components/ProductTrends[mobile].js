@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ProductTrends() {
+function ProductTrends({title,price,description,category,image,id}) {
   return (
     <div>
         <div className='flex md:hidden lg:hidden space-x-2 w-full items-center'>
