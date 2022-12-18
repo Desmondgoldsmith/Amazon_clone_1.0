@@ -8,7 +8,7 @@ function Gifts({image,name}) {
          src={image}
          width={120}
          height={120}
-         className =" "
+         className ="w-[200px] "
         />
         <p>{name}</p>
     </div>
