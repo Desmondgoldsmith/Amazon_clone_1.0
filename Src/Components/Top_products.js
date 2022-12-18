@@ -60,7 +60,7 @@ function Top_products() {
     </div>
 
     {/* Rendering the apparel top products here from the Top_apparel component  */}
-    <div className='h-[250px] ml-8 mr-11 mb-3 bg-white '>
+    <div className='hidden md:block lg:block h-[250px] ml-8 mr-11 mb-3 bg-white '>
   <p className='pl-8 text-lg font-bold'>Popular products in Apparel internationally</p>
     <div className='flex items-center'>
       <div className = "text-dark p-1 hover:rounded-full hover:bg-gray-500 hover:text-white cursor-pointer" onClick={leftScroll}>
