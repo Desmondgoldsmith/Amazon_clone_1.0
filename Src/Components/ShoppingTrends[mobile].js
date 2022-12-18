@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ShoppingTrends() {
+function ShoppingTrends({products}) {
   return (
     <div>
        <div className = "w-fill p-2 border-2 border-red-600 bg-white">
