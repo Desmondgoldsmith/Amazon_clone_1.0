@@ -5,7 +5,7 @@ function ShoppingTrends({Trends}) {
      
   return (
     <div>
-       <div className = "w-fill p-2 border-2 border-red-600 bg-white">
+       <div className = "block md:hidden lg:hidden w-fill p-2 border-2 border-red-600 bg-white">
         <h1 className = "text-[18px] font-extrabold">Inspired by your shopping products</h1>
        <hr className='mt-2 mb-2'/>
         {/* dixplay products */}
