@@ -5,7 +5,7 @@ import Header from '../Components/Header'
 import Top_fittness_and_Toys from '../Components/Top_fittness_and_Toys'
 import Top_products from '../Components/Top_products'
 
-export default function Home() {
+export default function Home({Trends}) {
 
 return (
     <div className = 'bg-[rgb(230,232,232)]'>
@@ -22,7 +22,7 @@ return (
         {/* category card */}
         <Category_component />
         {/* gift component */}
-        <Top_products/>
+        <Top_products Trends = {Trends}/>
         {/* fitness and Toys component */}
         <Top_fittness_and_Toys/>
       </main>
@@ -30,7 +30,16 @@ return (
   )
 }
 
-
+export async function getServerSideProps(context){
+  const Trends = await fetch("https://fakestoreapi.com/products").then(
+      (res) => res.json()
+  );
+  return{
+    props:{
+      Trends,
+  }
+  }
+}
 
 
 // dependencies
