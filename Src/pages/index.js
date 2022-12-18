@@ -25,7 +25,7 @@ return (
         <Top_products Trends = {Trends}/>
         {/* fitness and Toys component */}
         <Top_fittness_and_Toys/>
-        <All_products/>
+        {/* <All_products products = {products}/> */}
       </main>
     </div>
   )
@@ -35,12 +35,11 @@ export async function getServerSideProps(context){
   const Trends = await fetch("https://fakestoreapi.com/products").then(
       (res) => res.json()
   );
-  const products = await fetch("https://fakestoreapi.com/products").then(
-      (res) => res.json()
-  );
+
   return{
     props:{
       Trends,
+      
   }
   }
 }
