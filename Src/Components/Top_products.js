@@ -107,15 +107,4 @@ function Top_products({Trends}) {
 }
 
 
-export async function getServerSideProps(context){
-  const Trends = await fetch("https://fakestoreapi.com/products").then(
-      (res) => res.json()
-  );
-  return{
-    props:{
-      Trends,
-  }
-  }
-}
-
 export default Top_products
