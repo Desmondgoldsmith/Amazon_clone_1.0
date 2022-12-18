@@ -59,7 +59,7 @@ function ShoppingTrends({Trends}) {
       <div className = " w-full grid gap-4 grid-cols-2 p-2 ">
             <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_ShopAll_DT_2x._SY232_CB606650457_.jpg" name ="For Him"/>
               <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_Under30_DT_2x._SY232_CB606650457_.jpg" name ="For Her"/>
-            <Gifts image = "" name ="Fashion"/>
+            <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_Under20_DT_2x._SY232_CB606650457_.jpg" name ="For you"/>
               <Gifts image = "" name ="Beauty"/>
               </div>
        </div>
