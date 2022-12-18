@@ -6,7 +6,7 @@ function ShoppingTrends({Trends}) {
      
   return (
     <div>
-       <div className = "block md:hidden lg:hidden w-fill p-2  bg-white">
+       <div className = "block md:hidden lg:hidden w-fill p-2 mt-2 bg-white">
         <h1 className = "text-[18px] font-extrabold">Inspired by your shopping products</h1>
        <hr className='mt-2 mb-2'/>
         {/* dixplay products */}
@@ -30,8 +30,8 @@ function ShoppingTrends({Trends}) {
        </div>
 
        {/* gifts for everyone */}
-       <div className='bg-white mt-3'>
-       <h1 className = "text-[18px] font-extrabold">Gifts for Everyone</h1>
+       <div className='bg-white mt-2'>
+       <h1 className = "p-2 text-[18px] font-extrabold">Gifts for Everyone</h1>
       <div className = " w-full grid gap-4 grid-cols-2 p-2 ">
             <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/GW/QuadCards/DT/HOL22_GW_DT_QuadCard_1_Electronics_1x._SY116_CB608522082_.jpg" name ="Electronics"/>
               <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/GW/QuadCards/DT/HOL22_GW_DT_QuadCard_2_Home_2x._SY232_CB608522082_.jpg" name ="Home"/>
@@ -42,7 +42,7 @@ function ShoppingTrends({Trends}) {
 
         {/* another component */}
         <div className = "block md:hidden lg:hidden w-fill p-2 mt-2 bg-white">
-        <h1 className = "text-[18px] font-extrabold">Deals on fashion</h1>
+        <h1 className = "text-[18px] font-extrabold">Deals on Electronics</h1>
        <hr className='mt-2 mb-2'/>
         {/* dixplay products */}
       <div className = "block md:block lg:flex  flex-wrap space-y-4 md:space-y-4 lg:-space-y-0 lg:space-x-4 p-0 md:p-2 lg:p-2 ">
