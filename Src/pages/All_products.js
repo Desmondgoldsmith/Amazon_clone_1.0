@@ -5,6 +5,7 @@ import { useSelector } from 'react-redux'
 import Header from '../Components/Header'
 import ProductFeed from '../Components/ProductFeed'
 import Products_bar from '../Components/Products_bar'
+import Top_products from '../Components/Top_products'
 import { selectItems, sumTotal } from '../Slices/Cartslice'
 
 function All_products({products}) {
@@ -126,6 +127,9 @@ function All_products({products}) {
        </div>
   {/* product feeds */}
     <ProductFeed products = {products} />
+      </div>
+      <div className = "hidden">
+        <Top_products products = {products}/>
       </div>
     </div>
 
