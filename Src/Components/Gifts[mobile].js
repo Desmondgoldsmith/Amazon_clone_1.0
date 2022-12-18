@@ -1,12 +1,38 @@
 import React from 'react'
 
-function Gifts[mobile]() {
+function Gifts({image,link}) {
   return (
-    <div className='flex'>
-      <div></div>
-      <div></div>
+    <div className='flex w-full'>
+      <div  className='flex' >
+        <Image
+         src={image}
+         width={120}
+         height={120}
+         className =" "
+        />
+        <Image
+         src={image}
+         width={120}
+         height={120}
+         className =" "
+        />
+      </div>
+      <div className='flex'>
+      <Image
+         src={image}
+         width={120}
+         height={120}
+         className =" "
+        />
+        <Image
+         src={image}
+         width={120}
+         height={120}
+         className =" "
+        />
+      </div>
     </div>
   )
 }
 
-export default Gifts[mobile]
+export default Gifts
