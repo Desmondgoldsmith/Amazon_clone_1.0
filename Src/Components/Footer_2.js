@@ -107,7 +107,17 @@ function Footer_2() {
       <p className = "text-[12px] font-extrabold">Sell on Amazon </p>
       <p className = "text-xs"><Link href = "/#">Start a Selling Account</Link></p>
       </div>
-            </div>
+    </div>
+
+    <div className = "flex justify-center items-center">
+     <div>
+     <p>Conditions of Use</p>
+    <p>Privacy Notice</p>
+    <p>Interest-Based Ads</p>
+     </div>
+     <p>© 1996-2022, Amazon.com, Inc. or its affiliates</p>
+    </div>
+            
     </div>
   )
 }
