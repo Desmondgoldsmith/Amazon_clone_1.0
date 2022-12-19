@@ -11,7 +11,7 @@ function Cart() {
   const {data:session} = useSession() //get the actual session state at the moment ie. if the user is logged in or out
   const items = useSelector(selectItems) 
   const sum = useSelector(sumTotal)// sum total price of items in cart
-
+  
 
   return (
     <div className = "bg-gray-200 h-fit w-full">
@@ -33,14 +33,14 @@ function Cart() {
              ))}
               
               {/* sub total */}
-              <p className='text-[20px] text-right'>Subtotal(1 item): <span className='font-extrabold'>${sum} </span> </p>
+              <p className='text-[20px] text-right'>Subtotal({items.length} item): <span className='font-extrabold'>${sum} </span> </p>
         </div>
         {/* total price section */}
         {/* prevent user form proceeding to checkout if ! signed in  */}
         
         <div className = "w-[240px] bg-white p-2 h-[120px]">
-        <p className='text-[18px]'>Subtotal(1 item): <span className='font-extrabold'>${sum} </span> </p>
-          <button disabled = {!session} className = {`w-[220px] ${!session ? `bg-gray-300 cursor-not-allowed` : `bg-yellow-300 hover:bg-yellow-500` }  p-2 rounded-lg `}>{!session ? "sign-in first" :  "proceed to checkout"}</button>
+        <p className='text-[18px]'>Subtotal({items.length} item): <span className='font-extrabold'>${sum} </span> </p>
+          <button disabled = {!session} className = {`w-[220px] ${!session ? `bg-gray-300 cursor-not-allowed` : `bg-yellow-300 hover:bg-yellow-500` }  p-2 rounded-lg `}>{!session ? "sign-in to checkout" :  "proceed to checkout"}</button>
         </div>
      
       </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import {removeFromCart, selectItems} from  '../Slices/Cartslice'
+import {removeFromCart, selectItems, addToCart} from  '../Slices/Cartslice'
 import Image from 'next/image'
 
 function Products_bar({id,image,price}) {
@@ -19,7 +19,7 @@ function Products_bar({id,image,price}) {
         image,
         price
        }
-        dispatch(addCart(product))
+        dispatch(addToCart(product))
       }
 
   return (
