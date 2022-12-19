@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import Nav_dropdown from './Nav_dropdown'
 
 function Footer_1() {
   return (
