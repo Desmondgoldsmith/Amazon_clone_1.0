@@ -57,8 +57,8 @@ function CartItems({title,price,description,category,image,id}) {
                 </button>
 
                 <p className ="text-[14px]">| <span  onClick = {()=>removeItem()} className  = "text-blue-500 hover:underline cursor-pointer">delete</span> |</p>
-                <p className ="text-[14px]"> <span onClick ={router.push('/#')} className  = "text-blue-500 hover:underline cursor-pointer"> save for later</span> |</p>
-                <p className ="text-[14px]"> <span onClick = {router.push('/All_products')} className  = "text-blue-500 hover:underline cursor-pointer"> compare with similar items</span> |</p>
+                <p className ="text-[14px]"> <span className  = "text-blue-500 hover:underline cursor-pointer"> save for later</span> |</p>
+                <p className ="text-[14px]"> <span onClick={()=>router.push("/All_products")} className  = "text-blue-500 hover:underline cursor-pointer"> compare with similar items</span> |</p>
               </div>
 
               {/* mobile screen only */}
@@ -70,8 +70,8 @@ function CartItems({title,price,description,category,image,id}) {
                 </button>
 
                 <button onClick = {()=>removeItem()} className = "bg-gray-200 outline-none border border-gray-200 p-2 rounded-md">delete</button>
-                <button onClick = {()=>router.push('/#')} className = "bg-gray-200 outline-none border border-gray-200 p-2 rounded-md">save for later</button>              </div>
-                <button onClick = {()=>router.push('/All_products')} className = "bg-gray-200 outline-none border border-gray-200 p-2 rounded-md">compare with similar items</button>
+                <button className = "bg-gray-200 outline-none border border-gray-200 p-2 rounded-md">save for later</button>              </div>
+                <button onClick={()=>router.push("/All_products")} className = "flex lg:hidden md:flex space-x-3 bg-gray-200 outline-none border border-gray-200 p-2 rounded-md">compare with similar items</button>
 
             </div>
               
