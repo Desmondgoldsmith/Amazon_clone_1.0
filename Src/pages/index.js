@@ -26,9 +26,13 @@ return (
         <Top_products Trends = {Trends}/>
         {/* fitness and Toys component */}
         <Top_fittness_and_Toys/>
-        <Footer_1/>        
       </main>
+      
+       <footer>
+       <Footer_1/>        
+      </footer>
     </div>
+   
   )
 }
 
