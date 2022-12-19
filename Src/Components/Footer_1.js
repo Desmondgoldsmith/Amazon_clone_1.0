@@ -5,7 +5,7 @@ import Nav_dropdown from './Nav_dropdown'
 
 function Footer_1() {
   return (
-    <div className = "text-white bg-amazon_blue-light mt-6  pt-6 pb-6">
+    <div className = "hidden md:block lg:block text-white bg-amazon_blue-light mt-6  pt-6 pb-6">
      <div className = "  pl-40 pr-40  grid gap-10 grid-cols-4">
      <div  className = "space-y-1">
       <p className = "font-extrabold text-[18px]">Get to Know Us</p>

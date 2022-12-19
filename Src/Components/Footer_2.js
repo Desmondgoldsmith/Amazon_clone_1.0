@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 function Footer_2() {
   return (
-    <div className = "p-10  text-white bg-amazon_blue">
+    <div className = "hidden md:block lg:block p-10  text-white bg-amazon_blue">
       <div className = "grid gap-6 grid-cols-7 grid-rows-4 ml-40 mr-40">
       <div className = "">
       <p className = "text-[12px] font-extrabold">Amazon Music</p>

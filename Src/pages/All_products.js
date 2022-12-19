@@ -6,6 +6,8 @@ import Header from '../Components/Header'
 import ProductFeed from '../Components/ProductFeed'
 import Products_bar from '../Components/Products_bar'
 import { selectItems, sumTotal } from '../Slices/Cartslice'
+import Footer_1 from '../Components/Footer_1'
+import Footer_2 from '../Components/Footer_2'
 
 function All_products({products}) {
  const items = useSelector(selectItems)
@@ -153,6 +155,9 @@ function All_products({products}) {
      
 
     </div>
+    {/* footers */}
+    <Footer_1/>
+    <Footer_2/>
     </div>
 
     
