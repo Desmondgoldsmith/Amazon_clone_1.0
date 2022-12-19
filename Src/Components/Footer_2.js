@@ -116,7 +116,7 @@ function Footer_2() {
     <p>Interest-Based Ads</p>
      </div>
      <div className = "flex justify-center text-sm">
-     <p>© 1996-2022, Amazon.com, Inc. or its affiliates</p>
+     <p>© 2022 Desmond Goldsmith 😜</p>
      </div>
 
     </div>
