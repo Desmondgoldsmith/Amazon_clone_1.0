@@ -6,6 +6,9 @@ import Top_fittness_and_Toys from '../Components/Top_fittness_and_Toys'
 import Top_products from '../Components/Top_products'
 import Footer_1 from '../Components/Footer_1'
 import Footer_2 from '../Components/Footer_2'
+import Footer from '../Components/Footer[mobile_1]'
+import MobileFooter2 from '../Components/MobileFooter2'
+
 
 export default function Home({Trends}) {
 
@@ -30,8 +33,12 @@ return (
       </main>
       
        <footer>
+       {/* footer for pcs */}
        <Footer_1/>        
-       <Footer_2/>        
+       <Footer_2/>   
+{/* footer for mobile devices */}
+       <Footer/>
+       <MobileFooter2/>     
       </footer>
     </div>
    
