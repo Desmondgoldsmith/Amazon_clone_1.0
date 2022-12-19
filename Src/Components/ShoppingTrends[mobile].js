@@ -5,8 +5,8 @@ import ProductTrends from './ProductTrends[mobile]'
 function ShoppingTrends({Trends}) {
      
   return (
-    <div>
-       <div className = "block md:hidden lg:hidden w-fill p-2 mt-2 bg-white">
+    <div className='block md:hidden lg:hidden'>
+       <div className = " w-fill p-2 mt-2 bg-white">
         <h1 className = "text-[18px] font-extrabold">Inspired by your shopping products</h1>
        <hr className='mt-2 mb-2'/>
         {/* dixplay products */}
