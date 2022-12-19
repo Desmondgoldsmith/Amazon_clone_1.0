@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-function Mixed_component({name,background_color,link,header,productImage1, productImage2, productImage3, productImage4,productName1,productName2,productName3,productName4 }) {
+function Mixed_component({title,background_color,route,header,productImage1, productImage2, productImage3, productImage4,productName1,productName2,productName3,productName4 }) {
     return (
     <div className='bg-white p-6  w-[325px] z-30 h-[400px] shrink-0'>
         <p className='font-extrabold text-xl mb-2 '>{header}</p>
@@ -49,7 +49,7 @@ function Mixed_component({name,background_color,link,header,productImage1, produ
   
         
        </div>
-       <Link className='text-blue-500 hover:text-red-600 hover:underline' href="link">{name}</Link>
+       <Link className='text-blue-500 hover:text-red-600 hover:underline' href={route}>{title}</Link>
     </div>
   )
 }

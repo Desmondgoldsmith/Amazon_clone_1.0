@@ -11,7 +11,7 @@ function Product_category({title,route,header, productImage}) {
       <Image onClick = {route} src={productImage} alt='product images'
         width={180}
         height={400}
-        className = 'h-[310px] w-[350px] whitespace-nowrap'
+        className = 'h-[310px] w-[350px] whitespace-nowrap cursor-pointer'
       />
         <p className='text-blue-500 cursor-pointer hover:text-red-600 hover:underline' onClick = {route}>{title}</p>
     </div>
