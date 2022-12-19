@@ -44,6 +44,7 @@ function Footer_1() {
        <p className = "cursor-pointer text-sm"><Link href = "/#" > Amazon Assistant</Link></p>
        <p className = "cursor-pointer text-sm"><Link href = "/#" > Help</Link></p>
       </div>
+      <hr className = "mb-3"/>
     </div>
   )
 }
