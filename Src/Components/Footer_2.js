@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 function Footer_2() {
   return (
@@ -14,11 +15,30 @@ function Footer_2() {
       <p className = "text-xs"><Link href = "/#">Find, attract, and</Link></p>
       <p className = "text-xs"><Link href = "/#">engage customers</Link></p>
       </div>
-      <div className = "border border-red-600">nnsknsk</div>
-      <div className = "border border-red-600">nnsknsk</div>
-      <div className = "border border-red-600">nnsknsk</div>
-      <div className = "border border-red-600">nnsknsk</div>
-      <div className = "border border-red-600">nnsknsk</div>
+      <div className = "border border-red-600">
+      <p className = "text-[12px] font-extrabold">Amazon Drive</p>
+    <p className = "text-xs"><Link href = "/#">Cloud storage</Link></p>
+    <p className = "text-xs"><Link href = "/#">from Amazon</Link></p>
+      </div>
+      <div className = "border border-red-600">
+      <p className = "text-[12px] font-extrabold">6pm</p>
+<p className = "text-xs"><Link href = "/#">Score deals</Link></p>
+<p className = "text-xs"><Link href = "/#">on fashion brands</Link></p>
+      </div>
+      <div className = "border border-red-600">
+      <p className = "text-[12px] font-extrabold">AbeBooks</p>
+<p className = "text-xs"><Link href = "/#">Books, art</Link></p>
+<p className = "text-xs"><Link href = "/#">& collectibles</Link></p>
+      </div>
+      <div className = "border border-red-600">
+      <p className = "text-[12px] font-extrabold">ACX</p>
+<p className = "text-xs"><Link href = "/#">Audiobook Publishing</Link></p>
+<p className = "text-xs"><Link href = "/#">Made Easy</Link></p>
+      </div>
+      <div className = "border border-red-600">
+      <p className = "text-[12px] font-extrabold">Sell on Amazon </p>
+      <p className = "text-xs"><Link href = "/#">Start a Selling Account</Link></p>
+      </div>
       <div className = "border border-red-600">nnsknsk</div>
       <div className = "border border-red-600">nnsknsk</div>
       <div className = "border border-red-600">nnsknsk</div>
