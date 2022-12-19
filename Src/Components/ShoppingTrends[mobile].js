@@ -32,7 +32,7 @@ function ShoppingTrends({Trends}) {
        </div>
 
        {/* gifts for everyone */}
-       <div className='bg-white mt-2'>
+       <div className='bg-white mt-2 '>
        <h1 className = "p-2 text-[18px] font-extrabold">Gifts for Everyone</h1>
       <div className = " w-full grid gap-4 grid-cols-2 p-2 ">
             <Gifts link = {()=>router.push('/All_products')}  image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/GW/QuadCards/DT/HOL22_GW_DT_QuadCard_1_Electronics_1x._SY116_CB608522082_.jpg" name ="Electronics"/>
@@ -56,7 +56,7 @@ function ShoppingTrends({Trends}) {
 
 
          {/* gifts for everyone */}
-         <div className='bg-white mt-2'>
+         <div className='bg-white mt-2 mb-3'>
        <h1 className = "p-2 text-[18px] font-extrabold">Great gifts for Everyone</h1>
       <div className = " w-full grid gap-4 grid-cols-2 p-2 ">
             <Gifts link = {()=>router.push('/All_products')} image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_ShopAll_DT_2x._SY232_CB606650457_.jpg" name ="For Him"/>

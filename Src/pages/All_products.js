@@ -8,6 +8,9 @@ import Products_bar from '../Components/Products_bar'
 import { selectItems, sumTotal } from '../Slices/Cartslice'
 import Footer_1 from '../Components/Footer_1'
 import Footer_2 from '../Components/Footer_2'
+import Footer from '../Components/Footer[mobile_1]'
+import MobileFooter2 from '../Components/MobileFooter2'
+
 
 function All_products({products}) {
  const items = useSelector(selectItems)
@@ -155,9 +158,12 @@ function All_products({products}) {
      
 
     </div>
-    {/* footers */}
+    {/* pc footers */}
     <Footer_1/>
     <Footer_2/>
+    {/* mobile footer */}
+    <Footer/>
+    <MobileFooter2/>
     </div>
 
     
@@ -165,17 +171,7 @@ function All_products({products}) {
   
 }
 
-// 
-// export async function getServerSideProps(context){
-//   const products = await fetch("https://fakestoreapi.com/products").then(
-//       (res) => res.json()
-//   );
-//   return{
-//     props:{
-//       products,
-//   }
-//   }
-// }
+// server side rendering
 export async function getServerSideProps(context){
    const products = await fetch("https://fakestoreapi.com/products").then(
       (res) => res.json()
