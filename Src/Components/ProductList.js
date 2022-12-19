@@ -40,7 +40,7 @@ function ProductList({title,price,description,category,image,id}) {
           />
          </div>
           
-          <div className = "p-1 border-2 border-red-600">
+          <div className = "p-2 border-2 border-red-600 w-full">
             {/* displays only on larg screen */}
             <p className = "hidden md:hidden lg:block text-[16px] font-semibold cursor-pointer truncate   hover:overflow-visible hover:whitespace-normal hover:ease-in hover:duration-300">{title}</p>
               {/* displays only on small and mid screens */}
