@@ -2,9 +2,11 @@ import React,{useRef} from 'react'
 import ShoppingTrends from './ShoppingTrends[mobile]'
 import Top_Apparels from './Top_Apparels'
 import Top_books from './Top_books'
+import { useRouter } from 'next/router'
 
 function Top_products({Trends}) {
   const lisrRef = useRef(null)
+  const router = useRouter()
   const leftScroll = () => {
     if (lisrRef.current) {
           lisrRef.current.scrollBy({

@@ -9,7 +9,7 @@ function Shopgift({productImage,link}) {
         width={150}
         height={100}
         alt="books"
-        className = "h-[200px]"
+        className = "h-[200px] cursor-pointer"
        />
      </div>
      </div>

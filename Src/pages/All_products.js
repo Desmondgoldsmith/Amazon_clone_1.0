@@ -13,7 +13,7 @@ function All_products({products}) {
  const sum = useSelector(sumTotal) // sum total price of items in cart
   return (
     <div>
-    <div className = "flex" >
+    <div className = "flex " >
     <div className = "w-full ">
       <Header/>
 
@@ -131,22 +131,25 @@ function All_products({products}) {
     </div>
 
      {/* sidebar fits here */}
-     <div className = "hidden md:hidden lg:hidden xl:block  w-[120px] p-2 text-center border border-l-black">
-    {/* if cart items is less than 0 show cart empty else .... */}
-    {items.length == 0 ? 
-    <p className= "font-bold text-[18px]">Cart is empty !</p>
-    :
-    <div>
-    <p className ="text-sm font-bold">Subtotal</p>
-    <p className = "text-red-900 font-bold">${sum}</p>
-    <button onClick = {()=>router.push('/Cart')} className = "w-[100px] p-2 rounded-lg bg-gray-300">Go to cart</button>
-   
-     {items.map((item)=>(
-            <Products_bar id = {item.id} image = {item.image} price = {item.price} key={item.id} />
-     ))}
-    </div>
-    }
-    </div>
+     <div className = "hidden md:hidden lg:hidden xl:block relative w-[120px] border border-l-black ">
+      <div className = {`${items.length > 3 ? 'overflow-y-auto' : 'fixed top-0 right-0' } w-[110px] text-center  `}>
+      {/* if cart items is less than 0 show cart empty else .... */}
+      {items.length == 0 ? 
+      <p className= "font-bold text-[18px]">Cart is empty !</p>
+      :
+      <div>
+      <p className ="text-sm font-bold">Subtotal</p>
+      <p className = "text-red-900 font-bold">${sum}</p>
+      <button onClick = {()=>router.push('/Cart')} className = "w-[100px] p-2 rounded-lg bg-gray-300">Go to cart</button>
+    
+      {items.map((item)=>(
+              <Products_bar id = {item.id} image = {item.image} price = {item.price} key={item.id} />
+      ))}
+      </div>
+      }
+      </div>
+     </div>
+     
 
     </div>
     </div>
