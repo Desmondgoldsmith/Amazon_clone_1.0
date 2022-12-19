@@ -131,7 +131,7 @@ function All_products({products}) {
     </div>
 
      {/* sidebar fits here */}
-     <div className = "hidden md:hidden lg:hidden xl:inline-block  w-[160px] p-2 text-center border border-l-black">
+     <div className = "hidden md:hidden lg:inline-block  w-[160px] p-2 text-center border border-l-black">
     {/* if cart items is less than 0 show cart empty else .... */}
     {items.length == 0 ? 
     <p className= "font-bold text-[18px]">Cart is empty !</p>

@@ -30,7 +30,7 @@ function ProductList({title,price,description,category,image,id}) {
   return (
     <div>
         <div className='flex md:flex lg:block space-x-2 lg:space-x-0 md:space-x-2  w-full md:w-full items-center lg:w-[220px]'>
-         <div className='p-1 border-2 border-red-600 '>
+         <div className='p-1 '>
           <Image 
           src = {image}
           alt = "product images"
@@ -40,7 +40,7 @@ function ProductList({title,price,description,category,image,id}) {
           />
          </div>
           
-          <div className = "p-2 border-2 border-red-600 w-full">
+          <div className = "p-2  w-full">
             {/* displays only on larg screen */}
             <p className = "hidden md:hidden lg:block text-[16px] font-semibold cursor-pointer truncate   hover:overflow-visible hover:whitespace-normal hover:ease-in hover:duration-300">{title}</p>
               {/* displays only on small and mid screens */}
