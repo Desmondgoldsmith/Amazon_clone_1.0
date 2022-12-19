@@ -32,7 +32,18 @@ function Footer_1() {
        <p className = "cursor-pointer text-sm"><Link href = "/#" > Reload Your Balance</Link></p>
         <p className = "cursor-pointer text-sm"><Link href = "/#" >Amazon Currency Converter</Link></p>
       </div>
-      <div className = "space-y-1">Fouth one</div>
+      <div className = "space-y-1">
+      	
+      <p className = "font-extrabold text-[18px]">Let Us Help You</p>
+       <p className = "cursor-pointer text-sm"><Link href = "/#" > Amazon and COVID-19</Link></p>
+       <p className = "cursor-pointer text-sm"><Link href = "/#" > Your Account</Link></p>
+       <p className = "cursor-pointer text-sm"><Link href = "/#" > Your Orders</Link></p>
+       <p className = "cursor-pointer text-sm"><Link href = "/#" > Shipping Rates & Policies</Link></p>
+       <p className = "cursor-pointer text-sm"><Link href = "/#" > Returns & Replacements</Link></p>
+       <p className = "cursor-pointer text-sm"><Link href = "/#" > Manage Your Content and Devices</Link></p>
+       <p className = "cursor-pointer text-sm"><Link href = "/#" > Amazon Assistant</Link></p>
+       <p className = "cursor-pointer text-sm"><Link href = "/#" > Help</Link></p>
+      </div>
     </div>
   )
 }
