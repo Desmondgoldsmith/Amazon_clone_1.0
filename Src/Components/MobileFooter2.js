@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import useRouter from 'next/router'
+import {useRouter} from 'next/router'
 
 
 function MobileFooter2() {
@@ -18,15 +18,15 @@ function MobileFooter2() {
 
         
       </div>
-      <div className = "flex justify-center space-x-3">
+      <div className = "flex justify-center items-center space-x-3">
       <Image src='https://etc.usf.edu/clipart/72500/72519/72519_28_us_c_lg.gif'
           width={30}
           height={10}
         />
       United States
       </div>
-      <div>
-      <p>Already a customer? <span onClick = {()=>router.push('/Sign-in')}>Sign in</span></p>
+      <div className  ="flex justify-center">
+      <p>Already a customer? <span className="hover:underline hover:text-blue-500" onClick = {()=>router.push('/Sign-in')}>Sign in</span></p>
       </div>
     </div>
   )
