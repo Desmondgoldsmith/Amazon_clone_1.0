@@ -25,7 +25,13 @@ function Footer_1() {
        <p className = "cursor-pointer text-sm"><Link href = "/#" > Host an Amazon Hub</Link></p>
        <p className = "cursor-pointer text-sm"><Link href = "/#" > ›See More Make Money with Us</Link></p>
       </div>
-      <div className = "space-y-1">Third one</div>
+      <div className = "space-y-1">
+      <p className = "font-extrabold text-[18px]"> Amazon Payment Products</p>
+        <p className = "cursor-pointer text-sm"><Link href = "/#" >Amazon Business Card</Link></p>
+        <p className = "cursor-pointer text-sm"><Link href = "/#" >Shop with Points</Link></p>
+       <p className = "cursor-pointer text-sm"><Link href = "/#" > Reload Your Balance</Link></p>
+        <p className = "cursor-pointer text-sm"><Link href = "/#" >Amazon Currency Converter</Link></p>
+      </div>
       <div className = "space-y-1">Fouth one</div>
     </div>
   )
