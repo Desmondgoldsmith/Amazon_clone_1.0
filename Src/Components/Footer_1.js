@@ -72,7 +72,7 @@ function Footer_1() {
     </svg>
         </p>
           </button>
-           {/* <Nav_dropdown/> */}
+           <Nav_dropdown/>
       </div>
       {/* us-dollar */}
       <div className=' mr-2 space-x-1   p-1 border border-white cursor-pointer   group relative'>
