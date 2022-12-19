@@ -9,6 +9,7 @@ import Cart_small_screen from '../Components/Cart_small_screen'
 import Footer_1 from '../Components/Footer_1'
 import Footer from '../Components/Footer[mobile_1]'
 import Footer_2 from '../Components/Footer_2'
+import MobileFooter2 from '../Components/MobileFooter2'
 
 
 function Cart() {
@@ -58,6 +59,7 @@ function Cart() {
 
     {/* footers small screens */}
     <Footer/>
+    <MobileFooter2/>
     </div>
   )
 }
