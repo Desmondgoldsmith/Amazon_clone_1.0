@@ -3,8 +3,10 @@ import Link from 'next/link'
 
 function Footer_1() {
   return (
-    <div className = " text-white bg-amazon_blue-light pl-40 pr-40 mt-6 pt-6 pb-6 grid gap-10 grid-cols-4">
-      <div  className = "space-y-1">
+    <div className = " ">
+     <div className = " text-white bg-amazon_blue-light pl-40 pr-40 mt-6 pt-6 pb-6 grid gap-10 grid-cols-4">
+    
+     <div  className = "space-y-1">
       <p className = "font-extrabold text-[18px]">Get to Know Us</p>
        <p className = "cursor-pointer text-sm"><Link href = "/#" > Careers</Link></p>
        <p className = "cursor-pointer text-sm"><Link href = "/#" > Blog</Link></p>
@@ -44,6 +46,8 @@ function Footer_1() {
        <p className = "cursor-pointer text-sm"><Link href = "/#" > Amazon Assistant</Link></p>
        <p className = "cursor-pointer text-sm"><Link href = "/#" > Help</Link></p>
       </div>
+     </div>
+      
       <hr className = "mb-3"/>
     </div>
   )
