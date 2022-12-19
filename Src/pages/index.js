@@ -5,6 +5,7 @@ import Header from '../Components/Header'
 import Top_fittness_and_Toys from '../Components/Top_fittness_and_Toys'
 import Top_products from '../Components/Top_products'
 import Footer_1 from '../Components/Footer_1'
+import Footer_2 from '../Components/Footer_2'
 
 export default function Home({Trends}) {
 
@@ -30,6 +31,7 @@ return (
       
        <footer>
        <Footer_1/>        
+       <Footer_2/>        
       </footer>
     </div>
    

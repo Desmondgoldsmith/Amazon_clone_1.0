@@ -50,7 +50,7 @@ function Footer_1() {
      </div>
       {/* horizontal line*/}
       <hr className = "mb-3 mt-6 text-gray-200"/>
-
+       
       <div className = "flex justify-center space-x-3 items-center">
       <div onClick={()=>router.push('/')} className='mt-2 mr-10 items-center hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer'>
          <Image src = 'https://pngimg.com/uploads/amazon/amazon_PNG25.png'
@@ -72,14 +72,15 @@ function Footer_1() {
     </svg>
         </p>
           </button>
-           <Nav_dropdown/>
+           {/* <Nav_dropdown/> */}
       </div>
       {/* us-dollar */}
       <div className=' mr-2 space-x-1   p-1 border border-white cursor-pointer   group relative'>
        <p className = "font-bold">$ usd-us dollar</p>
       </div>
       </div>
-    </div>
+
+         </div>
   )
 }
 
