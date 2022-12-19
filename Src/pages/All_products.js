@@ -14,7 +14,7 @@ function All_products({products}) {
   return (
     <div>
     <div className = "flex" >
-    <div className = "w-full md:w-full  lg:w-full ">
+    <div className = "w-full ">
       <Header/>
 
       {/* page content  */}
@@ -131,7 +131,7 @@ function All_products({products}) {
     </div>
 
      {/* sidebar fits here */}
-     <div className = "hidden md:hidden lg:inline-block  w-[160px] p-2 text-center border border-l-black">
+     <div className = "hidden md:hidden lg:hidden xl:block  w-[120px] p-2 text-center border border-l-black">
     {/* if cart items is less than 0 show cart empty else .... */}
     {items.length == 0 ? 
     <p className= "font-bold text-[18px]">Cart is empty !</p>
@@ -139,7 +139,7 @@ function All_products({products}) {
     <div>
     <p className ="text-sm font-bold">Subtotal</p>
     <p className = "text-red-900 font-bold">${sum}</p>
-    <button onClick = {()=>router.push('/Cart')} className = "w-[140px] p-2 rounded-lg bg-gray-300">Go to cart</button>
+    <button onClick = {()=>router.push('/Cart')} className = "w-[100px] p-2 rounded-lg bg-gray-300">Go to cart</button>
    
      {items.map((item)=>(
             <Products_bar id = {item.id} image = {item.image} price = {item.price} key={item.id} />
