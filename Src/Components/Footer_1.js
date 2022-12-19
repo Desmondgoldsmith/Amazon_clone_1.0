@@ -46,9 +46,18 @@ function Footer_1() {
        <p className = "cursor-pointer text-sm"><Link href = "/#" > Help</Link></p>
       </div>
      </div>
-      
+      {/* horizontal line*/}
       <hr className = "mb-3 mt-6 text-gray-200"/>
-      
+
+      <div>
+      <div onClick={()=>router.push('/')} className='mt-2 items-center flex-grow sm:flex-grow-0 hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer'>
+         <Image src = 'https://pngimg.com/uploads/amazon/amazon_PNG25.png'
+          width={100}
+          height={20}
+          className = "cursor-pointer"
+         />
+       </div>
+      </div>
     </div>
   )
 }
