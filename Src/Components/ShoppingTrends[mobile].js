@@ -1,8 +1,10 @@
 import React from 'react'
 import Gifts from './Gifts[mobile]'
 import ProductTrends from './ProductTrends[mobile]'
+import {useRouter} from 'next/router'
 
 function ShoppingTrends({Trends}) {
+  const router = useRouter()
      
   return (
     <div className='block md:hidden lg:hidden'>
