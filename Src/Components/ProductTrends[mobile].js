@@ -1,14 +1,20 @@
 import Image from 'next/image'
 import React from 'react'
-import useDispatch from 'react-redux'
+import {useDispatch} from 'react-redux'
+import {addToCart} from '../Slices/Cartslice'
 
 function ProductTrends({title,price,description,category,image,id}) {
   const dispatch = useDispatch()
   const addCart = () => {
-    const products = {
-      title,price,description,category,image,id
+    const product = {
+      title,
+      price,
+      description,
+      category,
+      image,
+      id
     }
-   dispatch(addToCart(products))
+   dispatch(addToCart(product))
   }
   return (
     <div>

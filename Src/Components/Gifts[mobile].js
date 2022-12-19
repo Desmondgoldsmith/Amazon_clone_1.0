@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-function Gifts({image,name}) {
+
+function Gifts({image,name,link}) {
   return (
     <div className=''>
       
@@ -10,7 +11,7 @@ function Gifts({image,name}) {
          height={120}
          className ="w-[200px] "
         />
-        <p>{name}</p>
+        <p onClick = {}>{name}</p>
     </div>
   )
 }
