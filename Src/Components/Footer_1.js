@@ -3,9 +3,8 @@ import Link from 'next/link'
 
 function Footer_1() {
   return (
-    <div className = " ">
-     <div className = " text-white bg-amazon_blue-light pl-40 pr-40 mt-6 pt-6 pb-6 grid gap-10 grid-cols-4">
-    
+    <div className = "text-white bg-amazon_blue-light mt-6  pt-6 pb-6">
+     <div className = "  pl-40 pr-40  grid gap-10 grid-cols-4">
      <div  className = "space-y-1">
       <p className = "font-extrabold text-[18px]">Get to Know Us</p>
        <p className = "cursor-pointer text-sm"><Link href = "/#" > Careers</Link></p>
