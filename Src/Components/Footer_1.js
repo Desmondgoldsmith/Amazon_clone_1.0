@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer_1() {
   return (
-    <div className = "border-2 border-red-600 pl-40 pr-40 mt-6 pt-6 pb-6 grid gap-10 grid-cols-4">
+    <div className = "border-2 text-white bg-amazon_blue-light pl-40 pr-40 mt-6 pt-6 pb-6 grid gap-10 grid-cols-4">
       <div  className = "border-2 border-red-600">
       <p className = "font-extrabold text-[20px]">Get to Know Us</p>
        <p> Careers</p>
