@@ -8,7 +8,7 @@ function ProductTrends({title,price,description,category,image,id}) {
     const products = {
       title,price,description,category,image,id
     }
-   dispatch()
+   dispatch(addToCart(products))
   }
   return (
     <div>
