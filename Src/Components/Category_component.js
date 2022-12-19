@@ -39,12 +39,12 @@ function Category_component() {
 
       {/* for mobile screens */}
       <div className='lg:hidden md:hidden   flex z-30 space-x-2 whitespace-normal overflow-x-scroll scrollbar-hide'>
-        <Mobileview_Category   title = "Great holiday gifts are here!" image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_Under20_DT_1x._SY116_CB606650457_.jpg"/>
-         <Mobileview_Category title = "Oculus" image = "https://m.media-amazon.com/images/I/71-A3YzCRsL._AC_SY400_.jpg"/>
-        <Mobileview_Category title = "Women's Fashion" image = "https://images-na.ssl-images-amazon.com/images/I/61ZpXM5WBYL._AC_UL160_SR160,160_.jpg"/>
-        <Mobileview_Category title = "Beauty Pics" image = "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_2x._SY608_CB432774344_.jpg"/>
-        <Mobileview_Category title = "Shop laptops and tablets" image = "https://m.media-amazon.com/images/I/81PbOX7ZtaL._AC_SY400_.jpg"/>
-        <Mobileview_Category title = "Keep shopping for" image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_ShopAll_DT_1x._SY116_CB606650457_.jpg"/>
+        <Mobileview_Category   link = {router.push('/All_products')}  title = "Great holiday gifts are here!" image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_Under20_DT_1x._SY116_CB606650457_.jpg"/>
+         <Mobileview_Category link = {router.push('/All_products')} title = "Oculus" image = "https://m.media-amazon.com/images/I/71-A3YzCRsL._AC_SY400_.jpg"/>
+        <Mobileview_Category link = {router.push('/All_products')} title = "Women's Fashion" image = "https://images-na.ssl-images-amazon.com/images/I/61ZpXM5WBYL._AC_UL160_SR160,160_.jpg"/>
+        <Mobileview_Category link = {router.push('/All_products')} title = "Beauty Pics" image = "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_2x._SY608_CB432774344_.jpg"/>
+        <Mobileview_Category link = {router.push('/All_products')} title = "Shop laptops and tablets" image = "https://m.media-amazon.com/images/I/81PbOX7ZtaL._AC_SY400_.jpg"/>
+        <Mobileview_Category link = {router.push('/All_products')} title = "Keep shopping for" image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_ShopAll_DT_1x._SY116_CB606650457_.jpg"/>
       </div>
       </div>
   )
