@@ -11,7 +11,7 @@ function Gifts({image,name,link}) {
          height={120}
          className ="w-[200px] "
         />
-        <p onClick = {}>{name}</p>
+        <p onClick = {link}>{name}</p>
     </div>
   )
 }
