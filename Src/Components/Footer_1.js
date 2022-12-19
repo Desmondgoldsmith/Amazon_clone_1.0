@@ -47,7 +47,8 @@ function Footer_1() {
       </div>
      </div>
       
-      <hr className = "mb-3"/>
+      <hr className = "mb-3 mt-6 text-gray-200"/>
+      
     </div>
   )
 }
