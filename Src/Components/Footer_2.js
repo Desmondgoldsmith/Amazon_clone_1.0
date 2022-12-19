@@ -109,13 +109,16 @@ function Footer_2() {
       </div>
     </div>
 
-    <div className = "flex justify-center items-center">
-     <div>
+    <div className = " justify-center items-center">
+     <div className = "flex space-x-3 justify-center">
      <p>Conditions of Use</p>
     <p>Privacy Notice</p>
     <p>Interest-Based Ads</p>
      </div>
+     <div className = "justify-center">
      <p>© 1996-2022, Amazon.com, Inc. or its affiliates</p>
+     </div>
+
     </div>
             
     </div>
