@@ -17,7 +17,7 @@ function Cart_small_screen() {
         <div className = "w-full bg-white p-2  pt-4 mb-[20px]">
         <p className='text-[23px] mb-5'>Subtotal({items.length} item): <span className='font-extrabold'>${sum} </span> </p>
          <hr className='mb-5'/>
-          <button disabled = {!session} className = {`w-full mb-5 ${!session ? `bg-gray-300 cursor-not-allowed` : `bg-yellow-300 hover:bg-yellow-500` }  p-2 rounded-lg `}>{!session ? "sign-in first" :  "proceed to checkout"}</button>
+          <button disabled = {!session} className = {`w-full mb-5 ${!session ? `bg-gray-300 cursor-not-allowed` : `bg-yellow-300 hover:bg-yellow-500` }  p-2 rounded-lg `}>{!session ? "sign-in to checkout" :  "proceed to checkout"}</button>
         </div>
 
 

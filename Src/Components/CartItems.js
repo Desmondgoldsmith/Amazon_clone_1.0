@@ -1,9 +1,11 @@
 import React from 'react'
 import {useDispatch} from 'react-redux'
 import {addToCart, removeFromCart} from "../Slices/Cartslice"
+import {useRouter} from 'next/router'
 
 function CartItems({title,price,description,category,image,id}) {  
   const dispatch = useDispatch() //creating an object of the useDispatch func
+  const router =useRouter()
   
   // increase product qty in cart
    const increaseQty = () => {
@@ -68,8 +70,8 @@ function CartItems({title,price,description,category,image,id}) {
                 </button>
 
                 <button onClick = {()=>removeItem()} className = "bg-gray-200 outline-none border border-gray-200 p-2 rounded-md">delete</button>
-                <button onClick = {()=>removeItem()} className = "bg-gray-200 outline-none border border-gray-200 p-2 rounded-md">save for later</button>              </div>
-                <button onClick = {()=>removeItem()} className = "bg-gray-200 outline-none border border-gray-200 p-2 rounded-md">compare with similar items</button>
+                <button onClick = {()=>router.push('/#')} className = "bg-gray-200 outline-none border border-gray-200 p-2 rounded-md">save for later</button>              </div>
+                <button onClick = {()=>router.push('/All_products')} className = "bg-gray-200 outline-none border border-gray-200 p-2 rounded-md">compare with similar items</button>
 
             </div>
               
