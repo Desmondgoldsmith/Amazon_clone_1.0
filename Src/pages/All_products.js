@@ -132,6 +132,7 @@ function All_products({products}) {
 
      {/* sidebar fits here */}
      <div className = "hidden md:hidden lg:hidden xl:block relative w-[120px] border border-l-black ">
+     {/* basically saying here that if products in the product sidebar > 3 users should be able to scroll else it should be fixed */}
       <div className = {`${items.length > 3 ? 'overflow-y-auto' : 'fixed top-0 right-0' } w-[110px] text-center  `}>
       {/* if cart items is less than 0 show cart empty else .... */}
       {items.length == 0 ? 
