@@ -49,7 +49,7 @@ function Mixed_component({title,background_color,route,header,productImage1, pro
   
         
        </div>
-       <Link className='text-blue-500 hover:text-red-600 hover:underline' href={route}>{title}</Link>
+       <Link className='text-blue-500 hover:text-red-600 hover:underline' href="#">{title}</Link>
     </div>
   )
 }
