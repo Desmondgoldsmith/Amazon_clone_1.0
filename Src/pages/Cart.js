@@ -7,7 +7,9 @@ import { useSession } from 'next-auth/react'
 import EmptyCart from '../Components/EmptyCart'
 import Cart_small_screen from '../Components/Cart_small_screen'
 import Footer_1 from '../Components/Footer_1'
+import Footer_1 as Footer_1_mobile from '../Components/Footer_1[mobile]'
 import Footer_2 from '../Components/Footer_2'
+
 
 function Cart() {
   const {data:session} = useSession() //get the actual session state at the moment ie. if the user is logged in or out
@@ -50,9 +52,12 @@ function Cart() {
      </div>
     }
 
-    {/* footers */}
+    {/* footers large and medium screens */}
     <Footer_1/>
     <Footer_2/>
+
+    {/* footers small screens */}
+    <Footer_1_mobile/>
     </div>
   )
 }
