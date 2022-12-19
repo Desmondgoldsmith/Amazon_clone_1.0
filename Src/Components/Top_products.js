@@ -72,22 +72,22 @@ function Top_products({Trends}) {
         </svg>
     </div> 
     <div className='flex overflow-x-scroll scrollbar-hide' ref = {lisrRef}>
-      <Top_Apparels  productImage = "https://m.media-amazon.com/images/I/81hzTjKhYrL._AC_SY400_.jpg"/>
-      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/61mqHQ-erjL._AC_SY400_.jpg"/>
-      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/81SIV3HimyL._AC_SY400_.jpg"/>
-      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/71DEBeVBnmL._AC_SY400_.jpg"/>
-      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/71r8rv62cZL._AC_SY400_.jpg"/>
-      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/81s5Hcf4VcL._AC_SY400_.jpg"/>
-      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/71okvN+6QiL._AC_SY400_.jpg"/>
-      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/81jmE4JjoIL._AC_SY400_.jpg"/>    
-      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/71DEBeVBnmL._AC_SY400_.jpg"/>
-      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/71r8rv62cZL._AC_SY400_.jpg"/>
-      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/81s5Hcf4VcL._AC_SY400_.jpg"/>
-     <Top_Apparels productImage = "https://m.media-amazon.com/images/I/71okvN+6QiL._AC_SY400_.jpg"/>
-      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/81jmE4JjoIL._AC_SY400_.jpg"/>    
-      <Top_Apparels  productImage = "https://m.media-amazon.com/images/I/81hzTjKhYrL._AC_SY400_.jpg"/>
-      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/61mqHQ-erjL._AC_SY400_.jpg"/>
-      <Top_Apparels productImage = "https://m.media-amazon.com/images/I/81SIV3HimyL._AC_SY400_.jpg"/>
+      <Top_Apparels link = {()=>router.push('/All_products')}  productImage = "https://m.media-amazon.com/images/I/81hzTjKhYrL._AC_SY400_.jpg"/>
+      <Top_Apparels link = {()=>router.push('/All_products')} productImage = "https://m.media-amazon.com/images/I/61mqHQ-erjL._AC_SY400_.jpg"/>
+      <Top_Apparels link = {()=>router.push('/All_products')} productImage = "https://m.media-amazon.com/images/I/81SIV3HimyL._AC_SY400_.jpg"/>
+      <Top_Apparels link = {()=>router.push('/All_products')} productImage = "https://m.media-amazon.com/images/I/71DEBeVBnmL._AC_SY400_.jpg"/>
+      <Top_Apparels link = {()=>router.push('/All_products')} productImage = "https://m.media-amazon.com/images/I/71r8rv62cZL._AC_SY400_.jpg"/>
+      <Top_Apparels link = {()=>router.push('/All_products')} productImage = "https://m.media-amazon.com/images/I/81s5Hcf4VcL._AC_SY400_.jpg"/>
+      <Top_Apparels link = {()=>router.push('/All_products')} productImage = "https://m.media-amazon.com/images/I/71okvN+6QiL._AC_SY400_.jpg"/>
+      <Top_Apparels link = {()=>router.push('/All_products')} productImage = "https://m.media-amazon.com/images/I/81jmE4JjoIL._AC_SY400_.jpg"/>    
+      <Top_Apparels link = {()=>router.push('/All_products')} productImage = "https://m.media-amazon.com/images/I/71DEBeVBnmL._AC_SY400_.jpg"/>
+      <Top_Apparels link = {()=>router.push('/All_products')} productImage = "https://m.media-amazon.com/images/I/71r8rv62cZL._AC_SY400_.jpg"/>
+      <Top_Apparels link = {()=>router.push('/All_products')} productImage = "https://m.media-amazon.com/images/I/81s5Hcf4VcL._AC_SY400_.jpg"/>
+     <Top_Apparels link = {()=>router.push('/All_products')} productImage = "https://m.media-amazon.com/images/I/71okvN+6QiL._AC_SY400_.jpg"/>
+      <Top_Apparels link = {()=>router.push('/All_products')} productImage = "https://m.media-amazon.com/images/I/81jmE4JjoIL._AC_SY400_.jpg"/>    
+      <Top_Apparels link = {()=>router.push('/All_products')}  productImage = "https://m.media-amazon.com/images/I/81hzTjKhYrL._AC_SY400_.jpg"/>
+      <Top_Apparels link = {()=>router.push('/All_products')} productImage = "https://m.media-amazon.com/images/I/61mqHQ-erjL._AC_SY400_.jpg"/>
+      <Top_Apparels link = {()=>router.push('/All_products')} productImage = "https://m.media-amazon.com/images/I/81SIV3HimyL._AC_SY400_.jpg"/>
    </div>
     <div className = "text-dark p-1 hover:rounded-full hover:bg-gray-500 hover:text-white cursor-pointer" onClick={rightScroll}>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
