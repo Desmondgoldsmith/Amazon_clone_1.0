@@ -4,6 +4,7 @@ import Category_component from '../Components/Category_component'
 import Header from '../Components/Header'
 import Top_fittness_and_Toys from '../Components/Top_fittness_and_Toys'
 import Top_products from '../Components/Top_products'
+import Footer_1 from '../Components/Footer_1'
 
 export default function Home({Trends}) {
 
@@ -25,7 +26,7 @@ return (
         <Top_products Trends = {Trends}/>
         {/* fitness and Toys component */}
         <Top_fittness_and_Toys/>
-        {/* <All_products products = {products}/> */}
+        <Footer_1/>        
       </main>
     </div>
   )
