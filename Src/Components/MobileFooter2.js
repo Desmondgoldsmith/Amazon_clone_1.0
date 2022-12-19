@@ -28,11 +28,14 @@ function MobileFooter2() {
       <div className  ="flex justify-center">
       <p>Already a customer? <span className="hover:underline hover:text-blue-500" onClick = {()=>router.push('/Sign-in')}>Sign in</span></p>
       </div>
-      <div className = "grid gap-4 grid-cols-3 ">
+      <div className = "flex justify-center items-center space-x-3 text-xs ">
        <p>Conditions of Use Privacy</p>
        <p> Notice</p> 
        <p>Interest-Based Ads</p>
       </div>
+      <div className = "flex justify-center text-sm">
+     <p>© 2022 Desmond Goldsmith 😜</p>
+     </div>
     </div>
   )
 }
