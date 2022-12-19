@@ -5,7 +5,7 @@ import {useRouter} from 'next/router'
 
 function CartItems({title,price,description,category,image,id}) {  
   const dispatch = useDispatch() //creating an object of the useDispatch func
-  const router =useRouter()
+  const router = useRouter()
   
   // increase product qty in cart
    const increaseQty = () => {
@@ -57,8 +57,8 @@ function CartItems({title,price,description,category,image,id}) {
                 </button>
 
                 <p className ="text-[14px]">| <span  onClick = {()=>removeItem()} className  = "text-blue-500 hover:underline cursor-pointer">delete</span> |</p>
-                <p className ="text-[14px]"> <span className  = "text-blue-500 hover:underline cursor-pointer"> save for later</span> |</p>
-                <p className ="text-[14px]"> <span className  = "text-blue-500 hover:underline cursor-pointer"> compare with similar items</span> |</p>
+                <p className ="text-[14px]"> <span onClick ={router.push('/#')} className  = "text-blue-500 hover:underline cursor-pointer"> save for later</span> |</p>
+                <p className ="text-[14px]"> <span onClick = {router.push('/All_products')} className  = "text-blue-500 hover:underline cursor-pointer"> compare with similar items</span> |</p>
               </div>
 
               {/* mobile screen only */}
