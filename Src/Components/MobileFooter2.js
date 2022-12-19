@@ -28,6 +28,11 @@ function MobileFooter2() {
       <div className  ="flex justify-center">
       <p>Already a customer? <span className="hover:underline hover:text-blue-500" onClick = {()=>router.push('/Sign-in')}>Sign in</span></p>
       </div>
+      <div className = "grid gap-4 grid-cols-3 ">
+       <p>Conditions of Use Privacy</p>
+       <p> Notice</p> 
+       <p>Interest-Based Ads</p>
+      </div>
     </div>
   )
 }
