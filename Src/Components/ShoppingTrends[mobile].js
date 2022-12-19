@@ -59,10 +59,10 @@ function ShoppingTrends({Trends}) {
          <div className='bg-white mt-2'>
        <h1 className = "p-2 text-[18px] font-extrabold">Great gifts for Everyone</h1>
       <div className = " w-full grid gap-4 grid-cols-2 p-2 ">
-            <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_ShopAll_DT_2x._SY232_CB606650457_.jpg" name ="For Him"/>
-              <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_Under30_DT_2x._SY232_CB606650457_.jpg" name ="For Her"/>
-            <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_Under20_DT_2x._SY232_CB606650457_.jpg" name ="For you"/>
-              <Gifts image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_Under10_DT_2x._SY232_CB606650457_.jpg" name ="For it"/>
+            <Gifts link = {()=>router.push('/All_products')} image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_ShopAll_DT_2x._SY232_CB606650457_.jpg" name ="For Him"/>
+              <Gifts link = {()=>router.push('/All_products')} image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_Under30_DT_2x._SY232_CB606650457_.jpg" name ="For Her"/>
+            <Gifts link = {()=>router.push('/All_products')} image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_Under20_DT_2x._SY232_CB606650457_.jpg" name ="For you"/>
+              <Gifts link = {()=>router.push('/All_products')} image = "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2022/HOL22/StockingStuffers/GW/QuadCard/DT/HOL22_SS_GW_QuadCard_Under10_DT_2x._SY232_CB606650457_.jpg" name ="For it"/>
               </div>
        </div>
        
