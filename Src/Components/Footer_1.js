@@ -59,7 +59,7 @@ function Footer_1() {
          />
        </div>
               {/* language section */}
-      <div className='hidden lg:flex  mr-2 space-x-1 hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer   group relative'>
+      <div className=' mr-2 space-x-1   p-1 border border-white cursor-pointer   group relative'>
         <Image src='https://etc.usf.edu/clipart/72500/72519/72519_28_us_c_lg.gif'
           width={30}
           height={10}
@@ -158,6 +158,10 @@ function Footer_1() {
 
             </ul>
         </nav>
+      </div>
+      {/* us-dollar */}
+      <div className=' mr-2 space-x-1   p-1 border border-white cursor-pointer   group relative'>
+       <p className = "font-extrabold">$ usd-us dollar</p>
       </div>
       </div>
     </div>
