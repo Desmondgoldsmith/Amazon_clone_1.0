@@ -298,11 +298,11 @@ function Header() {
         </div>
         
         <div className='flex space-x-2 lg:text-sm md:text-sm sm:text-base cursor-pointer  '>
-          <p className='p-1 hover:border border-white'><Link href = "#" >Todat's Deal</Link></p>
-          <p className='p-1 hover:border border-white'><Link href = "#" >Customer Service</Link></p>
-          <p className='p-1 hover:border border-white'><Link href = "#" >Registry</Link></p>
-          <p className='p-1 hover:border border-white'><Link href = "#" >Gift cards</Link></p>
-          <p className='p-1 hover:border border-white'><Link href = "#" >Sell</Link></p>
+          <p onClick = {()=>router.push('/All_products')}  className='p-1 hover:border border-white'><Link href = "/All_products" >Today's Deal</Link></p>
+          <p onClick = {()=>router.push('/All_products')}  className='p-1 hover:border border-white'><Link href = "/All_products" >Customer Service</Link></p>
+          <p onClick = {()=>router.push('/All_products')}  className='p-1 hover:border border-white'><Link href = "/All_products" >Registry</Link></p>
+          <p  onClick = {()=>router.push('/All_products')} className='p-1 hover:border border-white'><Link href = "/All_products" >Gift cards</Link></p>
+          <p onClick = {()=>router.push('/All_products')}  className='p-1 hover:border border-white'><Link href = "/All_products" >Sell</Link></p>
         </div>
       <div className='pr-2 p-1  md:pl-[200px] lg:pl-[600px]'>
         <p className='hover:border text-base border-white cursor-pointer'>Turn up the cheer, shop gifts now</p>
