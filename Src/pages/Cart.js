@@ -19,6 +19,7 @@ function Cart() {
   const items = useSelector(selectItems) 
   const sum = useSelector(sumTotal)// sum total price of items in cart
   const checkoutSession = () =>{
+    const stripe = await stripePromis()
 
   }
 
