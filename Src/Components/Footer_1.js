@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import Nav_dropdown from './Nav_dropdown'
-import useRouter from 'next/router'
+import {useRouter} from 'next/router'
 function Footer_1() {
   const router = useRouter()
   return (
