@@ -2,8 +2,9 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import Nav_dropdown from './Nav_dropdown'
-
+import useRouter from 'next/router'
 function Footer_1() {
+  const router = useRouter()
   return (
     <div className = "hidden md:block lg:block text-white bg-amazon_blue-light mt-6  pt-6 pb-6">
      <div className = "  pl-40 pr-40  grid gap-10 grid-cols-4">
