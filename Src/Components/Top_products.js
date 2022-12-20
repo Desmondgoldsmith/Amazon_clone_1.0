@@ -45,7 +45,7 @@ function Top_products({Trends}) {
                 })
               }
         }
-        
+
   }
   return (
     <div> 
@@ -93,7 +93,7 @@ function Top_products({Trends}) {
       <path fillRule="evenodd" d="M7.72 12.53a.75.75 0 010-1.06l7.5-7.5a.75.75 0 111.06 1.06L9.31 12l6.97 6.97a.75.75 0 11-1.06 1.06l-7.5-7.5z" clipRule="evenodd" />
         </svg>
     </div> 
-    <div className='flex overflow-x-scroll scrollbar-hide' ref = {lisrRef}>
+    <div className='flex overflow-x-scroll scrollbar-hide' ref = {lisrRef2}>
       <Top_Apparels link = {()=>router.push('/All_products')}  productImage = "https://m.media-amazon.com/images/I/81hzTjKhYrL._AC_SY400_.jpg"/>
       <Top_Apparels link = {()=>router.push('/All_products')} productImage = "https://m.media-amazon.com/images/I/61mqHQ-erjL._AC_SY400_.jpg"/>
       <Top_Apparels link = {()=>router.push('/All_products')} productImage = "https://m.media-amazon.com/images/I/81SIV3HimyL._AC_SY400_.jpg"/>
@@ -111,7 +111,7 @@ function Top_products({Trends}) {
       <Top_Apparels link = {()=>router.push('/All_products')} productImage = "https://m.media-amazon.com/images/I/61mqHQ-erjL._AC_SY400_.jpg"/>
       <Top_Apparels link = {()=>router.push('/All_products')} productImage = "https://m.media-amazon.com/images/I/81SIV3HimyL._AC_SY400_.jpg"/>
    </div>
-    <div className = "text-dark p-1 hover:rounded-full hover:bg-gray-500 hover:text-white cursor-pointer" onClick={rightScroll}>
+    <div className = "text-dark p-1 hover:rounded-full hover:bg-gray-500 hover:text-white cursor-pointer" onClick={rightScroll2}>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
   <path fillRule="evenodd" d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z" clipRule="evenodd" />
   </svg>
