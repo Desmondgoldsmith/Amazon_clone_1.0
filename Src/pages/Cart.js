@@ -22,7 +22,7 @@ function Cart() {
   const checkoutSession = async ()  =>{
     const stripe = await stripePromise
     //create a checkout session
-
+    const checkoutSession = axios.post('.../api/Checkout_Session')
   }
 
   return (
