@@ -173,20 +173,20 @@ function Header() {
     </svg> } Sign in</p>
       </div>
       <div className='hidden lg:block hover:border hoverable border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer group relative '>
-        <p className = "font-bold truncate">{session ? `${session.user.name}` : "Sign-in"}</p>
+        <p onClick = {!session ? ()=>router.push('/Signin') : signOut} className = "font-bold cursor-pointer hover:underline truncate">{session ? `${session.user.name}` : "Sign-in"}</p>
         <button className='font-extrabold link  text-sm flex '>Accounts & Lists
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
     <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clipRule="evenodd" />
     </svg>
         </button>
-        <nav tabIndex={0} className="z-50 mr-10 border-1 border-gray-200 mt-2.5 bg-gray-100 invisible rounded w-80  absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1 ">
+        <nav tabIndex={0} type = "button"  className="z-50 mr-10 border-1 border-gray-200 mt-2.5 bg-gray-100 invisible rounded w-80  absolute left-0 top-full transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1 ">
             <ul className="py-1">
                 <li>
-                    <Link href="#" className="block text-center text-black hover:bg-gray-100">
+                    <div  className="block text-center text-black hover:bg-gray-100">
                        <p>{session ? `Email : ${session.user.email}` : ""}</p>
                        <button onClick = {!session ? ()=>router.push('/Signin') : signOut} className='bg-yellow-400 p-3 w-60 font-bold  text-gray-700 rounded-md hover:bg-yellow-500 cursor-pointer'>{session ? "Sign out" : "Sign in"}</button>
                        <p onClick = {()=>router.push('/Signin')} className = "text-center font-xs">New customer here ? <span className='hover:underline hover:text-blue-500'>start here</span></p>
-                    </Link>
+                    </div>
                 </li>
 
                 <li className='pt-5'><hr/></li>

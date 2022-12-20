@@ -26,7 +26,7 @@ function MobileFooter2() {
       United States
       </div>
       <div className  ="flex justify-center">
-      <p>Already a customer? <span className="hover:underline hover:text-blue-500" onClick = {()=>router.push('/Sign-in')}>Sign in</span></p>
+      <p>Already a customer? <span className="hover:underline hover:text-blue-500" onClick = {()=>router.push('/Signin')}>Sign in</span></p>
       </div>
       <div className = "flex justify-center items-center space-x-3 text-xs ">
        <p>Conditions of Use Privacy</p>
