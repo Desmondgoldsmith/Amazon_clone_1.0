@@ -16,9 +16,15 @@ export default async (req,res) =>{
 
    const session = await stripe.checkout.session.create({
     payment_method_types : ['card'], //select payment methods
+    shipping_address_collections :{
+       allowed_countries : ["GH", "GER" , "CA" , "FR" , "US" ,"RUS"]
+    },
     line_items : transformedItems, //get a list of items in cart
     success_url : `${process.env.HOST}/success`,
-    cancel_url : `${process.env.HOST}/Cart`
-
+    cancel_url : `${process.env.HOST}/Cart`,
+    metadata:{
+        email,
+        images:JSON.stringify(items.map(item => item.image))
+    }
    })
 }
