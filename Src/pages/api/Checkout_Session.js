@@ -16,7 +16,9 @@ export default async (req,res) =>{
 
    const session = await stripe.checkout.session.create({
     payment_method_types : ['card'], //select payment methods
-    line_items : transformedItems //get a list of items in cart
+    line_items : transformedItems, //get a list of items in cart
+    success_url : `${process.env.HOST}/success`,
+    cancel_url : `${process.env.HOST}/Cart`
 
    })
 }
