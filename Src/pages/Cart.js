@@ -26,7 +26,10 @@ function Cart() {
     const checkoutSession = await axios.post('/api/Checkout_Session',
    { items : items,
     email : session.user.email}
-    )
+    );
+
+    // redirrect users to checkout
+    const result = 
   }
 
   return (
