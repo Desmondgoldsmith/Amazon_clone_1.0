@@ -45,7 +45,7 @@ function Cart() {
         
         <div className = "w-[240px] bg-white p-2 h-[120px]">
         <p className='text-[18px]'>Subtotal({items.length} item): <span className='font-extrabold'>${sum} </span> </p>
-          <button disabled = {!session} className = {`w-[220px] ${!session ? `bg-gray-300 cursor-not-allowed` : `bg-yellow-300 hover:bg-yellow-500` }  p-2 rounded-lg `}>{!session ? "sign-in to checkout" :  "proceed to checkout"}</button>
+          <button role = "link" disabled = {!session} className = {`w-[220px] ${!session ? `bg-gray-300 cursor-not-allowed` : `bg-yellow-300 hover:bg-yellow-500` }  p-2 rounded-lg `}>{!session ? "sign-in to checkout" :  "proceed to checkout"}</button>
         </div>
      
       </div>
