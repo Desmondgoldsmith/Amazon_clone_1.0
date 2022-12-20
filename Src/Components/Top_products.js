@@ -6,6 +6,7 @@ import { useRouter } from 'next/router'
 
 function Top_products({Trends}) {
   const lisrRef = useRef(null)
+  const lisrRef2 = useRef(null)
   const router = useRouter()
   const leftScroll = () => {
     if (lisrRef.current) {
@@ -24,6 +25,27 @@ function Top_products({Trends}) {
             behavior:'smooth'
           })
         }
+  }
+
+  const leftScroll2 = () => {
+    if (lisrRef2.current) {
+          lisrRef2.current.scrollBy({
+            top: 0,
+            left:200,
+            behavior:'smooth'
+          })
+        }
+    
+        const rightScroll2 = () => {
+          if (lisrRef2.current) {
+                lisrRef2.current.scrollBy({
+                  top: 0,
+                  left:-200,
+                  behavior:'smooth'
+                })
+              }
+        }
+        
   }
   return (
     <div> 
