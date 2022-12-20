@@ -11,6 +11,7 @@ import Footer_2 from '../Components/Footer_2'
 import Footer from '../Components/Footer[mobile_1]'
 import MobileFooter2 from '../Components/MobileFooter2'
 import { loadStripe } from '@stripe/stripe-js';
+import axios from 'axios'
 
 const stripePromise = loadStripe(process.env.stripe_public_key)
 
