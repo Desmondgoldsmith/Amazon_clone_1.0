@@ -1,7 +1,7 @@
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY)
 export default async (req,res) =>{
-   const [items,email] = req.body
+   const [item,email] = req.body
 
-   console.log(items)
+   console.log(item)
    console.log(email)
 }
