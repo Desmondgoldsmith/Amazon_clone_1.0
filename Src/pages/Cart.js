@@ -29,7 +29,9 @@ function Cart() {
     );
 
     // redirrect users to checkout
-    const result = 
+    const result = await stripe.redirectToCheckout({
+      sessionId: checkoutSession.data.id
+    })
   }
 
   return (
