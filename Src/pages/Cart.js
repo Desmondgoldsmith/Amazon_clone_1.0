@@ -19,7 +19,7 @@ function Cart() {
   const {data:session} = useSession() //get the actual session state at the moment ie. if the user is logged in or out
   const items = useSelector(selectItems) 
   const sum = useSelector(sumTotal)// sum total price of items in cart
-  const checkoutSession = () =>{
+  const checkoutSession = async ()  =>{
     const stripe = await stripePromise
     //create a checkout session
 
