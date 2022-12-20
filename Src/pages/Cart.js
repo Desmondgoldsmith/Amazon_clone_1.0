@@ -36,7 +36,6 @@ function Cart() {
             {items.map((item , i) => (
             <CartItems title={item.title} price={item.price} description={item.description} category={item.category} image = {item.image} id={item.id} key = {i}/>
              ))}
-              
               {/* sub total */}
               <p className='text-[20px] text-right'>Subtotal({items.length} item): <span className='font-extrabold'>${sum} </span> </p>
         </div>
