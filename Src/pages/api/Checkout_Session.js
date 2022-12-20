@@ -5,7 +5,8 @@ export default async (req,res) =>{
      price_data:{
         currency : 'usd',
         product_data:{
-            name: items.name
+            name: item.title,
+            images:[item.image]
         }
      }
    })) 
