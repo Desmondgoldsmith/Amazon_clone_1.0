@@ -10,6 +10,8 @@ import Footer_1 from '../Components/Footer_1'
 import Footer_2 from '../Components/Footer_2'
 import Footer from '../Components/Footer[mobile_1]'
 import MobileFooter2 from '../Components/MobileFooter2'
+import { loadStripe } from '@stripe/stripe-js';
+const stripePromise = loadStripe()
 
 
 function Cart() {
@@ -17,7 +19,7 @@ function Cart() {
   const items = useSelector(selectItems) 
   const sum = useSelector(sumTotal)// sum total price of items in cart
   const checkoutSession = () =>{
-    
+
   }
 
   return (
