@@ -6,7 +6,7 @@ function success(){
     return(
         <div>
           <Header/>
-          <div className = "ml-0 mr-0 w-full md:ml-[300px] md:mr-[300px] lg:ml-40 lg:mr-40  md:w-[600px] lg:w-[800px]  border-2 border-red-600">
+          <div className = "ml-0 mr-0 w-full md:ml-[300px] md:mr-[300px] lg:ml-[25%] lg:mr-[25%]  md:w-[600px] lg:w-[800px]  border-2 border-red-600">
              <p>Money</p>   
           </div>
         </div>
