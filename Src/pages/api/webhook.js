@@ -17,5 +17,11 @@ export default async (req,res)=>{
         const sig = req.headers["stripe-signature"];
 
         let event;
+    //  verify event from stripe
+        try{
+            event = stripe.webhooks.constructEvent(payload, sig,signinSecret)
+        }catch{
+            retut=rn res.status(400).send(`webhookerror: ${err.message}`)
+        }
     }
 }
