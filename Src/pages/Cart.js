@@ -15,7 +15,6 @@ import axios from 'axios'
 
 const stripePromise = loadStripe(process.env.stripe_public_key)
 
-
 function Cart() {
   const {data:session} = useSession() //get the actual session state at the moment ie. if the user is logged in or out
   const items = useSelector(selectItems) 
@@ -23,7 +22,7 @@ function Cart() {
   
   const createCheckoutSession = async ()  =>{
     const stripe = await stripePromise
-    //create a checkout session by calling the backend
+    //create a checkout session by passing the cart data to Checkout_session.js [backend]
     const checkoutSession = await axios.post("/api/Checkout_Session",
    { items : items,
     email : session.user.email}
