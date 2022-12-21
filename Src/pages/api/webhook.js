@@ -28,7 +28,7 @@ export default async (req,res)=>{
         }
         // handle checkout session completed events
         if(event.type === 'checkout.session.completed'){
-
+           const session = event.data.object;
         }
     }
 }
