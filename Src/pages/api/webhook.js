@@ -10,7 +10,9 @@ const app = !admin.apps.length ? admin.initializeApp({
 // connect to stripe
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY)
 const endpointSecret = process.env.STRIPE_SIGNING_SECRET
+
 export default async (req,res)=>{
+    
     if(req.method === 'POST'){
         const requestBuffer = await buffer(req);
         const payload = requestBuffer.toString();
@@ -21,7 +23,12 @@ export default async (req,res)=>{
         try{
             event = stripe.webhooks.constructEvent(payload, sig,signinSecret)
         }catch{
+            console.log('error',error.message)
             return res.status(400).send(`webhookerror: ${err.message}`)
+        }
+        // handle checkout session completed events
+        if(event.type === 'checkout.session.completed'){
+
         }
     }
 }
