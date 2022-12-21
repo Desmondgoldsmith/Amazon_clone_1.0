@@ -6,8 +6,8 @@ function success(){
     return(
         <div>
           <Header/>
-          <div className = "w-full justify-center">
-
+          <div className = "w-full justify-center border-2 border-red-600">
+             <p>Money</p>   
           </div>
         </div>
     )
