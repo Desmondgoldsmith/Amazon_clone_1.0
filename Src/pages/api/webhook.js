@@ -21,7 +21,7 @@ const fulfillOrder = async (session) =>{
 
      }).then(()=>{
         consloe.log(`Success: order ${session.id} has been added !`)
-     }))
+     })
 }
 
 export default async (req,res)=>{
