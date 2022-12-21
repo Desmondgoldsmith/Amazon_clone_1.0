@@ -20,7 +20,7 @@ const fulfillOrder = async (session) =>{
         timestamp: admin.firestore.FieldValue.serverTimestamp(),
 
      }).then(()=>{
-        consloe.log(`Success: order ${session.id} has been added !`)
+        consloe.log('Success: order has been added !')
      })
 }
 
