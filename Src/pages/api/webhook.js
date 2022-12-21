@@ -21,7 +21,7 @@ export default async (req,res)=>{
         try{
             event = stripe.webhooks.constructEvent(payload, sig,signinSecret)
         }catch{
-            retut=rn res.status(400).send(`webhookerror: ${err.message}`)
+            return res.status(400).send(`webhookerror: ${err.message}`)
         }
     }
 }
