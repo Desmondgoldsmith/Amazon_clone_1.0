@@ -43,6 +43,15 @@ export default async (req,res)=>{
         if(event.type === 'checkout.session.completed'){
            const session = event.data.object;
         //    fulfill the order
+        return fulfillOrder(session).then(() => res.status(200)).catch((err) => res.status(400).send(`webhook error: ${err.message}`))
         }
+    }
+}
+
+
+export const config ={
+    api:{
+        bodyParser: false,
+        externalResolver:true,
     }
 }
