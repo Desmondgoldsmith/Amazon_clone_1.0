@@ -34,9 +34,9 @@ export default async (req,res)=>{
         let event;
     //  verify event from stripe
         try{
-            event = stripe.webhooks.constructEvent(payload, sig,signinSecret)
-        }catch{
-            console.log('error',error.message)
+            event = stripe.webhooks.constructEvent(payload, sig,endpointSecret)
+        }catch(err){
+            console.log('error',err.message)
             return res.status(400).send(`webhookerror: ${err.message}`)
         }
         // handle checkout session completed events
