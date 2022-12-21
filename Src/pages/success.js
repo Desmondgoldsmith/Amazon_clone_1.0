@@ -13,7 +13,7 @@ function success(){
              <p className = "text-center text-sm "> please chech your email for order confirmation and detailed delivery</p>   
          
              </div>
-             </div
+             </div>
              </div>
         </div>
     )
