@@ -6,7 +6,7 @@ function success(){
     return(
         <div>
           <Header/>
-          <div w-full justify-center>
+          <div className = "w-full justify-center">
 
           </div>
         </div>
