@@ -13,6 +13,9 @@ const endpointSecret = process.env.STRIPE_SIGNING_SECRET
 
 const fulfillOrder = async (session) =>{
     // console.log('fufilling order',session)
+     return app.firestore().collection('users').doc(session.metadata.collection("orders").doc(session.id).set({
+        amount: session.amount_total / 100
+     }))
 }
 
 export default async (req,res)=>{
