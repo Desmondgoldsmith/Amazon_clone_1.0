@@ -1,9 +1,12 @@
 import react from 'react'
 
 
+
 function success(){
     return(
-        <div>Success</div>
+        <div>
+          <Header/>
+        </div>
     )
 }
 
