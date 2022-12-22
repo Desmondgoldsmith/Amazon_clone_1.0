@@ -3,6 +3,8 @@ import {useDispatch} from 'react-redux'
 import {addToCart, removeFromCart} from "../Slices/Cartslice"
 import {useRouter} from 'next/router'
 import Image from 'next/image'
+import toast from 'react-hot-toast';
+
 
 function CartItems({title,price,description,category,image,id}) {  
   const dispatch = useDispatch() //creating an object of the useDispatch func
@@ -19,10 +21,12 @@ function CartItems({title,price,description,category,image,id}) {
       id
     }
     dispatch(addToCart(products))
+    toast.success('Product quantity increased successfully !')
    }
    // remove products from cart
   const removeItem = () =>{
     dispatch(removeFromCart({id}))
+    toast.success('Product removed successfully')
   }
   return (
     <div className = "">
@@ -74,7 +78,7 @@ function CartItems({title,price,description,category,image,id}) {
 
                 <button onClick = {()=>removeItem()} className = "bg-gray-200 outline-none border border-gray-200 p-1 rounded-md">delete</button>
                 <button className = "bg-gray-200 outline-none border border-gray-200 p-1 rounded-md">save for later</button>              </div>
-                <button onClick={()=>router.push("/All_products")} className = "flex lg:hidden md:flex space-x-3 bg-gray-200 outline-none border border-gray-200 p-2 rounded-md">compare with similar items</button>
+                <button onClick={()=>router.push("/All_products")} className = "flex lg:hidden md:flex space-x-3 bg-gray-200 outline-none border border-gray-200 p-1 rounded-md">compare with similar items</button>
 
             </div>
               
