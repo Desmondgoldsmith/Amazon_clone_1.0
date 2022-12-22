@@ -27,7 +27,7 @@ function CartItems({title,price,description,category,image,id}) {
     <div>
               {/* // cart items */}
               <div className = " mt-4 flex space-x-4 mb-4 ">
-            <div className = "w-full lg:w-full md:w-full">
+            <div className = "">
               <img src={image}
                alt="cart image" 
                className = "w-[200px]"
@@ -35,7 +35,7 @@ function CartItems({title,price,description,category,image,id}) {
             </div>
             <div className='mb-4 space-y-3'>
               <div className='flex'>
-                  <div className ="w-full lg:w-full md:w-full ">
+                  <div className ="">
                   <p className='text-[20px]'>{title}</p>
                   <p className = " text-[20px] inline-block lg:hidden md:hidden font-extrabold">${price}</p>
                   <p className='text-green-600 text-[13px]'>In Stock</p>
