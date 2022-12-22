@@ -3,6 +3,8 @@ import Image from 'next/image'
 import {useDispatch} from 'react-redux'
 import {addToCart} from '../Slices/Cartslice'
 import StarIcon from '@mui/icons-material/Star';
+import toast from 'react-hot-toast';
+
 
 const max_rating =  5;
 const min_rating = 1;
@@ -27,6 +29,8 @@ function ProductList({title,price,description,category,image,id}) {
         }
     // dispatching 'products' as action to the reduux store
     dispatch(addToCart(product))
+    toast.success('Product added successfully !')
+
     }
   return (
     <div>
