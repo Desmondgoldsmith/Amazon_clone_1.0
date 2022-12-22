@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 function Footer() {
   return (
-    <div className = "w-full block md:hidden lg:hidden p-3 text-white bg-amazon_blue-light grid gap-3 grid-cols-2">
+    <div className = "w-full  md:hidden lg:hidden p-3 text-white bg-amazon_blue-light grid gap-3 grid-cols-2">
         <div className ="p-2  space-y-2">
         <p className = "text-sm"><Link href="/#">Amazon.com</Link></p>
         <p className = "text-sm"><Link href="/#">Your Lists</Link></p>
