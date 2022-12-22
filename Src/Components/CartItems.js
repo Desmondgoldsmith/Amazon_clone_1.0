@@ -28,15 +28,15 @@ function CartItems({title,price,description,category,image,id}) {
     <div className = "">
               {/* // cart items */}
               <div className = "mt-4 flex space-x-4 mb-4 ">
-            <div className = " border-2 border-red-600">
+            <div className = "">
               <Image src={image}
                alt="cart image" 
                width = {100}
                height = {100}
-               className ="w-[300px]"
+               className ="w-[200px]"
                />
             </div>
-            <div className='mb-4 space-y-3'>
+            <div className='mb-4 space-y-3 w-full'>
               <div className='flex'>
                   <div className ="">
                   <p className='text-[20px]'>{title}</p>
