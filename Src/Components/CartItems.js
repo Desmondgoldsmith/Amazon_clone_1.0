@@ -30,7 +30,7 @@ function CartItems({title,price,description,category,image,id}) {
             <div className = " border-2 border-red-600">
               <img src={image}
                alt="cart image" 
-               className = ""
+               className = "w-[200px]"
                />
             </div>
             <div className='mb-4 space-y-3'>
