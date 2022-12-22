@@ -33,6 +33,7 @@ function CartItems({title,price,description,category,image,id}) {
                alt="cart image" 
                width = {100}
                height = {100}
+               className ="w-[200px]"
                />
             </div>
             <div className='mb-4 space-y-3'>
