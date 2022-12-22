@@ -27,7 +27,7 @@ function CartItems({title,price,description,category,image,id}) {
     <div>
               {/* // cart items */}
               <div className = " mt-4 flex space-x-4 mb-4 ">
-            <div className = "">
+            <div className = "w-full lg:w-full md:w-full">
               <img src={image}
                alt="cart image" 
                className = "w-[200px]"
