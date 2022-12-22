@@ -26,8 +26,8 @@ function CartItems({title,price,description,category,image,id}) {
   return (
     <div>
               {/* // cart items */}
-              <div className = " mt-4 flex space-x-4 mb-4 ">
-            <div className = "w-full border-2 border-red-600">
+              <div className = "w-full mt-4 flex space-x-4 mb-4 ">
+            <div className = " border-2 border-red-600">
               <img src={image}
                alt="cart image" 
                className = ""
