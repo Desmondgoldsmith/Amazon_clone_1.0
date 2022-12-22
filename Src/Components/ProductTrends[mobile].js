@@ -2,6 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import {useDispatch} from 'react-redux'
 import {addToCart} from '../Slices/Cartslice'
+import toast from 'react-hot-toast';
+
 
 function ProductTrends({title,price,description,category,image,id}) {
   const dispatch = useDispatch()
@@ -15,6 +17,8 @@ function ProductTrends({title,price,description,category,image,id}) {
       id
     }
    dispatch(addToCart(product))
+   toast.success('Product added successfully !')
+
   }
   return (
     <div>
