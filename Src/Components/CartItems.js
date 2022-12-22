@@ -24,13 +24,14 @@ function CartItems({title,price,description,category,image,id}) {
     dispatch(removeFromCart({id}))
   }
   return (
-    <div className = "w-full">
+    <div className = "">
               {/* // cart items */}
               <div className = "mt-4 flex space-x-4 mb-4 ">
             <div className = " border-2 border-red-600">
-              <img src={image}
+              <Image src={image}
                alt="cart image" 
-               className = "w-[200px]"
+               width = {100}
+               height = {100}
                />
             </div>
             <div className='mb-4 space-y-3'>
