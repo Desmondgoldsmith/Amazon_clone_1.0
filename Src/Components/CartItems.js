@@ -2,6 +2,7 @@ import React from 'react'
 import {useDispatch} from 'react-redux'
 import {addToCart, removeFromCart} from "../Slices/Cartslice"
 import {useRouter} from 'next/router'
+import Image from 'next/image'
 
 function CartItems({title,price,description,category,image,id}) {  
   const dispatch = useDispatch() //creating an object of the useDispatch func
