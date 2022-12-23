@@ -1,15 +1,15 @@
 import React from 'react'
-import Header from '../Components/Header'
+import Header from '../src/Components/Header'
 import {useSelector} from "react-redux"
-import {selectItems, sumTotal} from "../Slices/Cartslice"
-import CartItems from "../Components/CartItems"
+import {selectItems, sumTotal} from "../src/Slices/Cartslice"
+import CartItems from "../src/Components/CartItems"
 import { useSession } from 'next-auth/react'
-import EmptyCart from '../Components/EmptyCart'
-import Cart_small_screen from '../Components/Cart_small_screen'
-import Footer_1 from '../Components/Footer_1'
-import Footer_2 from '../Components/Footer_2'
-import Footer from '../Components/Footer[mobile_1]'
-import MobileFooter2 from '../Components/MobileFooter2'
+import EmptyCart from '../src/Components/EmptyCart'
+import Cart_small_screen from '../src/Components/Cart_small_screen'
+import Footer_1 from '../src/Components/Footer_1'
+import Footer_2 from '../src/Components/Footer_2'
+import Footer from '../src/Components/Footer[mobile_1]'
+import MobileFooter2 from '../src/Components/MobileFooter2'
 import { loadStripe } from '@stripe/stripe-js';
 import axios from 'axios'
 

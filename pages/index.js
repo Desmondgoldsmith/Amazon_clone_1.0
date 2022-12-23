@@ -1,13 +1,13 @@
 import Head from 'next/head'
-import Banner from '../Components/Banner'
-import Category_component from '../Components/Category_component'
-import Header from '../Components/Header'
-import Top_fittness_and_Toys from '../Components/Top_fittness_and_Toys'
-import Top_products from '../Components/Top_products'
-import Footer_1 from '../Components/Footer_1'
-import Footer_2 from '../Components/Footer_2'
-import Footer from '../Components/Footer[mobile_1]'
-import MobileFooter2 from '../Components/MobileFooter2'
+import Banner from '../src/Components/Banner'
+import Category_component from '../src/Components/Category_component'
+import Header from '../src/Components/Header'
+import Top_fittness_and_Toys from '../src/Components/Top_fittness_and_Toys'
+import Top_products from '../src/Components/Top_products'
+import Footer_1 from '../src/Components/Footer_1'
+import Footer_2 from '../src/Components/Footer_2'
+import Footer from '../src/Components/Footer[mobile_1]'
+import MobileFooter2 from '../src/Components/MobileFooter2'
 
 
 export default function Home({Trends}) {
