@@ -7,8 +7,7 @@ function Signin() {
   const router = useRouter() //creating a router object to be able to use it in our routes
   const {data: session} = useSession()
 
-  useEffect(() => {
-    
+    // if session exists we redirrect to home page else we display login
     if (session) {
         router.push("/")
     }else{
@@ -56,7 +55,6 @@ return (
 }
 
     }
-  }, [])
 
 
 
