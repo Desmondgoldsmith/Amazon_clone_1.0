@@ -7,7 +7,7 @@ function Signin() {
   const router = useRouter() //creating a router object to be able to use it in our routes
   const {data: session} = useSession()
   const tellEm = () =>{
-    
+    window.alert("Please sign-in with Google 👇🏻. Thanks")
   }
 
     // if session exists we redirrect to home page else we display login
