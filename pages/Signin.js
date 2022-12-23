@@ -7,18 +7,11 @@ function Signin() {
   const router = useRouter() //creating a router object to be able to use it in our routes
   const {data: session} = useSession()
 
-  useEffect(() => {
+  // useEffect(() => {
     if (session) {
         router.push("/")
-        return
-    }
-
-    router.push("/")
-}, [])
-
-return "Loading..."
-
-  return (
+    }else{
+return (
     <div className='bg-[rgb(255,255,255)] grid justify-items-stretch -mt-[30px]'>
     {/* logo */}
       <div className='justify-self-center'>
@@ -60,7 +53,10 @@ return "Loading..."
     </div>
   )
 }
-// using server side auth
+
+    }
+
+  // using server side auth
 // export async function getServerSideProps(context){
 //   const session = await getSession(context)
 //   if(session){
