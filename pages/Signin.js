@@ -8,6 +8,8 @@ function Signin() {
   const {data: session} = useSession()
 
     // if session exists we redirrect to home page else we display login
+    // i'm using client-side rendering to redirrect because server-side rendering's redirrect exceeds vercel's 5 second free timeout causing an error.
+    // to solv that i'll have to purchase a plan to get more time for rendering on the server
     if (session) {
         router.push("/")
     }else{
@@ -23,8 +25,9 @@ return (
         />
       </div>
       {/* sign-in form */}
-    <div className='border w-[380px] justify-self-center pl-2 pr-2 -mt-[20px]'>
+    <div className='border p-2 md:p-0 lg:p-0 w-[380px] justify-self-center pl-2 pr-2 -mt-[20px]'>
         <h1 className='text-[30px]'>Create account</h1>
+        <p className = "">Please sign in only with google </p>
         <form className='mt-3'> 
         <label  className='font-bold grid mb-2'>Your name</label>
         <input className='rounded-md border w-[360px] text-[15px] border-gray-400 grid p-1' type="text" id='name' name='name' placeholder='First and last name' />
