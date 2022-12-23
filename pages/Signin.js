@@ -46,7 +46,7 @@ return (
         <input className='rounded-md border focus:outline-yellow-600 focus:border-yellow-600 w-[360px] text-[15px] border-gray-400 grid p-1' type="text" id='name' name='name'/>
         
         <button onClick = {tellEm} className='bg-[rgb(240,197,97)] hover:bg-yellow-500 w-[360px] h-[35px] mt-3 rounded-md'>Continue</button>
-        <button onClick={!session ? signIn : signOut} className='bg-black w-[360px] h-[35px] hover:bg-white hover:text-white mt-3 rounded-md'>{session ? "Sign out of Amazon Clone" : "Sign-in with Google"}</button>
+        <button onClick={!session ? signIn : signOut} className='bg-black text-white w-[360px] h-[35px] hover:bg-white hover:text-black mt-3 rounded-md'>{session ? "Sign out of Amazon Clone" : "Sign-in with Google"}</button>
          <p className='text-xs mt-3'>By creating an account, you agree to Amazon's <span className='text-blue-500'>Conditions of Use</span>  and <span className='text-blue-500'>Privacy Notice</span>.</p>
          
          </div>
