@@ -36,17 +36,17 @@ return (
         <input className='rounded-md border focus:outline-yellow-600 focus:border-yellow-600 w-[360px] text-[15px] border-gray-400 grid p-1' type="text" id='name' name='name' placeholder='First and last name' />
 
         <label  className='font-bold grid mb-2 mt-2'>Mobile number or email</label>
-        <input className='rounded-md border w-[360px] text-[15px] border-gray-400 grid p-1' type="text" id='name' name='name' />
+        <input className='rounded-md border w-[360px] focus:outline-yellow-600 focus:border-yellow-600 text-[15px] border-gray-400 grid p-1' type="text" id='name' name='name' />
         
         <label  className='font-bold grid mb-2 mt-2'>Password</label>
-        <input className='rounded-md border w-[360px] text-[15px] border-gray-400 grid p-1' type="text" id='name' name='name' placeholder='At least 6 characters' />
+        <input className='rounded-md border focus:outline-yellow-600 focus:border-yellow-600 w-[360px] text-[15px] border-gray-400 grid p-1' type="text" id='name' name='name' placeholder='At least 6 characters' />
          <p className='text-xs'>Passwords must be at least 6 characters long</p>
 
         <label  className='font-bold grid mb-2 mt-2'>Re-enter password</label>
-        <input className='rounded-md border w-[360px] text-[15px] border-gray-400 grid p-1' type="text" id='name' name='name'/>
+        <input className='rounded-md border focus:outline-yellow-600 focus:border-yellow-600 w-[360px] text-[15px] border-gray-400 grid p-1' type="text" id='name' name='name'/>
         
         <button onClick = {tellEm} className='bg-[rgb(240,197,97)] hover:bg-yellow-500 w-[360px] h-[35px] mt-3 rounded-md'>Continue</button>
-        <button onClick={!session ? signIn : signOut} className='bg-white w-[360px] h-[35px] hover:bg-black hover:text-white mt-3 rounded-md'>{session ? "Sign out of Amazon Clone" : "Sign-in with Google"}</button>
+        <button onClick={!session ? signIn : signOut} className='bg-black w-[360px] h-[35px] hover:bg-white hover:text-white mt-3 rounded-md'>{session ? "Sign out of Amazon Clone" : "Sign-in with Google"}</button>
          <p className='text-xs mt-3'>By creating an account, you agree to Amazon's <span className='text-blue-500'>Conditions of Use</span>  and <span className='text-blue-500'>Privacy Notice</span>.</p>
          
          </div>
