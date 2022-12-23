@@ -28,12 +28,12 @@ return (
         />
       </div>
       {/* sign-in form */}
-    <div className='border p-2 md:p-0 lg:p-0 w-[380px] justify-self-center pl-2 pr-2 -mt-[20px]'>
+    <div className='border p-2 w-[380px] justify-self-center pl-2 pr-2 -mt-[20px]'>
         <h1 className='text-[30px]'>Create account</h1>
         <p className = "text-center text-xs text-red-600 font-extrabold">Please sign in only with google </p>
         <div className='mt-3'> 
         <label  className='font-bold grid mb-2'>Your name</label>
-        <input className='rounded-md border w-[360px] text-[15px] border-gray-400 grid p-1' type="text" id='name' name='name' placeholder='First and last name' />
+        <input className='rounded-md border focus:outline-yellow-600 focus:border-yellow-600 w-[360px] text-[15px] border-gray-400 grid p-1' type="text" id='name' name='name' placeholder='First and last name' />
 
         <label  className='font-bold grid mb-2 mt-2'>Mobile number or email</label>
         <input className='rounded-md border w-[360px] text-[15px] border-gray-400 grid p-1' type="text" id='name' name='name' />
