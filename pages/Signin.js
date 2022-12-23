@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect}from 'react'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 import {useSession , signIn , signOut , getSession} from "next-auth/react"
@@ -6,6 +6,18 @@ import {useSession , signIn , signOut , getSession} from "next-auth/react"
 function Signin() {
   const router = useRouter() //creating a router object to be able to use it in our routes
   const {data: session} = useSession()
+
+  useEffect(() => {
+    if (session) {
+        router.push("/")
+        return
+    }
+
+    router.push("/")
+}, [])
+
+return "Loading..."
+
   return (
     <div className='bg-[rgb(255,255,255)] grid justify-items-stretch -mt-[30px]'>
     {/* logo */}
@@ -49,18 +61,18 @@ function Signin() {
   )
 }
 // using server side auth
-export async function getServerSideProps(context){
-  const session = await getSession(context)
-  if(session){
-    return{
-      redirect : {destination : '/'}
-    }
-  }
+// export async function getServerSideProps(context){
+//   const session = await getSession(context)
+//   if(session){
+//     return{
+//       redirect : {destination : '/'}
+//     }
+//   }
 
-  return{
-    props:{
-      session
-    }
-  }
-}
+//   return{
+//     props:{
+//       session
+//     }
+//   }
+//}
 export default Signin
