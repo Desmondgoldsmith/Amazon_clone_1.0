@@ -13,5 +13,6 @@ export const authOptions = {
   secret:process.env.NEXTAUTH_SECRET
 
 }
-
+// generate next-auth secret
+// openssl rand -base64 32 
 export default NextAuth(authOptions)
