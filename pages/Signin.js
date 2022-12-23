@@ -7,7 +7,8 @@ function Signin() {
   const router = useRouter() //creating a router object to be able to use it in our routes
   const {data: session} = useSession()
 
-  // useEffect(() => {
+  useEffect(() => {
+    
     if (session) {
         router.push("/")
     }else{
@@ -55,6 +56,9 @@ return (
 }
 
     }
+  }, [])
+
+
 
   // using server side auth
 // export async function getServerSideProps(context){
