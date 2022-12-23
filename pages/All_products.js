@@ -2,14 +2,15 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React from 'react'
 import { useSelector } from 'react-redux'
-import Header from '../Components/Header'
-import ProductFeed from '../Components/ProductFeed'
-import Products_bar from '../Components/Products_bar'
-import { selectItems, sumTotal } from '../Slices/Cartslice'
-import Footer_1 from '../Components/Footer_1'
-import Footer_2 from '../Components/Footer_2'
-import Footer from '../Components/Footer[mobile_1]'
-import MobileFooter2 from '../Components/MobileFooter2'
+import Header from '../src/Components/Header'
+import ProductFeed from '../src/Components/ProductFeed'
+import Products_bar from '../src/Components/Products_bar'
+import { selectItems, sumTotal } from 'src/Slices/Cartslice'
+import Footer_1 from  '../src/Components/Footer_1'
+import Footer_2 from '../src/Components/Footer_2'
+import Footer from '../src/Components/Footer[mobile_1]'
+import MobileFooter2 from '../src/Components/MobileFooter2'
+
 
 
 function All_products({products}) {
