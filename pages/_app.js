@@ -1,6 +1,6 @@
 import { Provider } from 'react-redux'
 import { store } from '../src/App/Store'
-import '../src/styles/globals.css'
+import './styles/globals.css'
 import { SessionProvider } from "next-auth/react"
 import { Toaster } from 'react-hot-toast';
 
