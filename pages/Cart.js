@@ -68,7 +68,7 @@ function Cart() {
         </div>
      
       </div>
-     <Cart_small_screen/>
+     <Cart_small_screen link = {createCheckoutSession}/>
      </div>
     }
 
