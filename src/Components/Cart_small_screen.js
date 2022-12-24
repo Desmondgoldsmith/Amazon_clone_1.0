@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux'
 import { selectItems, sumTotal } from '../Slices/Cartslice'
 import CartItems from './CartItems'
 
-function Cart_small_screen({createCheckoutSession}) {
+function Cart_small_screen() {
     const {data:session} = useSession()
     const sum = useSelector(sumTotal) // sum total price of items in cart
     const items = useSelector(selectItems)
