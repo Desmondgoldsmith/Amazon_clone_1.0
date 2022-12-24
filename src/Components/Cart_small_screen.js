@@ -3,11 +3,36 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import { selectItems, sumTotal } from '../Slices/Cartslice'
 import CartItems from './CartItems'
+import { loadStripe } from '@stripe/stripe-js';
+import axios from 'axios'
+
+const stripePromise = loadStripe(process.env.stripe_public_key)
+
 
 function Cart_small_screen() {
     const {data:session} = useSession()
     const sum = useSelector(sumTotal) // sum total price of items in cart
     const items = useSelector(selectItems)
+
+    const createCheckoutSession = async ()  =>{
+      const stripe = await stripePromise
+      //create a checkout session by passing the cart data to Checkout_session.js [backend]
+      const checkoutSession = await axios.post("../../pages/api/Checkout_Session",
+     { items : items,
+      email : session.user.email}
+      );
+  
+      // redirrect users to checkout
+      const result = await stripe.redirectToCheckout({
+        sessionId: checkoutSession.data.id
+      })
+  
+      if(result.error){
+        alert(result.error.message)
+      }
+    }
+
+
   return (
     <div className = "w-full">
          <div className = "block md:hidden lg:hidden  ">
@@ -17,7 +42,7 @@ function Cart_small_screen() {
         <div className = "w-full bg-white p-2  pt-4 mb-[20px]">
         <p className='text-[23px] mb-5'>Subtotal({items.length} item): <span className='font-extrabold'>${sum} </span> </p>
          <hr className='mb-5'/>
-          <button disabled = {!session} className = {`w-full mb-5 ${!session ? `bg-gray-300 cursor-not-allowed` : `bg-yellow-300 hover:bg-yellow-500` }  p-2 rounded-lg `}>{!session ? "sign-in to checkout" :  "proceed to checkout"}</button>
+          <button onClick = {createCheckoutSession} disabled = {!session} className = {`w-full mb-5 ${!session ? `bg-gray-300 cursor-not-allowed` : `bg-yellow-300 hover:bg-yellow-500` }  p-2 rounded-lg `}>{!session ? "sign-in to checkout" :  "proceed to checkout"}</button>
         </div>
 
 
