@@ -16,11 +16,7 @@ function Cart_small_screen({createCheckoutSession}) {
            {/* total price section */}
         {/* prevent user form proceeding to checkout if ! signed in  */}
         
-        <div className = "w-full bg-white p-2  pt-4 mb-[20px]">
-        <p className='text-[23px] mb-5'>Subtotal({items.length} item): <span className='font-extrabold'>${sum} </span> </p>
-         <hr className='mb-5'/>
-          <button onClick = {createCheckoutSession} disabled = {!session} className = {`w-full mb-5 ${!session ? `bg-gray-300 cursor-not-allowed` : `bg-yellow-300 hover:bg-yellow-500` }  p-2 rounded-lg `}>{!session ? "sign-in to checkout" :  "proceed to checkout"}</button>
-        </div>
+       
 
 
       {/* cart product section */}
