@@ -54,7 +54,7 @@ function Footer_1() {
        
       <div className = "flex justify-center space-x-3 items-center">
       <div onClick={()=>router.push('/')} className='mt-2 mr-10 items-center hover:border border border-transparent p-1 hover:border-solid hover:border-white cursor-pointer'>
-         <Image src = 'https://pngimg.com/uploads/amazon/amazon_PNG25.png'
+         <Image src = '/amazon_main.png'
           width={100}
           height={20}
           className = "cursor-pointer"
