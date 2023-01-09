@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import Sidenav from './Sidenav'
-import { useSession, signIn, signOut } from "next-auth/react"
+import { useSession} from "next-auth/react"
 
 
 function Subnavcontent() {
