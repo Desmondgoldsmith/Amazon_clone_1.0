@@ -1,9 +1,11 @@
 import React,{useState} from 'react'
 import Sidenav from './Sidenav'
+import { useSession, signIn, signOut } from "next-auth/react"
 
 
 function Subnavcontent() {
     const [openNavContent,setOpenNavContent] = useState(false)
+    const {data:session} = useSession()
   return (
     <>
      {/* open and close sub nav content */}
@@ -11,7 +13,7 @@ function Subnavcontent() {
     <div className='flex space-x-80'>
      <div className='overflow-hidden  overflow-y-auto scrollbar-hide  max-w-xs w-4/5 h-full fixed z-50 top-0 left-0 bg-white text-black origin-left'>
           <div className='bg-amazon_blue-light text-white p-4'>
-            <p className='font-bold text-base text-center'>Hello, sign in</p>
+            <p className='font-bold text-base text-center'>{!session ? "Hello, sign in" : session.name}</p>
            </div>
           
           <div className='bg-white text-black p-3 hover:bg-gray-200'>
